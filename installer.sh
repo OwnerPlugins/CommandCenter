@@ -1,103 +1,58 @@
-#!/bin/bash
-## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/CommandCenter/main/installer.sh -O - | /bin/sh
-version='1.0'
-changelog='Recoded and porting to Python3\nAdd AI Translate'
-TMPPATH=/tmp/CommandCenter-install
-FILEPATH=/tmp/CommandCenter-main.tar.gz
+#!/bin/sh
 
-echo "Starting CommandCenter installation..."
+set -e
 
-# Determine plugin path based on architecture
-if [ ! -d /usr/lib64 ]; then
-    PLUGINPATH=/usr/lib/enigma2/python/Plugins/Extensions/CommandCenter
-else
-    PLUGINPATH=/usr/lib64/enigma2/python/Plugins/Extensions/CommandCenter
-fi
+PLUGIN_NAME="CommandCenter"
+PLUGIN_DIR="/usr/lib/enigma2/python/Plugins/Extensions/$PLUGIN_NAME"
+TMPPATH="/tmp/$PLUGIN_NAME-install"
+FILEPATH="/tmp/$PLUGIN_NAME-main.tar.gz"
+GITHUB_URL="https://github.com/OwnerPlugins/CommandCenter/archive/refs/heads/main.tar.gz"
 
-# Cleanup function
 cleanup() {
     echo "Cleaning up temporary files..."
-    [ -d "$TMPPATH" ] && rm -rf "$TMPPATH"
-    [ -f "$FILEPATH" ] && rm -f "$FILEPATH"
-    [ -d "/tmp/CommandCenter-main" ] && rm -rf "/tmp/CommandCenter-main"
+    rm -rf "$TMPPATH"
+    rm -f "$FILEPATH"
 }
+
+echo "Starting $PLUGIN_NAME installation..."
 
 # Detect OS type
-detect_os() {
-    if [ -f /var/lib/dpkg/status ]; then
-        OSTYPE="DreamOs"
-        STATUS="/var/lib/dpkg/status"
-    elif [ -f /etc/opkg/opkg.conf ] || [ -f /var/lib/opkg/status ]; then
-        OSTYPE="OE"
-        STATUS="/var/lib/opkg/status"
-    else
-        OSTYPE="Unknown"
-        STATUS=""
-    fi
-    echo "Detected OS type: $OSTYPE"
-}
-detect_os
-
-# Cleanup before starting
-cleanup
-mkdir -p "$PLUGINPATH"
-
-# Install wget if missing
-if ! command -v wget >/dev/null 2>&1; then
-    echo "Installing wget..."
-    case "$OSTYPE" in
-        "DreamOs")
-            apt-get update && apt-get install -y wget || { echo "Failed to install wget"; exit 1; }
-            ;;
-        "OE")
-            opkg update && opkg install wget || { echo "Failed to install wget"; exit 1; }
-            ;;
-        *)
-            echo "Unsupported OS type. Cannot install wget."
-            exit 1
-            ;;
-    esac
-fi
-
-# Detect Python version
-if python --version 2>&1 | grep -q '^Python 3\.'; then
-    echo "Python3 image detected"
-    PYTHON="PY3"
-    Packagerequests="python3-requests"
+if [ -f /etc/opkg/opkg.conf ]; then
+    OS="OE"
+    echo "Detected OS type: OE"
 else
-    echo "Python2 image detected"
-    PYTHON="PY2"
-    Packagerequests="python-requests"
+    OS="other"
+    echo "Detected OS type: $OS"
 fi
 
-# Install required packages
-install_pkg() {
-    local pkg=$1
-    if [ -z "$STATUS" ] || ! grep -qs "Package: $pkg" "$STATUS" 2>/dev/null; then
-        echo "Installing $pkg..."
-        case "$OSTYPE" in
-            "DreamOs")
-                apt-get update && apt-get install -y "$pkg" || { echo "Could not install $pkg, continuing anyway..."; }
-                ;;
-            "OE")
-                opkg update && opkg install "$pkg" || { echo "Could not install $pkg, continuing anyway..."; }
-                ;;
-            *)
-                echo "Cannot install $pkg on unknown OS type, continuing..."
-                ;;
-        esac
-    else
-        echo "$pkg already installed"
-    fi
-}
-# Install Python requests
-install_pkg "$Packagerequests"
+cleanup
 
-# Download and extract
-echo "Downloading CommandCenter..."
-wget --no-check-certificate 'https://github.com/OwnerPlugins/CommandCenter/archive/refs/heads/main.tar.gz' -O "$FILEPATH"
+# Check Python version
+if command -v python3 >/dev/null 2>&1; then
+    echo "Python3 image detected"
+    PYTHON="python3"
+else
+    echo "Python2 image detected (deprecated)"
+    PYTHON="python"
+fi
+
+# Install python-requests if missing
+if ! $PYTHON -c "import requests" 2>/dev/null; then
+    echo "Installing python-requests..."
+    if [ "$OS" = "OE" ]; then
+        opkg update >/dev/null 2>&1
+        opkg install python3-requests
+    else
+        echo "Please install python-requests manually"
+    fi
+else
+    echo "python3-requests already installed"
+fi
+
+echo "Downloading $PLUGIN_NAME..."
+wget --no-check-certificate "$GITHUB_URL" -O "$FILEPATH"
 if [ $? -ne 0 ]; then
-    echo "Failed to download CommandCenter package!"
+    echo "Failed to download $PLUGIN_NAME package!"
     cleanup
     exit 1
 fi
@@ -106,24 +61,36 @@ echo "Extracting package..."
 mkdir -p "$TMPPATH"
 tar -xzf "$FILEPATH" -C "$TMPPATH"
 if [ $? -ne 0 ]; then
-    echo "Failed to extract CommandCenter package!"
+    echo "Failed to extract $PLUGIN_NAME package!"
     cleanup
     exit 1
 fi
 
-# Install plugin files
-echo "Installing plugin files..."
-# Find the correct directory in the extracted structure
-if [ -d "$TMPPATH/CommandCenter-main" ]; then
-    cp -rf "$TMPPATH/CommandCenter-main/"* "$PLUGINPATH/"
-elif [ -d "$TMPPATH/CommandCenter-main/CommandCenter" ]; then
-    cp -rf "$TMPPATH/CommandCenter-main/CommandCenter/"* "$PLUGINPATH/"
-else
-    cp -rf "$TMPPATH/"* "$PLUGINPATH/"
+echo "Installing $PLUGIN_NAME..."
+# Find the extracted folder (it will be like CommandCenter-main)
+EXTRACTED_DIR=$(find "$TMPPATH" -maxdepth 1 -type d -name "CommandCenter*" | head -n 1)
+if [ -z "$EXTRACTED_DIR" ]; then
+    echo "Could not find extracted plugin directory!"
+    cleanup
+    exit 1
 fi
 
-# Final cleanup
+# Create plugin directory if it doesn't exist
+mkdir -p "$PLUGIN_DIR"
+
+# Copy plugin files
+cp -r "$EXTRACTED_DIR"/* "$PLUGIN_DIR/"
+if [ $? -ne 0 ]; then
+    echo "Failed to copy plugin files!"
+    cleanup
+    exit 1
+fi
+
+# Set permissions
+chmod 755 "$PLUGIN_DIR/plugin.py"
+
 cleanup
 
-echo "CommandCenter installed successfully!"
-echo "Please restart Enigma2 to complete the installation."
+echo "$PLUGIN_NAME installed successfully!"
+echo "Please restart Enigma2 GUI."
+exit 0
