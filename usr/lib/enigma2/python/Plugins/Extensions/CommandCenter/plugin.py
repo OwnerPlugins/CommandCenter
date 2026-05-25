@@ -88,6 +88,17 @@ COMMANDS = {
         ("apt list --installed | head -20", "Installed apt packages"),
         ("dpkg -l | head -20", "dpkg list"),
     ],
+    "📦 Package Search (opkg)": [
+        ("opkg update", "Aggiorna lista pacchetti"),
+        ("opkg list | grep -i ssl", "Cerca pacchetti SSL"),
+        ("opkg list | grep -i dvbcsa", "Cerca pacchetti dvbcsa"),
+        ("opkg list | grep -i pcsc", "Cerca pacchetti pcsc"),
+        ("opkg list-installed | grep -i ssl", "Pacchetti SSL installati"),
+        ("opkg list-installed | grep -i pcsc", "Pacchetti pcsc installati"),
+        ("openssl version", "Versione OpenSSL"),
+        ("ls -l /usr/lib/libss*.*", "Trova libreria SSL"),
+        ("opkg install libcrypto-compat", "Installa libcrypto-compat"),
+    ],
     "📂 Filesystem": [
         ("ls -la /etc/enigma2/", "Content of /etc/enigma2"),
         ("pwd", "Current directory"),
@@ -97,6 +108,17 @@ COMMANDS = {
         ("mount", "Mount points"),
         ("cat /etc/fstab", "Filesystem table"),
         ("lsattr -d /etc", "Attributes of /etc"),
+    ],
+    "🔧 OSCam Tools": [
+        ("find /usr/bin -name 'oscam*' -type f", "Cerca file oscam in /usr/bin"),
+        ("ls -la /usr/bin/oscam*", "Dettaglio file oscam"),
+        ("find /usr/bin -name 'oscam*' -type f 2>/dev/null", "Cerca ricorsiva oscam"),
+        ("find /usr/bin -name 'oscam*' -o -name '*oscam*' -type f 2>/dev/null", "Cerca con wildcard estesa"),
+        ("find /usr/bin -name 'oscam*' -type f 2>/dev/null | wc -l", "Conta file oscam trovati"),
+        ("ps aux | grep oscam | grep -v grep", "Verifica se oscam è in esecuzione"),
+        ("find / -name '*oscam*' -type f 2>/dev/null | head -20", "Cerca oscam in tutto il sistema (lento)"),
+        ("find /usr/bin -name '*oscam*' -type f -exec file {} \\;", "Cerca script oscam"),
+        ("find /usr/bin -name 'oscam*' -type f -executable", "Cerca eseguibili oscam"),
     ],
     "🗜️ Compression/Archive": [
         ("tar -czf /tmp/backup.tar.gz /etc/enigma2", "Backup settings (tar.gz)"),
@@ -133,6 +155,13 @@ COMMANDS = {
         ("which python", "Python path"),
         ("echo -e 'Hello\\nWorld'", "Test echo with escape"),
         ("sync", "Sync disk buffers"),
+    ],
+    "🔗 Symlink & Architecture": [
+        ("ln -sf /usr/lib/enigma2/python/Plugins/Extensions/ /", "Crea symlink Extensions"),
+        ("ln -sf /usr/share/enigma2/ /", "Crea symlink share"),
+        ("TARGET=$(find /media -maxdepth 1 -type d ! -name 'media' -exec mountpoint -q {} \\; -print | head -n 1) && [ -n \"$TARGET\" ] && ln -sf \"$TARGET\" /hdd && ln -sf \"$TARGET/picon\" /usr/share/enigma2/picon && ln -sf \"$TARGET/picon\" /picon && echo \"Creato per: $TARGET\"", "Crea symlink automatica per HDD/picon"),
+        ("dpkg --print-architecture | grep -iE 'arm|aarch64|mips|cortex|sh4|sh_4'", "Architettura box (dpkg)"),
+        ("opkg print-architecture | grep -iE 'arm|aarch64|mips|cortex|h4|sh_4'", "Architettura box (opkg)"),
     ],
 }
 
