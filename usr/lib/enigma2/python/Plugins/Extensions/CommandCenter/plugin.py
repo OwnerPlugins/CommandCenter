@@ -11,6 +11,8 @@ from Components.config import config, ConfigSubsection, ConfigYesNo
 from enigma import eConsoleAppContainer
 from datetime import datetime
 
+from . import _
+
 #########################################################
 #                                                       #
 #  Command Center - Telnet/Shell Plugin                 #
@@ -176,7 +178,7 @@ class CategoryScreen(Screen):
 
 class CommandScreen(Screen):
     skin = """
-        <screen name="CommandScreen" position="center,center" size="1100,720" title="Command Center" backgroundColor="#10000000">
+        <screen name="CommandScreen" position="center,center" size="1100,720" title="Command Center by Lululla" backgroundColor="#10000000">
             <widget name="command_list" position="10,35" size="400,600" font="Regular;24" itemHeight="30" scrollbarMode="showOnDemand" />
             <widget name="output_area" position="420,35" size="670,600" font="Courier;22" />
             <widget name="key_red" position="10,640" size="120,40" backgroundColor="#9f1313" font="Regular;20" valign="center" halign="center" />
@@ -196,17 +198,17 @@ class CommandScreen(Screen):
         self.container = None
         self.output_text = ""
         self.menu_items = [(desc, cmd) for (cmd, desc) in self.commands]
-        self.setTitle("Command Center - %s" % self.category_name)
+        self.setTitle("Command Center by Lululla - %s" % self.category_name)
         self["command_list"] = MenuList([])
         self["command_list"].setList(self.menu_items)
         self["output_area"] = ScrollLabel("")
-        self["output_area"].setText("Select a command and press Run.\n\n")
-        self["key_red"] = Button("Back")
-        self["key_green"] = Button("Run")
-        self["key_yellow"] = Button("Clear")
-        self["key_blue"] = Button("Save")
-        self["key_info"] = Button("Info")
-        self["statusbar"] = Label("Ready")
+        self["output_area"].setText(_("Select a command and press Run.\n\n"))
+        self["key_red"] = Button(_("Back"))
+        self["key_green"] = Button(_("Run"))
+        self["key_yellow"] = Button(_("Clear"))
+        self["key_blue"] = Button(_("Save"))
+        self["key_info"] = Button(_("Info"))
+        self["statusbar"] = Label(_("Ready"))
         self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions"], {
             "ok": self.execute_command,
             "cancel": self.close,
@@ -237,7 +239,7 @@ class CommandScreen(Screen):
     def execute_command(self):
         selected = self["command_list"].getCurrent()
         if not selected:
-            self["statusbar"].setText("No command selected")
+            self["statusbar"].setText(_("No command selected"))
             return
         desc, cmd = selected
         self.output_text = ""
@@ -247,8 +249,8 @@ class CommandScreen(Screen):
         self.container.appClosed.append(self.cmd_finished)
         self.container.dataAvail.append(self.cmd_data_avail)
         if self.container.execute(cmd):
-            self["output_area"].appendText("Failed to start command.\n")
-            self["statusbar"].setText("Execution error")
+            self["output_area"].appendText(_("Failed to start command.\n"))
+            self["statusbar"].setText(_("Execution error"))
             self.container = None
 
     def cmd_data_avail(self, data):
@@ -262,43 +264,41 @@ class CommandScreen(Screen):
             self["output_area"].setPos(999999)
 
     def cmd_finished(self, retval):
-        self["output_area"].appendText(
+        self["output_area"].appendText(_(
             "\n--- Execution finished (exit code %d) ---\n" %
-            retval)
-        self["statusbar"].setText("Command finished (code %d)" % retval)
+            retval))
+        self["statusbar"].setText(_("Command finished (code %d)" % retval))
         self.container = None
 
     def clear_output(self):
         self.output_text = ""
-        self["output_area"].setText("Output cleared.\n")
+        self["output_area"].setText(_("Output cleared.\n"))
 
     def save_output(self):
         if not self.output_text:
-            self["statusbar"].setText("No output to save")
+            self["statusbar"].setText(_("No output to save"))
             return
         filename = "/tmp/command_output_%s.txt" % datetime.now().strftime("%Y%m%d_%H%M%S")
         try:
             with open(filename, "w") as f:
                 f.write(self.output_text)
-            self["statusbar"].setText("Saved to %s" % filename)
+            self["statusbar"].setText(_("Saved to %s") % filename)
             self.session.open(
                 MessageBox,
-                "Output saved to:\n%s" %
-                filename,
+                _("Output saved to:\n%s") % filename,
                 MessageBox.TYPE_INFO)
         except Exception as e:
-            self["statusbar"].setText("Save error: %s" % str(e))
+            self["statusbar"].setText(_("Save error: %s") % str(e))
             self.session.open(
                 MessageBox,
-                "Save error:\n%s" %
-                str(e),
+                _("Save error:\n%s") % str(e),
                 MessageBox.TYPE_ERROR)
 
     def show_command_info(self):
         selected = self["command_list"].getCurrent()
         if selected:
             desc, cmd = selected
-            info = "Command:\n%s\n\nDescription:\n%s" % (cmd, desc)
+            info = _("Command:\n%s\n\nDescription:\n%s") % (cmd, desc)
         else:
             info = "No command selected."
         self.session.open(MessageBox, info, MessageBox.TYPE_INFO)
@@ -312,8 +312,8 @@ def Plugins(**kwargs):
     from Plugins.Plugin import PluginDescriptor
     return [
         PluginDescriptor(
-            name="Command Center",
-            description="Run telnet/shell commands on Enigma2",
+            name=_("Command Center"),
+            description=_("Run telnet/shell commands on Enigma2"),
             where=[
                 PluginDescriptor.WHERE_PLUGINMENU,
                 PluginDescriptor.WHERE_EXTENSIONSMENU],
