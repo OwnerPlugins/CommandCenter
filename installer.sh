@@ -1,9 +1,7 @@
 #!/bin/bash
 ## setup command=wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/CommandCenter/main/installer.sh -O - | /bin/sh
-
 version='1.0'
 changelog='Recoded and porting to Python3\nAdd AI Translate'
-
 TMPPATH=/tmp/CommandCenter-install
 FILEPATH=/tmp/CommandCenter-main.tar.gz
 
@@ -38,7 +36,6 @@ detect_os() {
     fi
     echo "Detected OS type: $OSTYPE"
 }
-
 detect_os
 
 # Cleanup before starting
@@ -93,7 +90,6 @@ install_pkg() {
         echo "$pkg already installed"
     fi
 }
-
 # Install Python requests
 install_pkg "$Packagerequests"
 
@@ -107,6 +103,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo "Extracting package..."
+mkdir -p "$TMPPATH"
 tar -xzf "$FILEPATH" -C "$TMPPATH"
 if [ $? -ne 0 ]; then
     echo "Failed to extract CommandCenter package!"
@@ -116,78 +113,17 @@ fi
 
 # Install plugin files
 echo "Installing plugin files..."
-
 # Find the correct directory in the extracted structure
-if [ -d "$TMPPATH/CommandCenter-main/usr/lib/enigma2/python/Plugins/Extensions/CommandCenter" ]; then
-    cp -r "$TMPPATH/CommandCenter-main/usr/lib/enigma2/python/Plugins/Extensions/CommandCenter"/* "$PLUGINPATH/" 2>/dev/null
-    echo "Copied from standard plugin directory"
-elif [ -d "$TMPPATH/CommandCenter-main/usr/lib64/enigma2/python/Plugins/Extensions/CommandCenter" ]; then
-    cp -r "$TMPPATH/CommandCenter-main/usr/lib64/enigma2/python/Plugins/Extensions/CommandCenter"/* "$PLUGINPATH/" 2>/dev/null
-    echo "Copied from lib64 plugin directory"
-elif [ -d "$TMPPATH/CommandCenter-main/usr" ]; then
-    # Copy entire usr tree
-    cp -r "$TMPPATH/CommandCenter-main/usr"/* /usr/ 2>/dev/null
-    echo "Copied entire usr structure"
+if [ -d "$TMPPATH/CommandCenter-main" ]; then
+    cp -rf "$TMPPATH/CommandCenter-main/"* "$PLUGINPATH/"
+elif [ -d "$TMPPATH/CommandCenter-main/CommandCenter" ]; then
+    cp -rf "$TMPPATH/CommandCenter-main/CommandCenter/"* "$PLUGINPATH/"
 else
-    echo "Could not find plugin files in extracted archive"
-    echo "Available directories in tmp:"
-    find "$TMPPATH" -type d | head -10
-    cleanup
-    exit 1
+    cp -rf "$TMPPATH/"* "$PLUGINPATH/"
 fi
 
-sync
-
-# Verify installation
-echo "Verifying installation..."
-if [ -d "$PLUGINPATH" ] && [ -n "$(ls -A "$PLUGINPATH" 2>/dev/null)" ]; then
-    echo "Plugin directory found and not empty: $PLUGINPATH"
-    echo "Contents:"
-    ls -la "$PLUGINPATH/" | head -10
-else
-    echo "Plugin installation failed or directory is empty!"
-    cleanup
-    exit 1
-fi
-
-# Cleanup
+# Final cleanup
 cleanup
-sync
 
-# System info
-FILE="/etc/image-version"
-box_type=$(head -n 1 /etc/hostname 2>/dev/null || echo "Unknown")
-distro_value=$(grep '^distro=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
-distro_version=$(grep '^version=' "$FILE" 2>/dev/null | awk -F '=' '{print $2}')
-python_vers=$(python --version 2>&1)
-
-cat <<EOF
-
-#########################################################
-#    CommandCenter $version INSTALLED SUCCESSFULLY      #
-#                developed by LULULLA                   #
-#               https://corvoboys.org                   #
-#########################################################
-#           your Device will RESTART Now                #
-#########################################################
-Debug information:
-BOX MODEL: $box_type
-OS SYSTEM: $OSTYPE
-PYTHON: $python_vers
-IMAGE NAME: ${distro_value:-Unknown}
-IMAGE VERSION: ${distro_version:-Unknown}
-EOF
-
-echo "Restarting enigma2 in 3 seconds..."
-sleep 3
-
-# Restart Enigma2
-if command -v systemctl >/dev/null 2>&1; then
-    systemctl restart enigma2
-elif command -v init >/dev/null 2>&1; then
-    init 4 && sleep 2 && init 3
-else
-    killall -9 enigma2
-fi
-
-exit 0
+echo "CommandCenter installed successfully!"
+echo "Please restart Enigma2 to complete the installation."
