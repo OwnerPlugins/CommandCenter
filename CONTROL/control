@@ -1,0 +1,11 @@
+Package: enigma2-plugin-extensions-commandcenter
+Version: 1.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: Lululla
+Description: Command Center - Telnet/Shell Plugin
+Source: enigma2-plugin-extensions-commandcenter
+Homepage: linuxsat-support.com
+OE: 2.0
+License: GPLv2

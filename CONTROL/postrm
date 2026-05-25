@@ -1,0 +1,27 @@
+﻿#!/bin/sh
+
+echo "****************************************"
+echo "*Please .. Restart Enigma2 *"
+echo "****************************************"
+echo "* Enjoy our plugin *"
+echo "****************************************"
+echo "* All Rights Reserved *"
+echo "* © 2024 - Lululla *"
+echo "****************************************"
+echo "*****************************************"
+echo "*         Uninstall CommandCenter       *"
+echo "*****************************************"
+
+EXTDIR="/usr/lib/enigma2/python/Plugins/Extensions/CommandCenter"
+VARX="/var/ddRSS"
+if [ -d "$EXTDIR" ]; then
+   rm -rf "$EXTDIR" > /dev/null 2>&1
+   rm -rf "$VARX" > /dev/null 2>&1
+fi
+
+echo "*****************************************"
+echo "*          ....done                     *"
+echo "*****************************************"
+exit 0
+
+
