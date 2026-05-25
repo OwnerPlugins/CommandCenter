@@ -1,9 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-25 10:11+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: Kurdish <translation-team-ku (at) ferheng.org>\n"
+"Language: ku\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
 # This file is distributed under the same license as the Lululla package.
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
-
 msgid "Back"
 msgstr ""
 

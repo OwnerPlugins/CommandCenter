@@ -1,0 +1,64 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma 2\n"
+"PO-Revision-Date: 2026-05-25 10:10+0000\n"
+"Last-Translator:  <EMAIL@ADDRESS>\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# CommandCenter translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid "Back"
+msgstr "Back"
+
+msgid "Clear"
+msgstr "Clear"
+
+msgid "Command Center"
+msgstr "Command Center"
+
+msgid "Command finished (code %d)"
+msgstr "Command finished (code %d)"
+
+msgid "Execution error"
+msgstr "Execution error"
+
+msgid "Failed to start command.\n"
+msgstr "Failed to start command.\n"
+
+msgid "Info"
+msgstr "Info"
+
+msgid "No command selected"
+msgstr "No command selected"
+
+msgid "No output to save"
+msgstr "No output to save"
+
+msgid "Output cleared.\n"
+msgstr "Output cleared.\n"
+
+msgid "Ready"
+msgstr "Ready"
+
+msgid "Run"
+msgstr "Run"
+
+msgid "Run telnet/shell commands on Enigma2"
+msgstr "Run telnet/shell commands on Enigma2"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Save error: %s"
+msgstr "Save error: %s"
+
+msgid "Saved to %s"
+msgstr "Saved to %s"
