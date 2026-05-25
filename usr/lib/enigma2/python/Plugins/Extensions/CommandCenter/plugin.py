@@ -219,7 +219,8 @@ class CommandScreen(Screen):
             "down": self.command_down,
         }, -1)
 
-        self["command_list"].onSelectionChanged.append(self.on_selection_changed)
+        self["command_list"].onSelectionChanged.append(
+            self.on_selection_changed)
 
     def command_up(self):
         self["command_list"].up()
@@ -253,7 +254,7 @@ class CommandScreen(Screen):
     def cmd_data_avail(self, data):
         try:
             text = data.decode('utf-8', errors='replace')
-        except:
+        except BaseException:
             text = str(data)
         self.output_text += text
         self["output_area"].appendText(text)
@@ -261,7 +262,9 @@ class CommandScreen(Screen):
             self["output_area"].setPos(999999)
 
     def cmd_finished(self, retval):
-        self["output_area"].appendText("\n--- Execution finished (exit code %d) ---\n" % retval)
+        self["output_area"].appendText(
+            "\n--- Execution finished (exit code %d) ---\n" %
+            retval)
         self["statusbar"].setText("Command finished (code %d)" % retval)
         self.container = None
 
@@ -278,10 +281,18 @@ class CommandScreen(Screen):
             with open(filename, "w") as f:
                 f.write(self.output_text)
             self["statusbar"].setText("Saved to %s" % filename)
-            self.session.open(MessageBox, "Output saved to:\n%s" % filename, MessageBox.TYPE_INFO)
+            self.session.open(
+                MessageBox,
+                "Output saved to:\n%s" %
+                filename,
+                MessageBox.TYPE_INFO)
         except Exception as e:
             self["statusbar"].setText("Save error: %s" % str(e))
-            self.session.open(MessageBox, "Save error:\n%s" % str(e), MessageBox.TYPE_ERROR)
+            self.session.open(
+                MessageBox,
+                "Save error:\n%s" %
+                str(e),
+                MessageBox.TYPE_ERROR)
 
     def show_command_info(self):
         selected = self["command_list"].getCurrent()
@@ -303,8 +314,8 @@ def Plugins(**kwargs):
         PluginDescriptor(
             name="Command Center",
             description="Run telnet/shell commands on Enigma2",
-            where=[PluginDescriptor.WHERE_PLUGINMENU, PluginDescriptor.WHERE_EXTENSIONSMENU],
+            where=[
+                PluginDescriptor.WHERE_PLUGINMENU,
+                PluginDescriptor.WHERE_EXTENSIONSMENU],
             icon="icon.png",
-            fnc=main
-        )
-    ]
+            fnc=main)]
