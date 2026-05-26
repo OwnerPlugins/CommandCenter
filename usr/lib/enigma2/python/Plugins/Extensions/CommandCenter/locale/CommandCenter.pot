@@ -9,19 +9,50 @@
 
 
 
+
+msgid "Add Custom"
+msgstr ""
+
 msgid "Back"
 msgstr ""
 
 msgid "Clear"
 msgstr ""
 
-msgid "Command Center"
+msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
+msgstr ""
+
+msgid "Command Center v.%s"
 msgstr ""
 
 msgid "Command finished (code %d)"
 msgstr ""
 
+msgid "Delete/Disable"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit command"
+msgstr ""
+
+msgid "Edit command (original: %s)"
+msgstr ""
+
+msgid "Edit description"
+msgstr ""
+
+msgid "Enter command"
+msgstr ""
+
+msgid "Enter description"
+msgstr ""
+
 msgid "Execution error"
+msgstr ""
+
+msgid "Exit"
 msgstr ""
 
 msgid "Failed to start command.\n"
@@ -30,13 +61,22 @@ msgstr ""
 msgid "Info"
 msgstr ""
 
+msgid "Manager"
+msgstr ""
+
 msgid "No command selected"
 msgstr ""
 
 msgid "No output to save"
 msgstr ""
 
+msgid "Only predefined commands can be disabled/enabled"
+msgstr ""
+
 msgid "Output cleared.\n"
+msgstr ""
+
+msgid "Press Manager to manage custom commands"
 msgstr ""
 
 msgid "Ready"
@@ -55,4 +95,10 @@ msgid "Save error: %s"
 msgstr ""
 
 msgid "Saved to %s"
+msgstr ""
+
+msgid "Toggle Disable"
+msgstr ""
+
+msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
 msgstr ""

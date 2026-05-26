@@ -17,20 +17,56 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# CommandCenter translations
+# Copyright (C) 2025 Lululla Team
+# This file is distributed under the same license as the Lululla package.
+# [lululla] <ekekaz@gmail.com>, 2025.
+#
+msgid "Add Custom"
+msgstr ""
+
 msgid "Back"
 msgstr "Back"
 
 msgid "Clear"
 msgstr "Clear"
 
-msgid "Command Center"
+msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
+msgstr ""
+
+#, fuzzy
+msgid "Command Center v.%s"
 msgstr "Command Center"
 
 msgid "Command finished (code %d)"
 msgstr "Command finished (code %d)"
 
+msgid "Delete/Disable"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit command"
+msgstr ""
+
+msgid "Edit command (original: %s)"
+msgstr ""
+
+msgid "Edit description"
+msgstr ""
+
+msgid "Enter command"
+msgstr ""
+
+msgid "Enter description"
+msgstr ""
+
 msgid "Execution error"
 msgstr "Execution error"
+
+msgid "Exit"
+msgstr ""
 
 msgid "Failed to start command.\n"
 msgstr "Failed to start command.\n"
@@ -38,14 +74,23 @@ msgstr "Failed to start command.\n"
 msgid "Info"
 msgstr "Info"
 
+msgid "Manager"
+msgstr ""
+
 msgid "No command selected"
 msgstr "No command selected"
 
 msgid "No output to save"
 msgstr "No output to save"
 
+msgid "Only predefined commands can be disabled/enabled"
+msgstr ""
+
 msgid "Output cleared.\n"
 msgstr "Output cleared.\n"
+
+msgid "Press Manager to manage custom commands"
+msgstr ""
 
 msgid "Ready"
 msgstr "Ready"
@@ -64,3 +109,9 @@ msgstr "Save error: %s"
 
 msgid "Saved to %s"
 msgstr "Saved to %s"
+
+msgid "Toggle Disable"
+msgstr ""
+
+msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
+msgstr ""
