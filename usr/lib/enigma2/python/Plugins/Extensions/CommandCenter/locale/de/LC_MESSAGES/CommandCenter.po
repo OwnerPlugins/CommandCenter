@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CommandCenter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-05-25 12:08+0200\n"
+"PO-Revision-Date: 2026-05-25 19:17+0200\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: German <translation-team-de@lists.sourceforge.net>\n"
 "Language: de\n"
@@ -16,51 +16,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+# Tedesco
+msgid "Add Custom"
+msgstr "Benutzerdefiniert hinzufügen"
 
 msgid "Back"
-msgstr ""
+msgstr "Zurück"
 
 msgid "Clear"
+msgstr "Löschen"
+
+msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
 msgstr ""
 
-msgid "Command Center"
-msgstr ""
+#, fuzzy
+msgid "Command Center v.%s"
+msgstr "Befehlszentrale"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Befehl abgeschlossen (Code %d)"
+
+msgid "Delete/Disable"
+msgstr "Löschen/Deaktivieren"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Edit command"
+msgstr "Befehl bearbeiten"
+
+msgid "Edit command (original: %s)"
+msgstr "Befehl bearbeiten (Original: %s)"
+
+msgid "Edit description"
+msgstr "Beschreibung bearbeiten"
+
+msgid "Enter command"
+msgstr "Befehl eingeben"
+
+msgid "Enter description"
+msgstr "Beschreibung eingeben"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Ausführungsfehler"
+
+msgid "Exit"
+msgstr "Beenden"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Befehl konnte nicht gestartet werden.\n"
 
 msgid "Info"
-msgstr ""
+msgstr "Info"
+
+msgid "Manager"
+msgstr "Verwaltung"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Kein Befehl ausgewählt"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Keine Ausgabe zum Speichern"
+
+msgid "Only predefined commands can be disabled/enabled"
+msgstr "Nur vordefinierte Befehle können deaktiviert/aktiviert werden"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Ausgabe gelöscht.\n"
+
+msgid "Press Manager to manage custom commands"
+msgstr "Drücken Sie Verwaltung, um benutzerdefinierte Befehle zu verwalten"
 
 msgid "Ready"
-msgstr ""
+msgstr "Bereit"
 
 msgid "Run"
-msgstr ""
+msgstr "Ausführen"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Telnet-/Shell-Befehle auf Enigma2 ausführen"
 
 msgid "Save"
-msgstr ""
+msgstr "Speichern"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Speicherfehler: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Gespeichert in %s"
+
+msgid "Toggle Disable"
+msgstr "Aktivieren/Deaktivieren"
+
+msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
+msgstr "Gesamt: %d Befehle (Vordefiniert: %d, Benutzerdefiniert: %d, Deaktiviert: %d)"

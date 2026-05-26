@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CommandCenter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-05-25 12:08+0200\n"
+"PO-Revision-Date: 2026-05-25 19:17+0200\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Greek <team@lists.gnome.gr>\n"
 "Language: el\n"
@@ -16,51 +16,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+# Greco
+msgid "Add Custom"
+msgstr "Προσθήκη προσαρμοσμένου"
 
 msgid "Back"
-msgstr ""
+msgstr "Πίσω"
 
 msgid "Clear"
+msgstr "Καθαρισμός"
+
+msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
 msgstr ""
 
-msgid "Command Center"
-msgstr ""
+#, fuzzy
+msgid "Command Center v.%s"
+msgstr "Κέντρο εντολών"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Η εντολή ολοκληρώθηκε (κωδικός %d)"
+
+msgid "Delete/Disable"
+msgstr "Διαγραφή/Απενεργοποίηση"
+
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+msgid "Edit command"
+msgstr "Επεξεργασία εντολής"
+
+msgid "Edit command (original: %s)"
+msgstr "Επεξεργασία εντολής (αρχική: %s)"
+
+msgid "Edit description"
+msgstr "Επεξεργασία περιγραφής"
+
+msgid "Enter command"
+msgstr "Εισαγωγή εντολής"
+
+msgid "Enter description"
+msgstr "Εισαγωγή περιγραφής"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Σφάλμα εκτέλεσης"
+
+msgid "Exit"
+msgstr "Έξοδος"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Αποτυχία εκκίνησης της εντολής.\n"
 
 msgid "Info"
-msgstr ""
+msgstr "Πληροφορίες"
+
+msgid "Manager"
+msgstr "Διαχείριση"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Δεν επιλέχθηκε εντολή"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Δεν υπάρχει έξοδος για αποθήκευση"
+
+msgid "Only predefined commands can be disabled/enabled"
+msgstr "Μόνο οι προκαθορισμένες εντολές μπορούν να ενεργοποιηθούν/απενεργοποιηθούν"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Η έξοδος καθαρίστηκε.\n"
+
+msgid "Press Manager to manage custom commands"
+msgstr "Πατήστε Διαχείριση για διαχείριση προσαρμοσμένων εντολών"
 
 msgid "Ready"
-msgstr ""
+msgstr "Έτοιμο"
 
 msgid "Run"
-msgstr ""
+msgstr "Εκτέλεση"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Εκτέλεση εντολών telnet/shell στο Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Αποθήκευση"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Σφάλμα αποθήκευσης: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Αποθηκεύτηκε στο %s"
+
+msgid "Toggle Disable"
+msgstr "Ενεργοποίηση/Απενεργοποίηση"
+
+msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
+msgstr "Σύνολο: %d εντολές (Προκαθορισμένες: %d, Προσαρμοσμένες: %d, Απενεργοποιημένες: %d)"

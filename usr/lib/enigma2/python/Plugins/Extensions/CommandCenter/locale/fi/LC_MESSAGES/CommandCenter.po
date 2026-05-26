@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CommandCenter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-05-25 12:08+0200\n"
+"PO-Revision-Date: 2026-05-25 19:18+0200\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
 "Language: fi\n"
@@ -16,51 +16,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+# Finlandese
+msgid "Add Custom"
+msgstr "Lisää mukautettu"
 
 msgid "Back"
-msgstr ""
+msgstr "Takaisin"
 
 msgid "Clear"
+msgstr "Tyhjennä"
+
+msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
 msgstr ""
 
-msgid "Command Center"
-msgstr ""
+#, fuzzy
+msgid "Command Center v.%s"
+msgstr "Komentokeskus"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Komento valmis (koodi %d)"
+
+msgid "Delete/Disable"
+msgstr "Poista/Kytke pois"
+
+msgid "Edit"
+msgstr "Muokkaa"
+
+msgid "Edit command"
+msgstr "Muokkaa komentoa"
+
+msgid "Edit command (original: %s)"
+msgstr "Muokkaa komentoa (alkuperäinen: %s)"
+
+msgid "Edit description"
+msgstr "Muokkaa kuvausta"
+
+msgid "Enter command"
+msgstr "Anna komento"
+
+msgid "Enter description"
+msgstr "Anna kuvaus"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Suoritusvirhe"
+
+msgid "Exit"
+msgstr "Poistu"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Komennon käynnistys epäonnistui.\n"
 
 msgid "Info"
-msgstr ""
+msgstr "Tiedot"
+
+msgid "Manager"
+msgstr "Hallinta"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Komentoa ei valittu"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Ei tallennettavaa tulostetta"
+
+msgid "Only predefined commands can be disabled/enabled"
+msgstr "Vain ennalta määritetyt komennot voidaan ottaa käyttöön tai poistaa käytöstä"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Tuloste tyhjennetty.\n"
+
+msgid "Press Manager to manage custom commands"
+msgstr "Paina Hallinta hallitaksesi mukautettuja komentoja"
 
 msgid "Ready"
-msgstr ""
+msgstr "Valmis"
 
 msgid "Run"
-msgstr ""
+msgstr "Suorita"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Suorita telnet-/shell-komentoja Enigma2:ssa"
 
 msgid "Save"
-msgstr ""
+msgstr "Tallenna"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Tallennusvirhe: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Tallennettu kohteeseen %s"
+
+msgid "Toggle Disable"
+msgstr "Ota käyttöön / poista käytöstä"
+
+msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
+msgstr "Yhteensä: %d komentoa (Ennalta määritetyt: %d, Mukautetut: %d, Poistetut käytöstä: %d)"

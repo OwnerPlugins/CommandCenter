@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CommandCenter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-05-25 12:08+0200\n"
+"PO-Revision-Date: 2026-05-25 19:16+0200\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -16,51 +16,99 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+# Italiano
+msgid "Add Custom"
+msgstr "Aggiungi personalizzato"
 
 msgid "Back"
-msgstr ""
+msgstr "Indietro"
 
 msgid "Clear"
+msgstr "Cancella"
+
+msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
 msgstr ""
 
-msgid "Command Center"
-msgstr ""
+#, fuzzy
+msgid "Command Center v.%s"
+msgstr "Centro comandi"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Comando completato (codice %d)"
+
+msgid "Delete/Disable"
+msgstr "Elimina/Disabilita"
+
+msgid "Edit"
+msgstr "Modifica"
+
+msgid "Edit command"
+msgstr "Modifica comando"
+
+msgid "Edit command (original: %s)"
+msgstr "Modifica comando (originale: %s)"
+
+msgid "Edit description"
+msgstr "Modifica descrizione"
+
+msgid "Enter command"
+msgstr "Inserisci comando"
+
+msgid "Enter description"
+msgstr "Inserisci descrizione"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Errore di esecuzione"
+
+msgid "Exit"
+msgstr "Esci"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Impossibile avviare il comando.\n"
 
 msgid "Info"
-msgstr ""
+msgstr "Informazioni"
+
+msgid "Manager"
+msgstr "Gestione"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Nessun comando selezionato"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Nessun output da salvare"
+
+msgid "Only predefined commands can be disabled/enabled"
+msgstr "Solo i comandi predefiniti possono essere disabilitati/abilitati"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Output cancellato.\n"
+
+msgid "Press Manager to manage custom commands"
+msgstr "Premi Gestione per gestire i comandi personalizzati"
 
 msgid "Ready"
-msgstr ""
+msgstr "Pronto"
 
 msgid "Run"
-msgstr ""
+msgstr "Esegui"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Esegui comandi telnet/shell su Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Errore di salvataggio: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Salvato in %s"
+
+msgid "Toggle Disable"
+msgstr "Attiva/Disattiva"
+
+msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
+msgstr "Totale: %d comandi (Predefiniti: %d, Personalizzati: %d, Disabilitati: %d)"
