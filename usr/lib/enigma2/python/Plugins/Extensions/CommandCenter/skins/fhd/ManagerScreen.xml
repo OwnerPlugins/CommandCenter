@@ -1,0 +1,9 @@
+<screen name="ManagerScreen" position="center,center" size="1500,950" title="Command Center by Lululla" backgroundColor="#10000000">
+    <widget name="command_list" position="10,40" size="1480,800" font="Regular;26" itemHeight="40" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
+    <widget name="key_red" position="10,860" size="140,50" backgroundColor="#9f1313" font="Regular;22" valign="center" halign="center"/>
+    <widget name="key_green" position="160,860" size="140,50" backgroundColor="#005500" font="Regular;22" valign="center" halign="center"/>
+    <widget name="key_yellow" position="310,860" size="140,50" backgroundColor="#a08000" font="Regular;22" valign="center" halign="center"/>
+    <widget name="key_blue" position="460,860" size="140,50" backgroundColor="#18188b" font="Regular;22" valign="center" halign="center"/>
+    <widget name="key_info" position="610,860" size="140,50" backgroundColor="#33000000" font="Regular;22" valign="center" halign="center" />
+    <widget name="statusbar" position="10,920" size="1480,30" font="Regular;22" backgroundColor="#33000000"/>
+</screen>
