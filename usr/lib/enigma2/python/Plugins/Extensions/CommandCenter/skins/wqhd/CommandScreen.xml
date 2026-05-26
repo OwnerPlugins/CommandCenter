@@ -1,0 +1,10 @@
+<screen name="CommandScreen" position="center,center" size="2000,1100" title="Command Center by Lululla" backgroundColor="#10000000">
+    <widget name="command_list" position="20,60" size="650,920" font="Regular;28" itemHeight="45" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="12" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
+    <widget name="output_area" position="700,60" size="1280,920" font="Courier;24"/>
+    <widget name="key_red" position="20,1000" size="180,55" backgroundColor="#9f1313" font="Regular;24" valign="center" halign="center"/>
+    <widget name="key_green" position="220,1000" size="180,55" backgroundColor="#005500" font="Regular;24" valign="center" halign="center"/>
+    <widget name="key_yellow" position="420,1000" size="180,55" backgroundColor="#a08000" font="Regular;24" valign="center" halign="center"/>
+    <widget name="key_blue" position="620,1000" size="180,55" backgroundColor="#18188b" font="Regular;24" valign="center" halign="center"/>
+    <widget name="key_info" position="820,1000" size="180,55" backgroundColor="#33000000" font="Regular;24" valign="center" halign="center" />
+    <widget name="statusbar" position="20,1060" size="1960,40" font="Regular;24" backgroundColor="#33000000"/>
+</screen>
