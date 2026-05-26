@@ -1,6 +1,5 @@
 <screen name="CommandScreen" position="center,center" size="1100,720" title="Command Center by Lululla" backgroundColor="#10000000">
-    <!-- <widget name="command_list" position="10,35" size="400,600" font="Regular;24" itemHeight="35" scrollbarMode="showOnDemand"/> -->
-    <widget name="command_list" position="10,40" size="400,600" font="Regular;24" itemHeight="35" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
+    <widget name="command_list" position="10,40" size="400,600" font="Regular;26" itemHeight="35" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
     <widget name="output_area" position="420,35" size="670,600" font="Courier;22"/>
     <widget name="key_red" position="10,640" size="120,40" backgroundColor="#9f1313" font="Regular;20" valign="center" halign="center"/>
     <widget name="key_green" position="140,640" size="120,40" backgroundColor="#005500" font="Regular;20" valign="center" halign="center"/>
