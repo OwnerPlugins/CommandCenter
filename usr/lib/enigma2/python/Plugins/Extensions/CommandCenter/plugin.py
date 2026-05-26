@@ -144,16 +144,13 @@ def load_user_config():
             shutil.move(USER_CONFIG_FILE, USER_CONFIG_FILE + ".corrupt")
             data = {"disabled": [], "modified": {}}
         if "disabled" in data:
-            data["disabled"] = [
-                tuple(item) if isinstance(
-                    item, list) else item for item in data["disabled"]]
+            data["disabled"] = [tuple(item) if isinstance(item, list) else item for item in data["disabled"]]
         if "modified" in data:
             new_mod = {}
             for k, v in data["modified"].items():
                 if isinstance(k, str) and "|" in k:
                     cat, cmd = k.split("|", 1)
-                    new_mod[(cat, cmd)] = tuple(
-                        v) if isinstance(v, list) else v
+                    new_mod[(cat, cmd)] = tuple(v) if isinstance(v, list) else v
                 else:
                     new_mod[k] = v
             data["modified"] = new_mod
@@ -165,14 +162,12 @@ def save_user_config(config):
     backup_file(USER_CONFIG_FILE)
     to_save = {}
     if "disabled" in config:
-        to_save["disabled"] = [list(item) if isinstance(
-            item, tuple) else item for item in config["disabled"]]
+        to_save["disabled"] = [list(item) if isinstance(item, tuple) else item for item in config["disabled"]]
     if "modified" in config:
         new_mod = {}
         for k, v in config["modified"].items():
             if isinstance(k, tuple):
-                new_mod[f"{k[0]}|{k[1]}"] = list(
-                    v) if isinstance(v, tuple) else v
+                new_mod[f"{k[0]}|{k[1]}"] = list(v) if isinstance(v, tuple) else v
             else:
                 new_mod[k] = v
         to_save["modified"] = new_mod
@@ -204,8 +199,7 @@ def get_commands():
             commands[category] = cmd_list
 
     if custom:
-        commands["Custom"] = [
-            (item["command"], item["description"]) for item in custom]
+        commands["Custom"] = [(item["command"], item["description"]) for item in custom]
 
     return commands
 
@@ -255,10 +249,7 @@ class CategoryScreen(Screen):
         self.populate_categories()
 
     def show_info(self):
-        self.session.open(
-            MessageBox, _(
-                "Command Center - Telnet/Shell Plugin v.%s - by Lululla." %
-                __version__), MessageBox.TYPE_INFO)
+        self.session.open(MessageBox, _("Command Center - Telnet/Shell Plugin v.%s - by Lululla." % __version__), MessageBox.TYPE_INFO)
 
 
 class CommandScreen(Screen):
@@ -274,9 +265,7 @@ class CommandScreen(Screen):
         self.container = None
         self.output_text = ""
         self.menu_items = [(desc, cmd) for (cmd, desc) in self.commands]
-        self.setTitle(
-            "Command Center by Lululla v.%s - %s" %
-            (__version__, self.category_name))
+        self.setTitle("Command Center by Lululla v.%s - %s" % (__version__, self.category_name))
         self["command_list"] = MenuList([])
         self["command_list"].setList(self.menu_items)
         self["output_area"] = ScrollLabel("")
@@ -304,8 +293,7 @@ class CommandScreen(Screen):
             "downUp": self.pageDown,
             "rightUp": self.pageDown,
         }, -1)
-        self["command_list"].onSelectionChanged.append(
-            self.on_selection_changed)
+        self["command_list"].onSelectionChanged.append(self.on_selection_changed)
 
     def pageUp(self):
         self["output_area"].pageUp()
@@ -339,12 +327,12 @@ class CommandScreen(Screen):
     def cmd_data_avail(self, data):
         try:
             text = data.decode('utf-8', errors='replace')
-        except BaseException:
+        except (UnicodeDecodeError, TypeError):
             text = str(data)
         self.output_text += text
         self["output_area"].appendText(text)
         if config.plugins.CommandCenter.autoScroll.value:
-            self["output_area"].setPos(999999)
+            self["output_area"].setPos(999999) 
 
     def cmd_finished(self, retval):
         self["output_area"].appendText(_(
@@ -485,14 +473,12 @@ class ManagerScreen(Screen):
         return -1, None, None
 
     def update_status(self):
-        self["statusbar"].setText(
-            _("Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)") %
-            (len(
-                self.full_list), len(
-                [
-                    t for t in self.item_types if t == 'predef']), len(
-                    self.custom_commands), len(
-                        self.disabled)))
+        self["statusbar"].setText(_("Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)") % (
+            len(self.full_list),
+            len([t for t in self.item_types if t == 'predef']),
+            len(self.custom_commands),
+            len(self.disabled)
+        ))
 
     def refresh(self):
         self.custom_commands = load_custom_commands()
@@ -505,21 +491,15 @@ class ManagerScreen(Screen):
             self.refresh_callback()
 
     def add_custom_command(self):
-        self.session.openWithCallback(
-            self.add_command_step1,
-            InputBox,
-            title=_("Enter command"),
-            text="")
+        self.session.openWithCallback(self.add_command_step1, InputBox, title=_("Enter command"), text="")
 
     def add_command_step1(self, command):
         if command:
-            self.session.openWithCallback(lambda desc: self.add_command_step2(
-                command, desc), InputBox, title=_("Enter description"), text="")
+            self.session.openWithCallback(lambda desc: self.add_command_step2(command, desc), InputBox, title=_("Enter description"), text="")
 
     def add_command_step2(self, command, description):
         if description:
-            self.custom_commands.append(
-                {"command": command, "description": description})
+            self.custom_commands.append({"command": command, "description": description})
             save_custom_commands(self.custom_commands)
             self.refresh()
 
@@ -529,27 +509,15 @@ class ManagerScreen(Screen):
             return
         if typ == 'custom':
             item = self.custom_commands[key]
-            self.session.openWithCallback(lambda new_cmd: self.edit_custom_command_step2(
-                key, new_cmd), InputBox, title=_("Edit command"), text=item["command"])
+            self.session.openWithCallback(lambda new_cmd: self.edit_custom_command_step2(key, new_cmd), InputBox, title=_("Edit command"), text=item["command"])
         else:
             category, orig_cmd = key
-            cur_cmd, cur_desc = self.modified.get(
-                key, (orig_cmd, self.get_original_desc(category, orig_cmd)))
-            self.session.openWithCallback(
-                lambda new_cmd: self.edit_predef_command_step2(
-                    key, new_cmd), InputBox, title=_("Edit command (original: %s)") %
-                orig_cmd, text=cur_cmd)
+            cur_cmd, cur_desc = self.modified.get(key, (orig_cmd, self.get_original_desc(category, orig_cmd)))
+            self.session.openWithCallback(lambda new_cmd: self.edit_predef_command_step2(key, new_cmd), InputBox, title=_("Edit command (original: %s)") % orig_cmd, text=cur_cmd)
 
     def edit_custom_command_step2(self, idx, new_cmd):
         if new_cmd:
-            self.session.openWithCallback(
-                lambda new_desc: self.edit_custom_command_step3(
-                    idx,
-                    new_cmd,
-                    new_desc),
-                InputBox,
-                title=_("Edit description"),
-                text=self.custom_commands[idx]["description"])
+            self.session.openWithCallback(lambda new_desc: self.edit_custom_command_step3(idx, new_cmd, new_desc), InputBox, title=_("Edit description"), text=self.custom_commands[idx]["description"])
 
     def edit_custom_command_step3(self, idx, new_cmd, new_desc):
         if new_desc:
@@ -571,8 +539,7 @@ class ManagerScreen(Screen):
         if new_cmd:
             category, orig_cmd = key
             orig_desc = self.get_original_desc(category, orig_cmd)
-            self.session.openWithCallback(lambda new_desc: self.edit_predef_command_step3(
-                key, new_cmd, new_desc), InputBox, title=_("Edit description"), text=orig_desc)
+            self.session.openWithCallback(lambda new_desc: self.edit_predef_command_step3(key, new_cmd, new_desc), InputBox, title=_("Edit description"), text=orig_desc)
 
     def edit_predef_command_step3(self, key, new_cmd, new_desc):
         if new_desc:
@@ -586,12 +553,7 @@ class ManagerScreen(Screen):
         if idx == -1:
             return
         if typ == 'custom':
-            self.session.openWithCallback(
-                self.confirm_delete_custom,
-                MessageBox,
-                _("Delete this custom command?\n%s") %
-                self.custom_commands[key]["command"],
-                MessageBox.TYPE_YESNO)
+            self.session.openWithCallback(self.confirm_delete_custom, MessageBox, _("Delete this custom command?\n%s") % self.custom_commands[key]["command"], MessageBox.TYPE_YESNO)
         else:
             self.toggle_disable()
 
@@ -606,8 +568,7 @@ class ManagerScreen(Screen):
     def toggle_disable(self):
         idx, typ, key = self.get_selection()
         if idx == -1 or typ != 'predef':
-            self["statusbar"].setText(
-                _("Only predefined commands can be disabled/enabled"))
+            self["statusbar"].setText(_("Only predefined commands can be disabled/enabled"))
             return
         if key in self.disabled:
             self.disabled.remove(key)
