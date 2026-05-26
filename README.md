@@ -30,6 +30,29 @@ The plugin includes **hundreds of pre‑defined commands** covering:
 
 ---
 
+## Screenshots
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="screen/screen1.png?sanitize=true&raw=true" title="preview1" width="400"/><br/>
+      <b>Preview 1</b>
+    </td>
+    <td align="center">
+      <img src="screen/screen2.png?sanitize=true&raw=true" title="preview2" width="400"/><br/>
+      <b>Preview 2</b>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="screen/screen3.png?sanitize=true&raw=true" title="preview3" width="400"/><br/>
+      <b>Preview 3</b>
+    </td>
+  </tr>
+</table>
+
+
 ## ✨ Features (v1.1)
 
 - 📂 **Categorized commands** – quickly find what you need.
