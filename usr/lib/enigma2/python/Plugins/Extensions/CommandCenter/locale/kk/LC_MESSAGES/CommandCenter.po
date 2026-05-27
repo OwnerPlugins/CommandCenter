@@ -154,4 +154,4 @@ msgid "Toggle Disable"
 msgstr "Өшіруді ауыстырып қосу"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Барлығы: %d пәрмен (Алдын ала анықталған: %d, Теңшелетін: %d, Өшірілген: %d)"

@@ -38,7 +38,7 @@ msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
 msgstr "Command Center - Telnet/Shell Plugin v.%s - od Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Příkazové centrum v.%s"
 
 msgid "Command finished (code %d)"
 msgstr "Příkaz dokončen (kód %d)"
