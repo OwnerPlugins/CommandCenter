@@ -41,11 +41,14 @@ if exists(init_file):
         )
         if match:
             PLUGIN_NAME = match.group(1)
-            print(f"Detected PluginLanguageDomain = '{PLUGIN_NAME}' from __init__.py")
+            print(
+                f"Detected PluginLanguageDomain = '{PLUGIN_NAME}' from __init__.py")
         else:
-            print(f"PluginLanguageDomain not found in __init__.py, using folder name: {PLUGIN_NAME}")
+            print(
+                f"PluginLanguageDomain not found in __init__.py, using folder name: {PLUGIN_NAME}")
     except Exception as e:
-        print(f"Warning: could not read __init__.py: {e}, using folder name: {PLUGIN_NAME}")
+        print(
+            f"Warning: could not read __init__.py: {e}, using folder name: {PLUGIN_NAME}")
 else:
     print(f"__init__.py not found, using folder name: {PLUGIN_NAME}")
 
@@ -391,10 +394,18 @@ def extract_python_strings():
             print("No .py files found")
             return []
         cmd = [
-            'xgettext', '--no-wrap', '-L', 'Python', '--from-code=UTF-8',
-            '-kpgettext:1c,2', '--add-comments=TRANSLATORS:', '-d', PLUGIN_NAME,
-            '-s', '-o', temp_pot
-        ] + py_files
+            'xgettext',
+            '--no-wrap',
+            '-L',
+            'Python',
+            '--from-code=UTF-8',
+            '-kpgettext:1c,2',
+            '--add-comments=TRANSLATORS:',
+            '-d',
+            PLUGIN_NAME,
+            '-s',
+            '-o',
+            temp_pot] + py_files
         try:
             process = subprocess.Popen(
                 cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE
@@ -481,8 +492,9 @@ def update_pot_file(xml_strings, py_strings):
             f.write('"Content-Transfer-Encoding: 8bit\\n"\n\n')
         for msgid in all_strings:
             f.write(
-                f'\nmsgid "{msgid}"\nmsgstr "{existing_translations.get(msgid, "")}"\n'
-            )
+                f'\nmsgid "{msgid}"\nmsgstr "{
+                    existing_translations.get(
+                        msgid, "")}"\n')
     print(f"Updated .pot file: {POT_FILE}")
     return len(all_strings)
 
@@ -524,7 +536,8 @@ def fix_po_file(po_file):
                 msgid_line = fixed_lines[i]
                 if msgid_line in seen_msgids:
                     i += 1
-                    while i < len(fixed_lines) and fixed_lines[i].strip() != '':
+                    while i < len(
+                            fixed_lines) and fixed_lines[i].strip() != '':
                         i += 1
                     continue
                 else:
@@ -609,7 +622,10 @@ def update_po_files():
                     existing_languages.append(item)
     all_languages = list(set(existing_languages + STANDARD_LANGUAGES))
     all_languages.sort()
-    print(f"Processing {len(all_languages)} languages: {', '.join(all_languages)}")
+    print(
+        f"Processing {
+            len(all_languages)} languages: {
+            ', '.join(all_languages)}")
     for lang_code in all_languages:
         lc_messages_dir = ensure_directory_structure(lang_code)
         if not lc_messages_dir:
@@ -686,7 +702,8 @@ def compile_mo_files():
                 )
                 process.communicate()
                 if process.returncode == 0:
-                    print(f"✓ Compiled: {lang_code}/LC_MESSAGES/{PLUGIN_NAME}.mo")
+                    print(
+                        f"✓ Compiled: {lang_code}/LC_MESSAGES/{PLUGIN_NAME}.mo")
                 else:
                     print(f"✗ ERROR compiling {lang_code}")
             except Exception as e:
