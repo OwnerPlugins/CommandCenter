@@ -352,8 +352,10 @@ def translate_text(text, target_lang=None, use_cache=True):
                 _cache_translation(text_unicode, target_lang, translated_text)
 
             elapsed = time.time() - start_time
-            _log(
-                f"Translation completed in {elapsed:.2f}s: '{text_unicode[:30]}...' -> '{translated_text[:30]}...'")
+            _log((
+                f"Translation completed in {elapsed:.2f}s: '{text_unicode[:30]}...' -> "
+                f"'{translated_text[:30]}...'"
+            ))
 
             return translated_text
         else:
@@ -584,11 +586,10 @@ def test_translation():
     if DEBUG:
         print("=" * 60)
         stats = get_cache_stats()
-        print(
-            f"Cache statistics: {
-                stats['hits']} hits, {
-                stats['misses']} misses, " f"rate: {
-                stats['hit_rate']:.1%}")
+        print((
+            f"Cache statistics: {stats['hits']} hits, {stats['misses']} misses, "
+            f"rate: {stats['hit_rate']:.1%}"
+        ))
         print("=" * 60)
 
     return all_passed

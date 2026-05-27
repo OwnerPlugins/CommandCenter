@@ -194,9 +194,10 @@ def translate_text(text, target_lang=None, use_cache=True):
         if cached is not None:
             return cached
     if len(text_unicode) > MAX_CHARS_PER_REQUEST:
-        _log(
-            f"Text too long ({
-                len(text_unicode)}), truncated to {MAX_CHARS_PER_REQUEST}")
+        _log((
+            f"Text too long ({len(text_unicode)} chars), "
+            f"truncated to {MAX_CHARS_PER_REQUEST}"
+        ))
         text_unicode = text_unicode[:MAX_CHARS_PER_REQUEST]
     params = {
         "client": "gtx",
@@ -263,8 +264,8 @@ def auto_translate_po_file(po_file, target_lang):
                     translated = translate_text(msgid, target_lang)
                     if translated and translated != msgid:
                         msgstr_line = f'msgstr "{translated}"\n'
-                        print(
-                            f"  [auto-translated] {msgid[:40]}... -> {translated[:40]}...")
+                        print(f"  [auto-translated] {msgid[:40]}... -> "
+                              f"{translated[:40]}...")
                 new_lines.append(msgstr_line)
                 i += 1
         else:
