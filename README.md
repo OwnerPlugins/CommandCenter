@@ -49,6 +49,17 @@ The plugin includes **hundreds of pre‑defined commands** covering:
       <img src="screen/screen3.png?sanitize=true&raw=true" title="preview3" width="400"/><br/>
       <b>Preview 3</b>
     </td>
+    <td align="center">
+      <img src="screen/screen4.png?sanitize=true&raw=true" title="preview4" width="400"/><br/>
+      <b>Preview 4</b>
+    </td>  
+  </tr>
+  
+  <tr>
+    <td align="center">
+      <img src="screen/screen5.png?sanitize=true&raw=true" title="preview5" width="400"/><br/>
+      <b>Preview 5</b>
+    </td>
   </tr>
 </table>
 
