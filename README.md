@@ -1,7 +1,7 @@
 <h1 align="center">⚙️ Command Center</h1>
 
 ![Visitors](https://komarev.com/ghpvc/?username=Belfagor2005&label=Repository%20Views&color=blueviolet)
-[![Version](https://img.shields.io/badge/Version-1.1-blue.svg)](https://github.com/OwnerPlugins/CommandCenter)
+[![Version](https://img.shields.io/badge/Version-1.2-blue.svg)](https://github.com/OwnerPlugins/CommandCenter)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![Release](https://img.shields.io/github/v/release/OwnerPlugins/CommandCenter)](https://github.com/OwnerPlugins/CommandCenter/releases)
@@ -52,23 +52,34 @@ The plugin includes **hundreds of pre‑defined commands** covering:
   </tr>
 </table>
 
+## ✨ Features (v1.2)
 
-## ✨ Features (v1.1)
-
+### Core Features
 - 📂 **Categorized commands** – quickly find what you need.
 - ▶️ **Execute any command** with the press of a button.
 - 🖥️ **Live output monitor** – see command output as it runs.
-- 📜 **Full scrollable output** – use **LEFT/RIGHT** for line‑by‑line scrolling, **CH+/CH–** for page scrolling.
+- 📜 **Full scrollable output** – use **UP/DOWN** for line‑by‑line scrolling, **CH+/CH–** for page scrolling (in CommandScreen). In LogViewer, use **UP/DOWN** for lines, **LEFT/RIGHT** or **CH+/CH–** for pages.
 - 💾 **Save output** to `/tmp/` for later analysis.
 - 🔄 **Auto‑scroll** (optional) – automatically follows new output.
 - 🎨 **Color‑coded buttons** – intuitive navigation.
 - 📋 **Command descriptions** – understand what each command does.
-- ⚙️ **Fully external command list** – commands are stored in `/etc/enigma2/commandcenter_commands.json`. Edit it with any text editor to add, remove or modify commands – no plugin code changes needed.
+
+### Advanced Features (New in v1.2)
+- 🐞 **Debug Mode Screen** – dedicated environment for dangerous / debugging commands that may restart or crash Enigma2.
+  - Predefined debug commands (full debug restart, stop Enigma2, journal logs, screenshot, etc.).
+  - Commands run in background, output saved to persistent logs (`/home/root/logs/debug_*.log`).
+  - Browse, view, and delete logs directly from the plugin.
+  - Works for OE‑Alliance (init 4 / killall / ENIGMA_DEBUG_LVL) and DreamBox (journalctl).
+- 📄 **Advanced Log Viewer** – inspired by CrashlogViewer.
+  - Shows full log content in a scrollable window.
+  - Switch between **Full Log** and **Error Only** view (with GREEN button).
+  - Scroll line by line (UP/DOWN) or page by page (CH+/CH– or LEFT/RIGHT).
+- ⚙️ **Fully external command list** – commands are stored in `/etc/enigma2/commandcenter_commands.json`. Edit with any text editor – no plugin code changes needed.
 - 🛡️ **Automatic backups** – every time you save custom commands or settings, a timestamped backup (`.bak`) is created. Your data is safe.
 - 🔘 **Manager screen** – easily add custom commands, edit existing ones, or disable predefined commands (toggle with INFO button).
 - ℹ️ **INFO button works everywhere** – shows version, command details, or toggles disable state.
 - 📱 **Optimized for all screen sizes** – includes dedicated skins for HD (1280×720), Full HD (1920×1080) and WQHD (2560×1440). Automatically selected based on your screen resolution.
-- 🌍 **Fully translatable** – uses Enigma2’s locale system.
+- 🌍 **Fully translatable** – uses Enigma2’s locale system (Italian and German included).
 
 ---
 
@@ -92,6 +103,7 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 > - `/etc/enigma2/commandcenter_commands.json` – your editable command list (copied from `default_commands.json` inside the plugin folder).
 > - `/etc/enigma2/commandcenter_custom.json` – your personal custom commands.
 > - `/etc/enigma2/commandcenter_config.json` – disabled states and command modifications.
+> - `/home/root/logs/` – directory for debug logs (created automatically).
 
 ---
 
@@ -103,12 +115,13 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 - **OK** – open the selected category.
 - **BLUE** – open the **Manager** screen (see below).
 - **INFO** – show plugin version and info.
+- **MENU** – open the **Debug Mode** screen (new in v1.2).
 
 ### Command Screen
 
 - **UP / DOWN** – select a command from the list.
 - **GREEN / OK** – execute the selected command.
-- **LEFT / RIGHT** – scroll the output area **one line** up/down.
+- **LEFT / RIGHT** – scroll the output area **one page** up/down (using pageUp/pageDown).
 - **CH+ / CH– (PageUp/PageDown)** – scroll the output area **one page** up/down.
 - **YELLOW** – clear the output area.
 - **BLUE** – save the current output to `/tmp/command_output_YYYYMMDD_HHMMSS.txt`.
@@ -124,6 +137,25 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 - **BLUE** – delete a custom command or disable a predefined command (opens confirmation).
 - **INFO** – toggle the `[DISABLED]` state for **predefined commands only** (disabled commands won’t appear in the main list).
 - **RED** – exit the manager.
+
+### Debug Mode Screen (NEW in v1.2)
+
+- **UP / DOWN** – select a debug command.
+- **GREEN / OK** – run the selected debug command (confirmation required).
+- **YELLOW** – toggle between command list and log browser.
+- **BLUE** – delete the selected log file (when in log browser).
+- **INFO** – view the content of the selected log file (opens Log Viewer).
+- **RED** – exit debug screen.
+
+**What is Debug Mode for?**  
+Some commands (like `init 4 ; killall -9 enigma2 ; ENIGMA_DEBUG_LVL=4 enigma2`) will restart or crash Enigma2. Normal execution would immediately close the plugin and you would lose the output. Debug Mode runs such commands in a detached background script, saving all output to a persistent log file in `/home/root/logs/`. After Enigma2 restarts, you can come back to Debug Mode, press YELLOW to see the list of logs, select one and press INFO to view it in the dedicated Log Viewer.
+
+### Log Viewer Screen (NEW in v1.2)
+
+- **UP / DOWN** – scroll the log text **line by line**.
+- **LEFT / RIGHT** or **CH+/CH–** – scroll **page by page**.
+- **GREEN** – switch between **Full Log** and **Error Only** view (automatically extracts tracebacks and errors).
+- **RED / OK / CANCEL** – close the viewer.
 
 ---
 
@@ -171,7 +203,19 @@ The plugin automatically detects your screen resolution and loads the appropriat
 - `skins/fhd/`    – for 1920×1080
 - `skins/wqhd/`   – for 2560×1440
 
-You can customize the skin files (`CategoryScreen.xml`, `CommandScreen.xml`, `ManagerScreen.xml`) to match your personal taste.
+You can customize the skin files (`CategoryScreen.xml`, `CommandScreen.xml`, `ManagerScreen.xml`, `DebugScreen.xml`, and `LogViewer` inline skin) to match your personal taste.
+
+---
+
+## 🌍 Translations
+
+The plugin is fully translatable. Currently included:
+
+- English (default)
+- Italian
+- German
+
+To add your own language, create a `.po` file in the `locale/` folder, compile it to `.mo`, and place it in the appropriate language directory.
 
 ---
 
@@ -187,22 +231,18 @@ Please keep the original copyright and credits.
 ## 🙏 Credits
 
 - **Plugin development:** [Lululla](https://github.com/OwnerPlugins).
-- **Thanks to** the Enigma2 community and all testers.
+- **Special thanks** to the Enigma2 community and all testers.
+- **Inspiration for LogViewer** – CrashlogViewer by Lululla.
 
 ---
 
 ## 📡 Enigma2 Project
 
-Compatible with all Enigma2‑based receivers (OpenPLi, OpenATV, OpenVision, Pure2, etc.).
-
----
-
-## 📸 Screenshots
-
-*Screenshots can be added here (not included in this markdown).*
+Compatible with all Enigma2‑based receivers (OpenPLi, OpenATV, OpenVision, Pure2, DreamBox, etc.).
 
 ---
 
 ## 💬 Support
 
 For issues, feature requests, or contributions, please open an issue on [GitHub](https://github.com/OwnerPlugins/CommandCenter/issues).
+```

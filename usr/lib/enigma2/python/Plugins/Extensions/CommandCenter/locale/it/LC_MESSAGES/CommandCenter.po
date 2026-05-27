@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: CommandCenter\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-05-25 19:16+0200\n"
+"PO-Revision-Date: 2026-05-27 13:27+0200\n"
 "Last-Translator: root <EMAIL@ADDRESS>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.9\n"
 
-# Italiano
 msgid "Add Custom"
 msgstr "Aggiungi personalizzato"
 
@@ -28,18 +27,33 @@ msgstr "Indietro"
 msgid "Clear"
 msgstr "Cancella"
 
+msgid "Close"
+msgstr "Chiudi"
+
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Plugin Telnet/Shell v.%s - di Lululla."
 
 #, fuzzy
 msgid "Command Center v.%s"
-msgstr "Centro comandi"
+msgstr "Centro Comandi v.%s"
 
 msgid "Command finished (code %d)"
 msgstr "Comando completato (codice %d)"
 
+msgid "Confirm Debug Command"
+msgstr "Conferma comando di debug"
+
+msgid "Debug Log: %s"
+msgstr "Log di debug: %s"
+
+msgid "Delete Log"
+msgstr "Elimina log"
+
 msgid "Delete/Disable"
 msgstr "Elimina/Disabilita"
+
+msgid "Deleted: %s"
+msgstr "Eliminato: %s"
 
 msgid "Edit"
 msgstr "Modifica"
@@ -59,6 +73,15 @@ msgstr "Inserisci comando"
 msgid "Enter description"
 msgstr "Inserisci descrizione"
 
+msgid "Error Only"
+msgstr "Solo errori"
+
+msgid "Error deleting: %s"
+msgstr "Errore durante l'eliminazione: %s"
+
+msgid "Error reading log: %s"
+msgstr "Errore nella lettura del log: %s"
+
 msgid "Execution error"
 msgstr "Errore di esecuzione"
 
@@ -68,8 +91,17 @@ msgstr "Esci"
 msgid "Failed to start command.\n"
 msgstr "Impossibile avviare il comando.\n"
 
+msgid "Full Log"
+msgstr "Log completo"
+
+msgid "Hide Logs"
+msgstr "Nascondi log"
+
 msgid "Info"
 msgstr "Informazioni"
+
+msgid "Log files found: %d | Press Info for show"
+msgstr "Trovati %d file di log | Premi Info per visualizzare"
 
 msgid "Manager"
 msgstr "Gestione"
@@ -79,6 +111,9 @@ msgstr "Nessun comando selezionato"
 
 msgid "No output to save"
 msgstr "Nessun output da salvare"
+
+msgid "No specific error trace found in log"
+msgstr "Nessuna traccia di errore specifica trovata nel log"
 
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Solo i comandi predefiniti possono essere disabilitati/abilitati"
@@ -106,6 +141,12 @@ msgstr "Errore di salvataggio: %s"
 
 msgid "Saved to %s"
 msgstr "Salvato in %s"
+
+msgid "Select a debug command and press Run"
+msgstr "Seleziona un comando di debug e premi Esegui"
+
+msgid "Show Logs"
+msgstr "Mostra log"
 
 msgid "Toggle Disable"
 msgstr "Attiva/Disattiva"

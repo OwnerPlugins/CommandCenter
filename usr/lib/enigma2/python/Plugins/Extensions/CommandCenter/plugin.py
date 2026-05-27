@@ -31,7 +31,7 @@ import os
 import codecs
 import shutil
 from datetime import datetime
-from os.path import join
+from os.path import join, basename, exists, getmtime
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
 from Screens.InputBox import InputBox
@@ -70,7 +70,7 @@ else:
 
 def backup_file(filepath):
     """Create a backup of the file with a timestamp before overwriting it."""
-    if os.path.exists(filepath):
+    if exists(filepath):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         backup_path = f"{filepath}.{timestamp}.bak"
         try:
@@ -82,7 +82,7 @@ def backup_file(filepath):
 
 def load_default_commands():
     """Load default commands from the JSON file included in the plugin."""
-    if os.path.exists(DEFAULT_COMMANDS_FILE):
+    if exists(DEFAULT_COMMANDS_FILE):
         try:
             with open(DEFAULT_COMMANDS_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
@@ -95,7 +95,7 @@ def load_default_commands():
 
 def load_predefined_commands():
     """Load predefined commands from the external file; create it if missing."""
-    if not os.path.exists(COMMANDS_FILE):
+    if not exists(COMMANDS_FILE):
         # First creation: copy default commands
         default_cmds = load_default_commands()
         try:
@@ -118,7 +118,7 @@ def load_predefined_commands():
 
 
 def load_custom_commands():
-    if os.path.exists(CUSTOM_COMMANDS_FILE):
+    if exists(CUSTOM_COMMANDS_FILE):
         try:
             with open(CUSTOM_COMMANDS_FILE, "r") as f:
                 return json.load(f)
@@ -134,7 +134,7 @@ def save_custom_commands(commands):
 
 
 def load_user_config():
-    if os.path.exists(USER_CONFIG_FILE):
+    if exists(USER_CONFIG_FILE):
         try:
             with open(USER_CONFIG_FILE, "r") as f:
                 data = json.load(f)
@@ -220,7 +220,7 @@ class CategoryScreen(Screen):
         self["categories"] = MenuList([])
         self["key_blue"] = Label(_("Manager"))
         self["statusbar"] = Label(_("Press Manager to manage custom commands"))
-        self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions", "InfoActions"], {
+        self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions", "InfoActions", "MenuActions"], {
             "ok": self.select_category,
             "cancel": self.close,
             "red": self.close,
@@ -228,8 +228,12 @@ class CategoryScreen(Screen):
             "up": self.categories_up,
             "down": self.categories_down,
             "info": self.show_info,
+            "menu": self.open_debug_screen,
         }, -1)
         self.populate_categories()
+
+    def open_debug_screen(self):
+        self.session.open(DebugScreen)
 
     def populate_categories(self):
         cmds = get_commands()
@@ -616,6 +620,294 @@ class ManagerScreen(Screen):
         self.user_config["disabled"] = list(self.disabled)
         save_user_config(self.user_config)
         self.refresh()
+
+
+class DebugScreen(Screen):
+    def __init__(self, session):
+        Screen.__init__(self, session)
+        self.session = session
+        skin = join(skin_path, 'DebugScreen.xml')
+        with codecs.open(skin, "r", encoding="utf-8") as f:
+            self.skin = f.read()
+        self.setTitle("Command Center - Debug Mode")
+
+        self["debug_list"] = MenuList([])
+        self["log_list"] = MenuList([])
+        self["key_red"] = Label(_("Back"))
+        self["key_green"] = Label(_("Run"))
+        self["key_yellow"] = Label(_("Show Logs"))
+        self["key_blue"] = Label(_("Delete Log"))
+        self["statusbar"] = Label(_("Select a debug command and press Run"))
+
+        self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions", "InfoActions"], {
+            "cancel": self.close,
+            "red": self.close,
+            "green": self.run_debug_command,
+            "yellow": self.toggle_logs,
+            "blue": self.delete_selected_log,
+            "ok": self.handle_ok,
+            "info": self.handle_info
+            "up": self.move_up,
+            "down": self.move_down,
+        }, -1)
+
+        self.logs_visible = False
+        self.debug_commands = [
+            ("init 4 ; killall -9 enigma2 ; ENIGMA_DEBUG_LVL=4 enigma2", "🔄 Full debug restart (OE-Alliance)"),
+            ("init 4 ; killall -9 enigma2", "🛑 Stop Enigma2 only"),
+            ("journalctl -u enigma2 > /tmp/enigma2.log", "📋 Enigma2 journal log (DreamBox)"),
+            ("journalctl > /tmp/full_system.log", "📋 Full system journal (DreamBox)"),
+            ("journalctl -f -u enigma2 > /tmp/enigma2_running.log &", "📡 Continuous Enigma2 log (DreamBox)"),
+            ("grab -d -j -o /tmp/grab_debug.jpg", "📸 Screenshot with debug info"),
+        ]
+        self.current_logs = []
+        self.onLayoutFinish.append(self.init_ui)
+
+    def init_ui(self):
+        self.populate_debug_list()
+        self.scan_logs()
+        self["log_list"].hide()
+        self["debug_list"].show()
+        self.setFocus(self["debug_list"])
+
+    def populate_debug_list(self):
+        items = [desc for (cmd, desc) in self.debug_commands]  # solo descrizioni
+        self["debug_list"].setList(items)
+
+    def handle_ok(self):
+        if self.logs_visible:
+            self.show_log_content()
+        else:
+            self.run_debug_command()
+
+    def handle_info(self):
+        if self.logs_visible:
+            self.show_log_content()
+
+
+    def toggle_logs(self):
+        self.logs_visible = not self.logs_visible
+        if self.logs_visible:
+            self.scan_logs()
+            self["debug_list"].hide()
+            self["log_list"].show()
+            self.setFocus(self["log_list"])
+            self["statusbar"].setText(_("Log files found: %d | Press Info for show") % len(self.current_logs))
+            self["key_yellow"].setText(_("Hide Logs"))
+            self["key_green"].setText("")
+            self["key_green"].hide()
+        else:
+            self["debug_list"].show()
+            self["log_list"].hide()
+            self.setFocus(self["debug_list"])
+            self["statusbar"].setText(_("Select a debug command and press Run"))
+            self["key_yellow"].setText(_("Show Logs"))
+            self["key_green"].setText(_("Run"))
+            self["key_green"].show()
+
+    def move_up(self):
+        if self.logs_visible:
+            self["log_list"].up()
+        else:
+            self["debug_list"].up()
+
+    def move_down(self):
+        if self.logs_visible:
+            self["log_list"].down()
+        else:
+            self["debug_list"].down()
+
+    def run_debug_command(self):
+        if self.logs_visible:
+            print("run_debug_command: self.logs_visible")
+            return
+        idx = self["debug_list"].getCurrentIndex()
+        if idx is None or idx >= len(self.debug_commands):
+            return
+        cmd, desc = self.debug_commands[idx]
+        self.session.openWithCallback(
+            lambda answer: self.confirm_run(answer, cmd, desc),
+            MessageBox,
+            _("⚠️ WARNING ⚠️\n\nThis debug command may restart or crash Enigma2.\n\nCommand: %s\n\n%s\n\nPress OK to execute or Cancel to abort.") % (desc, cmd),
+            MessageBox.TYPE_YESNO,
+            windowTitle=_("Confirm Debug Command")
+        )
+
+    def confirm_run(self, answer, cmd, desc):
+        if not answer:
+            return
+        self.close()
+        import tempfile
+        # Directory persistente per i log
+        log_dir = "/home/root/logs"
+        if not exists(log_dir):
+            os.makedirs(log_dir)
+        log_filename = join(log_dir, "debug_%s.log" % datetime.now().strftime("%Y%m%d_%H%M%S"))
+        script_content = f"""#!/bin/sh
+    log="{log_filename}"
+    echo "=== Command: {cmd} ===" > $log
+    echo "Started at: $(date)" >> $log
+    echo "=== Output ===" >> $log
+    sync
+    {cmd} >> $log 2>&1
+    echo "=== Exit code: $? ===" >> $log
+    echo "Finished at: $(date)" >> $log
+    sync
+    rm -f $0
+    """
+        fd, script_path = tempfile.mkstemp(suffix='.sh', prefix='debug_')
+        with os.fdopen(fd, 'w') as f:
+            f.write(script_content)
+        os.chmod(script_path, 0o755)
+        os.system(f"nohup {script_path} > /dev/null 2>&1 &")
+
+    def scan_logs(self):
+        import glob
+        self.current_logs = []
+        patterns = [
+            "/tmp/*debug*.log",
+            "/tmp/enigma2*.log",
+            "/tmp/full*.log",
+            "/tmp/grab*.log",
+            "/home/root/logs/*.log",
+            "/home/root/logs/debug_*.log",
+            "/home/root/debug_*.log"
+        ]
+        for pattern in patterns:
+            self.current_logs.extend(glob.glob(pattern))
+        self.current_logs = list(set(self.current_logs))
+        self.current_logs.sort(key=getmtime, reverse=True)
+        self["log_list"].setList(self.current_logs)
+
+    def show_log_content(self):
+        if not self.logs_visible:
+            print("show_log_content: if not self.logs_visible")
+            return
+        idx = self["log_list"].getCurrentIndex()
+        if idx is not None and idx < len(self.current_logs):
+            logfile = self.current_logs[idx]
+            self.session.open(LogViewer, logfile)
+
+    def delete_selected_log(self):
+        if not self.logs_visible:
+            print("delete_selected_log: if not self.logs_visible")
+            return
+        idx = self["log_list"].getCurrentIndex()
+        if idx is not None and idx < len(self.current_logs):
+            logfile = self.current_logs[idx]
+            self.session.openWithCallback(
+                lambda answer: self.confirm_delete(answer, logfile),
+                MessageBox,
+                _("Delete log file?\n%s") % logfile,
+                MessageBox.TYPE_YESNO
+            )
+
+    def confirm_delete(self, answer, logfile):
+        if answer:
+            try:
+                os.remove(logfile)
+                self.scan_logs()
+                self["log_list"].setList(self.current_logs)
+                self["statusbar"].setText(_("Deleted: %s") % basename(logfile))
+            except Exception as e:
+                self["statusbar"].setText(_("Error deleting: %s") % str(e))
+
+
+class LogViewer(Screen):
+    def __init__(self, session, logfile):
+        self.session = session
+        Screen.__init__(self, session)
+        skin = join(skin_path, 'LogViewer.xml')
+        with codecs.open(skin, "r", encoding="utf-8") as f:
+            self.skin = f.read()
+        self.logfile = logfile
+        self.current_view = "full"   # "full" or "error"
+        self.full_text = ""
+        self.error_text = ""
+        self.setTitle(_("Debug Log: %s") % basename(logfile))
+
+        self["full_text"] = ScrollLabel("")
+        self["error_text"] = ScrollLabel("")
+        self["key_red"] = Label(_("Close"))
+        self["key_green"] = Label(_("Error Only"))
+
+        self["actions"] = ActionMap(["DirectionActions", "ColorActions", "OkCancelActions"], {
+            "cancel": self.exit,
+            "ok": self.exit,
+            "red": self.exit,
+            "green": self.switch_view,
+            "up": self.page_up,
+            "down": self.page_down,
+            "left": self.page_up,
+            "right": self.page_down,
+            "pageUp": self.page_up,
+            "pageDown": self.page_down,
+        }, -1)
+
+        self.onLayoutFinish.append(self.load_log)
+
+    def load_log(self):
+        try:
+            with open(self.logfile, "r", encoding="utf-8", errors="ignore") as f:
+                content = f.read()
+            self.full_text = content
+            lines = content.splitlines()
+            error_lines = []
+            for i, line in enumerate(lines):
+                if "Traceback (most recent call last):" in line or "Backtrace:" in line:
+                    for j in range(i, min(i + 30, len(lines))):
+                        error_lines.append(lines[j])
+                    break
+            if not error_lines:
+                for line in lines:
+                    if "Error:" in line or "Exception:" in line or "FATAL" in line:
+                        error_lines.append(line)
+            if not error_lines:
+                error_lines = [_("No specific error trace found in log")]
+
+            self.error_text = "\n".join(error_lines)
+
+        except Exception as e:
+            msg = _("Error reading log: %s") % str(e)
+            self.full_text = msg
+            self.error_text = msg
+
+        self["full_text"].setText(self.full_text)
+        self["error_text"].setText(self.error_text)
+
+        self["full_text"].show()
+        self["error_text"].hide()
+        self["key_green"].setText(_("Error Only"))
+
+    def switch_view(self):
+        if self.current_view == "full":
+            self.current_view = "error"
+            self["full_text"].hide()
+            self["error_text"].show()
+            self["key_green"].setText(_("Full Log"))
+        else:
+            self.current_view = "full"
+            self["full_text"].show()
+            self["error_text"].hide()
+            self["key_green"].setText(_("Error Only"))
+
+        self["full_text"].lastPage()
+        self["error_text"].lastPage()
+
+    def page_up(self):
+        if self.current_view == "full":
+            self["full_text"].pageUp()
+        else:
+            self["error_text"].pageUp()
+
+    def page_down(self):
+        if self.current_view == "full":
+            self["full_text"].pageDown()
+        else:
+            self["error_text"].pageDown()
+
+    def exit(self):
+        self.close()
 
 
 def main(session, **kwargs):

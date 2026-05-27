@@ -28,6 +28,9 @@ msgstr "Takaisin"
 msgid "Clear"
 msgstr "Tyhjennä"
 
+msgid "Close"
+msgstr ""
+
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
 msgstr ""
 
@@ -38,8 +41,20 @@ msgstr "Komentokeskus"
 msgid "Command finished (code %d)"
 msgstr "Komento valmis (koodi %d)"
 
+msgid "Confirm Debug Command"
+msgstr ""
+
+msgid "Debug Log: %s"
+msgstr ""
+
+msgid "Delete Log"
+msgstr ""
+
 msgid "Delete/Disable"
 msgstr "Poista/Kytke pois"
+
+msgid "Deleted: %s"
+msgstr ""
 
 msgid "Edit"
 msgstr "Muokkaa"
@@ -59,6 +74,15 @@ msgstr "Anna komento"
 msgid "Enter description"
 msgstr "Anna kuvaus"
 
+msgid "Error Only"
+msgstr ""
+
+msgid "Error deleting: %s"
+msgstr ""
+
+msgid "Error reading log: %s"
+msgstr ""
+
 msgid "Execution error"
 msgstr "Suoritusvirhe"
 
@@ -68,8 +92,17 @@ msgstr "Poistu"
 msgid "Failed to start command.\n"
 msgstr "Komennon käynnistys epäonnistui.\n"
 
+msgid "Full Log"
+msgstr ""
+
+msgid "Hide Logs"
+msgstr ""
+
 msgid "Info"
 msgstr "Tiedot"
+
+msgid "Log files found: %d | Press Info for show"
+msgstr ""
 
 msgid "Manager"
 msgstr "Hallinta"
@@ -79,6 +112,9 @@ msgstr "Komentoa ei valittu"
 
 msgid "No output to save"
 msgstr "Ei tallennettavaa tulostetta"
+
+msgid "No specific error trace found in log"
+msgstr ""
 
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Vain ennalta määritetyt komennot voidaan ottaa käyttöön tai poistaa käytöstä"
@@ -106,6 +142,12 @@ msgstr "Tallennusvirhe: %s"
 
 msgid "Saved to %s"
 msgstr "Tallennettu kohteeseen %s"
+
+msgid "Select a debug command and press Run"
+msgstr ""
+
+msgid "Show Logs"
+msgstr ""
 
 msgid "Toggle Disable"
 msgstr "Ota käyttöön / poista käytöstä"

@@ -29,6 +29,9 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
+msgid "Close"
+msgstr ""
+
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
 msgstr ""
 
@@ -38,7 +41,19 @@ msgstr ""
 msgid "Command finished (code %d)"
 msgstr ""
 
+msgid "Confirm Debug Command"
+msgstr ""
+
+msgid "Debug Log: %s"
+msgstr ""
+
+msgid "Delete Log"
+msgstr ""
+
 msgid "Delete/Disable"
+msgstr ""
+
+msgid "Deleted: %s"
 msgstr ""
 
 msgid "Edit"
@@ -59,6 +74,15 @@ msgstr ""
 msgid "Enter description"
 msgstr ""
 
+msgid "Error Only"
+msgstr ""
+
+msgid "Error deleting: %s"
+msgstr ""
+
+msgid "Error reading log: %s"
+msgstr ""
+
 msgid "Execution error"
 msgstr ""
 
@@ -68,7 +92,16 @@ msgstr ""
 msgid "Failed to start command.\n"
 msgstr ""
 
+msgid "Full Log"
+msgstr ""
+
+msgid "Hide Logs"
+msgstr ""
+
 msgid "Info"
+msgstr ""
+
+msgid "Log files found: %d | Press Info for show"
 msgstr ""
 
 msgid "Manager"
@@ -78,6 +111,9 @@ msgid "No command selected"
 msgstr ""
 
 msgid "No output to save"
+msgstr ""
+
+msgid "No specific error trace found in log"
 msgstr ""
 
 msgid "Only predefined commands can be disabled/enabled"
@@ -105,6 +141,12 @@ msgid "Save error: %s"
 msgstr ""
 
 msgid "Saved to %s"
+msgstr ""
+
+msgid "Select a debug command and press Run"
+msgstr ""
+
+msgid "Show Logs"
 msgstr ""
 
 msgid "Toggle Disable"
