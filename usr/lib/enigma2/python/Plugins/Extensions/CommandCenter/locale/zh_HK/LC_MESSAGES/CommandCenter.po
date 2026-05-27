@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "新增自訂"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "後退"
 
 msgid "Clear"
-msgstr ""
+msgstr "清除"
 
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "命令中心 - Telnet/Shell 外掛程式 v.%s - 由 Lululla 提供。"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "指揮中心 v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "命令完成（代碼 %d）"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "確認調試命令"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "調試日誌：%s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "刪除日誌"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "刪除/停用"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "已刪除：%s"
 
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 msgid "Edit command"
-msgstr ""
+msgstr "編輯命令"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "編輯指令（原始：%s）"
 
 msgid "Edit description"
-msgstr ""
+msgstr "編輯描述"
 
 msgid "Enter command"
-msgstr ""
+msgstr "輸入命令"
 
 msgid "Enter description"
-msgstr ""
+msgstr "輸入描述"
 
 msgid "Error Only"
-msgstr ""
+msgstr "僅錯誤"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "刪除時發生錯誤：%s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "讀取日誌時發生錯誤：%s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "執行錯誤"
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "無法啟動命令。 \n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "完整日誌"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "隱藏日誌"
 
 msgid "Info"
-msgstr ""
+msgstr "資訊"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "找到日誌檔：%d |展會新聞訊息"
 
 msgid "Manager"
-msgstr ""
+msgstr "主管"
 
 msgid "No command selected"
-msgstr ""
+msgstr "未選擇指令"
 
 msgid "No output to save"
-msgstr ""
+msgstr "沒有要儲存的輸出"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "日誌中沒有發現具體的錯誤追蹤"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "只能禁用/啟用預定義命令"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "輸出已清除。 \n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "按管理器管理自訂命令"
 
 msgid "Ready"
-msgstr ""
+msgstr "準備好"
 
 msgid "Run"
-msgstr ""
+msgstr "跑步"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "在 Enigma2 上執行 telnet/shell 命令"
 
 msgid "Save"
-msgstr ""
+msgstr "節省"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "儲存錯誤：%s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "已儲存至 %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "選擇調試命令並按運行"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "顯示日誌"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "切換停用"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "總計：%d 個命令（預先定義：%d，自訂：%d，停用：%d）"

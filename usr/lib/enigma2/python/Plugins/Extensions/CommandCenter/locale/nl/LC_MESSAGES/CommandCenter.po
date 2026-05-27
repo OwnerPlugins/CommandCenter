@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Aangepast toevoegen"
 
 msgid "Back"
-msgstr ""
+msgstr "Rug"
 
 msgid "Clear"
-msgstr ""
+msgstr "Duidelijk"
 
 msgid "Close"
-msgstr ""
+msgstr "Dichtbij"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell-plug-in v.%s - door Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Commandocentrum v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Commando voltooid (code %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Bevestig de foutopsporingsopdracht"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Foutopsporingslogboek: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Logboek verwijderen"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Verwijderen/uitschakelen"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Verwijderd: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Bewerking"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Opdracht bewerken"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Bewerkingsopdracht (origineel: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Beschrijving bewerken"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Voer de opdracht in"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Voer een beschrijving in"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Alleen fout"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Fout bij verwijderen: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Fout bij lezen log: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Uitvoeringsfout"
 
 msgid "Exit"
-msgstr ""
+msgstr "Uitgang"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Kan opdracht niet starten.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Volledig logboek"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Logboeken verbergen"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Logbestanden gevonden: %d | Druk op Info voor weergave"
 
 msgid "Manager"
 msgstr ""
 
 msgid "No command selected"
-msgstr ""
+msgstr "Geen opdracht geselecteerd"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Geen uitvoer om op te slaan"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Er is geen specifiek fouttracé gevonden in het logboek"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Alleen vooraf gedefinieerde opdrachten kunnen worden in-/uitgeschakeld"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Uitvoer gewist.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Druk op Manager om aangepaste opdrachten te beheren"
 
 msgid "Ready"
-msgstr ""
+msgstr "Klaar"
 
 msgid "Run"
-msgstr ""
+msgstr "Loop"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Voer telnet/shell-opdrachten uit op Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Redden"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Fout bij opslaan: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Opgeslagen in %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Selecteer een foutopsporingsopdracht en druk op Uitvoeren"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Toon logboeken"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Schakel Uitschakelen"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Totaal: %d opdrachten (vooraf gedefinieerd: %d, aangepast: %d, uitgeschakeld: %d)"

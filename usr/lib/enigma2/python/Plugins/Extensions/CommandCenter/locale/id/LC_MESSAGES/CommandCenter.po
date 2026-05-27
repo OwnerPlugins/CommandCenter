@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Tambahkan Kustom"
 
 msgid "Back"
-msgstr ""
+msgstr "Kembali"
 
 msgid "Clear"
-msgstr ""
+msgstr "Jernih"
 
 msgid "Close"
-msgstr ""
+msgstr "Menutup"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Pusat Komando - Plugin Telnet/Shell v.%s - oleh Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Pusat Komando v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Perintah selesai (kode %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Konfirmasikan Perintah Debug"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Log Debug: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Hapus Catatan"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Hapus/Nonaktifkan"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Dihapus: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Sunting"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Sunting perintah"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Perintah edit (asli: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Sunting deskripsi"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Masukkan perintah"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Masukkan deskripsi"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Hanya Kesalahan"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Kesalahan saat menghapus: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Kesalahan membaca log: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Kesalahan eksekusi"
 
 msgid "Exit"
-msgstr ""
+msgstr "KELUAR"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Gagal memulai perintah.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Catatan Lengkap"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Sembunyikan Log"
 
 msgid "Info"
-msgstr ""
+msgstr "Informasi"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "File log ditemukan: %d | Tekan Info untuk pertunjukan"
 
 msgid "Manager"
-msgstr ""
+msgstr "Manajer"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Tidak ada perintah yang dipilih"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Tidak ada keluaran untuk disimpan"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Tidak ada jejak kesalahan spesifik yang ditemukan di log"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Hanya perintah yang telah ditentukan sebelumnya yang dapat dinonaktifkan/diaktifkan"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Keluaran dihapus.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Tekan Manajer untuk mengelola perintah khusus"
 
 msgid "Ready"
-msgstr ""
+msgstr "Siap"
 
 msgid "Run"
-msgstr ""
+msgstr "Berlari"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Jalankan perintah telnet/shell di Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Menyimpan"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Kesalahan penyimpanan: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Disimpan ke %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Pilih perintah debug dan tekan Jalankan"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Tampilkan Log"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Alihkan Nonaktifkan"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Total: %d perintah (Ditentukan sebelumnya: %d, Kustom: %d, Dinonaktifkan: %d)"

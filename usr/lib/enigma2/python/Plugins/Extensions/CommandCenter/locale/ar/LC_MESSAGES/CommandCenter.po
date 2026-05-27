@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "إضافة مخصص"
 
 msgid "Back"
-msgstr ""
+msgstr "خلف"
 
 msgid "Clear"
-msgstr ""
+msgstr "واضح"
 
 msgid "Close"
-msgstr ""
+msgstr "يغلق"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "مركز القيادة - Telnet/Shell Plugin v.%s - بواسطة Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "مركز القيادة v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "انتهى الأمر (الرمز %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "تأكيد أمر التصحيح"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "سجل التصحيح: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "حذف السجل"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "حذف/تعطيل"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "محذوف: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "يحرر"
 
 msgid "Edit command"
-msgstr ""
+msgstr "تحرير الأمر"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "أمر التحرير (الأصل: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "تحرير الوصف"
 
 msgid "Enter command"
-msgstr ""
+msgstr "أدخل الأمر"
 
 msgid "Enter description"
-msgstr ""
+msgstr "أدخل الوصف"
 
 msgid "Error Only"
-msgstr ""
+msgstr "خطأ فقط"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "حدث خطأ أثناء الحذف: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "خطأ في قراءة السجل: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "خطأ في التنفيذ"
 
 msgid "Exit"
-msgstr ""
+msgstr "مخرج"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "فشل في بدء الأمر.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "سجل كامل"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "إخفاء السجلات"
 
 msgid "Info"
-msgstr ""
+msgstr "معلومات"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "تم العثور على ملفات السجل: %d | اضغط على معلومات للعرض"
 
 msgid "Manager"
-msgstr ""
+msgstr "مدير"
 
 msgid "No command selected"
-msgstr ""
+msgstr "لم يتم تحديد أي أمر"
 
 msgid "No output to save"
-msgstr ""
+msgstr "لا يوجد إخراج للحفظ"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "لم يتم العثور على أثر خطأ محدد في السجل"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "يمكن تعطيل/تمكين الأوامر المحددة مسبقًا فقط"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "تم مسح الإخراج.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "اضغط على Manager لإدارة الأوامر المخصصة"
 
 msgid "Ready"
-msgstr ""
+msgstr "مستعد"
 
 msgid "Run"
-msgstr ""
+msgstr "يجري"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "قم بتشغيل أوامر telnet/shell على Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "يحفظ"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "خطأ في الحفظ: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "تم الحفظ في %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "حدد أمر التصحيح واضغط على تشغيل"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "إظهار السجلات"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "تبديل تعطيل"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "الإجمالي: %d أمر (محدد مسبقًا: %d، مخصص: %d، معطل: %d)"

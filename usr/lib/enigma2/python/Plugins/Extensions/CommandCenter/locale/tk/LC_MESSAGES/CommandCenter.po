@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Custörite goşuň"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Yzyna"
 
 msgid "Clear"
-msgstr ""
+msgstr "Arassala"
 
 msgid "Close"
-msgstr ""
+msgstr ".Akyn"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Buýruk merkezi - Telnet / Shell Plugin% s - Lululla tarapyndan."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Buýruk merkezi% s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Buýruk gutardy (kody% d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Düzediş buýrugyny tassyklaň"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Düzediş ýazgysy:% s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Logurnaly öçür"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Öçürmek / Öçürmek"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Öçürildi:% s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redaktirläň"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Buýrugy redaktirläň"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Buýrugy üýtgetmek (asyl:% s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Düşündiriş"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Buýruk giriziň"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Düşündiriş giriziň"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Diňe säwlik"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Öçürmekde säwlik:% s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Gündeligi okamakda säwlik:% s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Ecutionerine ýetiriş säwligi"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çyk"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Buýrugy başaryp bilmedi. \ N."
 
 msgid "Full Log"
-msgstr ""
+msgstr "Doly hasaba alyş"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Surnallary gizläň"
 
 msgid "Info"
-msgstr ""
+msgstr "Maglumat"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Filesurnal faýllary tapyldy:% d | Görkezmek üçin Maglumat basyň"
 
 msgid "Manager"
-msgstr ""
+msgstr "Dolandyryjy"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Buýruk saýlanmady"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Saklamak üçin çykyş ýok"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Logurnalda anyk ýalňyşlyk ýok"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Diňe öňünden kesgitlenen buýruklary öçürip / işledip bolýar"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Çykdy. \ N."
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Customörite buýruklary dolandyrmak üçin Dolandyryjy basyň"
 
 msgid "Ready"
-msgstr ""
+msgstr "Taýýar"
 
 msgid "Run"
-msgstr ""
+msgstr "Ylga"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2-de telnet / shell buýruklaryny işlediň"
 
 msgid "Save"
-msgstr ""
+msgstr "Saklaň"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Erroralňyşlygy ýatda saklaň:% s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "% S-de saklandy"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Düzediş buýrugyny saýlaň we Işlet düwmesine basyň"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Surnallary görkez"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Öçürmek"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Jemi:% d buýruklar (Öňünden kesgitlenen:% d, omörite:% d, Maýyp:% d)"

@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "ਕਸਟਮ ਸ਼ਾਮਲ ਕਰੋ"
 
 msgid "Back"
-msgstr ""
+msgstr "ਵਾਪਸ"
 
 msgid "Clear"
-msgstr ""
+msgstr "ਸਾਫ਼"
 
 msgid "Close"
-msgstr ""
+msgstr "ਬੰਦ ਕਰੋ"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "ਕਮਾਂਡ ਸੈਂਟਰ - ਟੇਲਨੈੱਟ/ਸ਼ੈਲ ਪਲੱਗਇਨ v.%s - ਲੁਲੁਲਾ ਦੁਆਰਾ।"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "ਕਮਾਂਡ ਸੈਂਟਰ v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "ਕਮਾਂਡ ਸਮਾਪਤ (ਕੋਡ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "ਡੀਬੱਗ ਕਮਾਂਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "ਡੀਬੱਗ ਲੌਗ: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "ਲੌਗ ਮਿਟਾਓ"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "ਮਿਟਾਓ/ਅਯੋਗ ਕਰੋ"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "ਮਿਟਾਇਆ ਗਿਆ: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "ਸੰਪਾਦਿਤ ਕਰੋ"
 
 msgid "Edit command"
-msgstr ""
+msgstr "ਕਮਾਂਡ ਦਾ ਸੰਪਾਦਨ ਕਰੋ"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "ਸੰਪਾਦਨ ਕਮਾਂਡ (ਅਸਲ: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "ਵਰਣਨ ਦਾ ਸੰਪਾਦਨ ਕਰੋ"
 
 msgid "Enter command"
-msgstr ""
+msgstr "ਕਮਾਂਡ ਦਿਓ"
 
 msgid "Enter description"
-msgstr ""
+msgstr "ਵੇਰਵਾ ਦਰਜ ਕਰੋ"
 
 msgid "Error Only"
-msgstr ""
+msgstr "ਗਲਤੀ ਸਿਰਫ਼"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "ਮਿਟਾਉਣ ਵਿੱਚ ਤਰੁੱਟੀ: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "ਲੌਗ ਪੜ੍ਹਨ ਵਿੱਚ ਤਰੁੱਟੀ: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਗਲਤੀ"
 
 msgid "Exit"
-msgstr ""
+msgstr "ਨਿਕਾਸ"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "ਕਮਾਂਡ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "ਪੂਰਾ ਲਾਗ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "ਲਾਗ ਲੁਕਾਓ"
 
 msgid "Info"
-msgstr ""
+msgstr "ਜਾਣਕਾਰੀ"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "ਲੌਗ ਫਾਈਲਾਂ ਮਿਲੀਆਂ: %d | ਪ੍ਰਦਰਸ਼ਨ ਲਈ ਜਾਣਕਾਰੀ ਦਬਾਓ"
 
 msgid "Manager"
-msgstr ""
+msgstr "ਮੈਨੇਜਰ"
 
 msgid "No command selected"
-msgstr ""
+msgstr "ਕੋਈ ਕਮਾਂਡ ਨਹੀਂ ਚੁਣੀ ਗਈ"
 
 msgid "No output to save"
-msgstr ""
+msgstr "ਬਚਾਉਣ ਲਈ ਕੋਈ ਆਉਟਪੁੱਟ ਨਹੀਂ ਹੈ"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "ਲਾਗ ਵਿੱਚ ਕੋਈ ਖਾਸ ਗਲਤੀ ਟਰੇਸ ਨਹੀਂ ਮਿਲਿਆ"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "ਸਿਰਫ਼ ਪਹਿਲਾਂ ਤੋਂ ਪਰਿਭਾਸ਼ਿਤ ਕਮਾਂਡਾਂ ਨੂੰ ਅਯੋਗ/ਯੋਗ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "ਆਉਟਪੁੱਟ ਸਾਫ਼ ਕੀਤੀ ਗਈ।\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "ਕਸਟਮ ਕਮਾਂਡਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਲਈ ਮੈਨੇਜਰ ਨੂੰ ਦਬਾਓ"
 
 msgid "Ready"
-msgstr ""
+msgstr "ਤਿਆਰ ਹੈ"
 
 msgid "Run"
-msgstr ""
+msgstr "ਚਲਾਓ"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 'ਤੇ telnet/shell ਕਮਾਂਡਾਂ ਚਲਾਓ"
 
 msgid "Save"
-msgstr ""
+msgstr "ਸੇਵ ਕਰੋ"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "ਸੁਰੱਖਿਅਤ ਕਰੋ ਗਲਤੀ: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s ਵਿੱਚ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "ਇੱਕ ਡੀਬੱਗ ਕਮਾਂਡ ਚੁਣੋ ਅਤੇ ਰਨ ਦਬਾਓ"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "ਲੌਗ ਦਿਖਾਓ"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "ਟੌਗਲ ਬੰਦ ਕਰੋ"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "ਕੁੱਲ: %d ਕਮਾਂਡਾਂ (ਪਹਿਲਾਂ ਤੋਂ ਪਰਿਭਾਸ਼ਿਤ: %d, ਕਸਟਮ: %d, ਅਯੋਗ: %d)"

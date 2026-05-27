@@ -29,10 +29,10 @@ msgid "Clear"
 msgstr "Καθαρισμός"
 
 msgid "Close"
-msgstr ""
+msgstr "Κοντά"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Κέντρο εντολών - Πρόσθετο Telnet/Shell v.%s - από τη Lululla."
 
 #, fuzzy
 msgid "Command Center v.%s"
@@ -42,19 +42,19 @@ msgid "Command finished (code %d)"
 msgstr "Η εντολή ολοκληρώθηκε (κωδικός %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Επιβεβαιώστε την εντολή εντοπισμού σφαλμάτων"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Αρχείο καταγραφής εντοπισμού σφαλμάτων: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Διαγραφή αρχείου καταγραφής"
 
 msgid "Delete/Disable"
 msgstr "Διαγραφή/Απενεργοποίηση"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Διαγράφηκε: %s"
 
 msgid "Edit"
 msgstr "Επεξεργασία"
@@ -75,13 +75,13 @@ msgid "Enter description"
 msgstr "Εισαγωγή περιγραφής"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Μόνο σφάλμα"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Σφάλμα κατά τη διαγραφή: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Σφάλμα κατά την ανάγνωση του αρχείου καταγραφής: %s"
 
 msgid "Execution error"
 msgstr "Σφάλμα εκτέλεσης"
@@ -93,16 +93,16 @@ msgid "Failed to start command.\n"
 msgstr "Αποτυχία εκκίνησης της εντολής.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Πλήρες αρχείο καταγραφής"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Απόκρυψη αρχείων καταγραφής"
 
 msgid "Info"
 msgstr "Πληροφορίες"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Βρέθηκαν αρχεία καταγραφής: %d | Πατήστε Πληροφορίες για εμφάνιση"
 
 msgid "Manager"
 msgstr "Διαχείριση"
@@ -114,7 +114,7 @@ msgid "No output to save"
 msgstr "Δεν υπάρχει έξοδος για αποθήκευση"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Δεν βρέθηκε συγκεκριμένο ίχνος σφάλματος στο αρχείο καταγραφής"
 
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Μόνο οι προκαθορισμένες εντολές μπορούν να ενεργοποιηθούν/απενεργοποιηθούν"
@@ -144,10 +144,10 @@ msgid "Saved to %s"
 msgstr "Αποθηκεύτηκε στο %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Επιλέξτε μια εντολή εντοπισμού σφαλμάτων και πατήστε Εκτέλεση"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Εμφάνιση αρχείων καταγραφής"
 
 msgid "Toggle Disable"
 msgstr "Ενεργοποίηση/Απενεργοποίηση"

@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Bæta við sérsniðnum"
 
 msgid "Back"
-msgstr ""
+msgstr "Til baka"
 
 msgid "Clear"
-msgstr ""
+msgstr "Hreinsa"
 
 msgid "Close"
-msgstr ""
+msgstr "Loka"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Stjórnstöð - Telnet/Shell Plugin v.%s - eftir Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Stjórnstöð v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Skipun lokið (kóði %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Staðfestu villuleitarskipun"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Villuleitarskrá: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Eyða Log"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Eyða/slökkva"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Eytt: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Breyta"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Breyta skipun"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Breyta skipun (upprunalega: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Breyta lýsingu"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Sláðu inn skipun"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Sláðu inn lýsingu"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Aðeins villa"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Villa við að eyða: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Villa við að lesa annál: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Framkvæmdarvilla"
 
 msgid "Exit"
-msgstr ""
+msgstr "Hætta"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Mistókst að ræsa skipun.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Full log"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Fela logs"
 
 msgid "Info"
-msgstr ""
+msgstr "Upplýsingar"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Notkunarskrár fundust: %d | Ýttu á Info til að sýna"
 
 msgid "Manager"
-msgstr ""
+msgstr "Framkvæmdastjóri"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Engin skipun valin"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Ekkert úttak til að vista"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Engin sértæk villuspor fannst í log"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Aðeins er hægt að slökkva/virkja fyrirfram skilgreindar skipanir"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Úttak hreinsað.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Ýttu á Manager til að stjórna sérsniðnum skipunum"
 
 msgid "Ready"
-msgstr ""
+msgstr "Tilbúið"
 
 msgid "Run"
-msgstr ""
+msgstr "Hlaupa"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Keyra telnet/skel skipanir á Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Vista"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Vista villa: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Vistað í %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Veldu kembiforrit og ýttu á Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Sýna logs"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Kveiktu á slökkva"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Samtals: %d skipanir (Forskilgreind: %d, sérsniðin: %d, óvirk: %d)"

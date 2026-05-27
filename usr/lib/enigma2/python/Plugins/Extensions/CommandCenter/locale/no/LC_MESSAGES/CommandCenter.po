@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Legg til tilpasset"
 
 msgid "Back"
-msgstr ""
+msgstr "Tilbake"
 
 msgid "Clear"
-msgstr ""
+msgstr "Klar"
 
 msgid "Close"
-msgstr ""
+msgstr "Lukke"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Kommandosenter - Telnet/Shell-plugin v.%s - av Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Kommandosenter v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Kommandoen fullført (kode %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Bekreft feilsøkingskommando"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Feilsøkingslogg: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Slett logg"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Slett/deaktiver"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Slettet: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redigere"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Rediger kommando"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Rediger kommando (original: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Rediger beskrivelse"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Skriv inn kommando"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Skriv inn beskrivelse"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Kun feil"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Feil ved sletting: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Feil ved lesing av logg: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Utførelsesfeil"
 
 msgid "Exit"
-msgstr ""
+msgstr "Gå"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Kunne ikke starte kommandoen.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Full logg"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Skjul logger"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Loggfiler funnet: %d | Trykk på Info for visning"
 
 msgid "Manager"
-msgstr ""
+msgstr "Leder"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ingen kommando valgt"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Ingen utgang å lagre"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Ingen spesifikk feilspor funnet i loggen"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Bare forhåndsdefinerte kommandoer kan deaktiveres/aktiveres"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Utdata slettet.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Trykk på Manager for å administrere egendefinerte kommandoer"
 
 msgid "Ready"
-msgstr ""
+msgstr "Ferdig"
 
 msgid "Run"
-msgstr ""
+msgstr "Løp"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Kjør telnet/shell-kommandoer på Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Spare"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Lagringsfeil: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Lagret til %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Velg en feilsøkingskommando og trykk Kjør"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Vis logger"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Slå av/på"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Totalt: %d kommandoer (forhåndsdefinert: %d, egendefinert: %d, deaktivert: %d)"

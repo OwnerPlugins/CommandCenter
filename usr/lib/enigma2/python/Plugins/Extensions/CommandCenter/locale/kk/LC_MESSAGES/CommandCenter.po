@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Арнаулы қосу"
 
 msgid "Back"
-msgstr ""
+msgstr "Артқа"
 
 msgid "Clear"
-msgstr ""
+msgstr "Таза"
 
 msgid "Close"
-msgstr ""
+msgstr "Жабу"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Командалық орталық - Telnet/Shell Plugin v.%s - авторы Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Командалық орталық v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Пәрмен аяқталды (коды %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Түзету пәрменін растаңыз"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Түзету журналы: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Журналды жою"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Жою/өшіру"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Жойылған: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Өңдеу"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Өңдеу пәрмені"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Өңдеу пәрмені (түпнұсқа: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Сипаттаманы өңдеу"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Пәрменді енгізіңіз"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Сипаттаманы енгізіңіз"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Тек қате"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Жою қатесі: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Журналды оқу қатесі: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Орындау қатесі"
 
 msgid "Exit"
-msgstr ""
+msgstr "Шығу"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Пәрменді бастау мүмкін болмады.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Толық журнал"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Журналдарды жасыру"
 
 msgid "Info"
-msgstr ""
+msgstr "Ақпарат"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Журнал файлдары табылды: %d | Көрсету үшін Ақпарат түймесін басыңыз"
 
 msgid "Manager"
-msgstr ""
+msgstr "Менеджер"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ешбір пәрмен таңдалмаған"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Сақтау үшін шығыс жоқ"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Журналда нақты қате ізі табылмады"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Тек алдын ала анықталған пәрмендерді өшіруге/қосуға болады"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Шығару өшірілді.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Пайдаланушы пәрмендерін басқару үшін Менеджер түймесін басыңыз"
 
 msgid "Ready"
-msgstr ""
+msgstr "Дайын"
 
 msgid "Run"
-msgstr ""
+msgstr "Жүгіру"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 жүйесінде telnet/shell командаларын іске қосыңыз"
 
 msgid "Save"
-msgstr ""
+msgstr "Сақтау"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Сақтау қатесі: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s ішіне сақталды"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Түзету пәрменін таңдап, Іске қосу түймесін басыңыз"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Журналдарды көрсету"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Өшіруді ауыстырып қосу"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
 msgstr ""

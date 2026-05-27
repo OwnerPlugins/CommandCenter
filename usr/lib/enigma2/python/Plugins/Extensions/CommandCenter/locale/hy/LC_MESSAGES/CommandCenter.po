@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Ավելացնել Custom"
 
 msgid "Back"
-msgstr ""
+msgstr "Ետ"
 
 msgid "Clear"
-msgstr ""
+msgstr "Պարզ"
 
 msgid "Close"
-msgstr ""
+msgstr "Փակել"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell Plugin v.%s - Lululla-ի կողմից:"
 
 msgid "Command Center v.%s"
 msgstr ""
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Հրամանն ավարտված է (կոդ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Հաստատեք վրիպազերծման հրամանը"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Վրիպազերծման մատյան՝ %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Ջնջել գրանցամատյանը"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Ջնջել/Անջատել"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Ջնջված է՝ %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Խմբագրել"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Խմբագրել հրամանը"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Խմբագրել հրամանը (բնօրինակը՝ %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Խմբագրել նկարագրությունը"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Մուտքագրեք հրամանը"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Մուտքագրեք նկարագրությունը"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Միայն սխալ"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Չհաջողվեց ջնջել՝ %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Մատյան կարդալիս սխալ՝ %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Կատարման սխալ"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ելք"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Չհաջողվեց սկսել հրամանը:\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Ամբողջական մատյան"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Թաքցնել տեղեկամատյանները"
 
 msgid "Info"
-msgstr ""
+msgstr "Ինֆո"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Գտնվել են գրանցամատյանների ֆայլեր՝ %d | Ցուցադրման համար սեղմեք Տեղեկություն"
 
 msgid "Manager"
-msgstr ""
+msgstr "Կառավարիչ"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ոչ մի հրաման ընտրված չէ"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Փրկելու համար ելք չկա"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Մատյանում հատուկ սխալի հետք չի գտնվել"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Միայն նախապես սահմանված հրամանները կարող են անջատվել/միացնել"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Ելքը մաքրված է։\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Սեղմեք Manager՝ հատուկ հրամանները կառավարելու համար"
 
 msgid "Ready"
-msgstr ""
+msgstr "Պատրաստ"
 
 msgid "Run"
-msgstr ""
+msgstr "Վազիր"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Գործարկեք telnet/shell հրամանները Enigma2-ում"
 
 msgid "Save"
-msgstr ""
+msgstr "Պահպանել"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Պահպանման սխալ՝ %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Պահված է %s-ում"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Ընտրեք վրիպազերծման հրաման և սեղմեք Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Ցույց տալ տեղեկամատյանները"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Անջատել անջատել"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Ընդհանուր՝ %d հրամաններ (նախապես սահմանված՝ %d, հատուկ՝ %d, անջատված՝ %d)"

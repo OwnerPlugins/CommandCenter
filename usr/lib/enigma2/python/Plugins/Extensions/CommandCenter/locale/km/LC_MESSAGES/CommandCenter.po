@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "បន្ថែមផ្ទាល់ខ្លួន"
 
 msgid "Back"
-msgstr ""
+msgstr "ត្រឡប់មកវិញ"
 
 msgid "Clear"
-msgstr ""
+msgstr "ច្បាស់"
 
 msgid "Close"
-msgstr ""
+msgstr "បិទ"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "មជ្ឈមណ្ឌលបញ្ជា - Telnet/Shell Plugin v.%s - ដោយ Lululla ។"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "មជ្ឈមណ្ឌលបញ្ជា v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "ពាក្យ​បញ្ជា​បាន​បញ្ចប់ (កូដ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "បញ្ជាក់ពាក្យបញ្ជាបំបាត់កំហុស"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "កំណត់ហេតុបំបាត់កំហុស៖ %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "លុបកំណត់ហេតុ"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "លុប/បិទ"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "បានលុប៖ %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "កែសម្រួល"
 
 msgid "Edit command"
-msgstr ""
+msgstr "កែសម្រួលពាក្យបញ្ជា"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "កែសម្រួលពាក្យបញ្ជា (ដើម៖ %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "កែសម្រួលការពិពណ៌នា"
 
 msgid "Enter command"
-msgstr ""
+msgstr "បញ្ចូលពាក្យបញ្ជា"
 
 msgid "Enter description"
-msgstr ""
+msgstr "បញ្ចូលការពិពណ៌នា"
 
 msgid "Error Only"
-msgstr ""
+msgstr "កំហុសតែប៉ុណ្ណោះ"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "កំហុសក្នុងការលុប៖ %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "កំហុសក្នុងការអានកំណត់ហេតុ៖ %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "កំហុសក្នុងការអនុវត្ត"
 
 msgid "Exit"
-msgstr ""
+msgstr "ចេញ"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "បរាជ័យក្នុងការចាប់ផ្តើមពាក្យបញ្ជា។\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "កំណត់ហេតុពេញ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "លាក់កំណត់ហេតុ"
 
 msgid "Info"
-msgstr ""
+msgstr "ព័ត៌មាន"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "បានរកឃើញឯកសារកំណត់ហេតុ៖ %d | ចុច info សម្រាប់ការបង្ហាញ"
 
 msgid "Manager"
-msgstr ""
+msgstr "អ្នកគ្រប់គ្រង"
 
 msgid "No command selected"
-msgstr ""
+msgstr "គ្មានពាក្យបញ្ជាដែលបានជ្រើសរើសទេ។"
 
 msgid "No output to save"
-msgstr ""
+msgstr "គ្មានលទ្ធផលដែលត្រូវរក្សាទុកទេ។"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "រកមិនឃើញដានកំហុសជាក់លាក់នៅក្នុងកំណត់ហេតុទេ។"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "មានតែពាក្យបញ្ជាដែលបានកំណត់ជាមុនប៉ុណ្ណោះដែលអាចបិទ/បើកបាន។"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "លទ្ធផលត្រូវបានសម្អាត។\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "ចុចអ្នកគ្រប់គ្រងដើម្បីគ្រប់គ្រងពាក្យបញ្ជាផ្ទាល់ខ្លួន"
 
 msgid "Ready"
-msgstr ""
+msgstr "រួចរាល់"
 
 msgid "Run"
-msgstr ""
+msgstr "រត់"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "ដំណើរការពាក្យបញ្ជា telnet/shell នៅលើ Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "រក្សាទុក"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "រក្សាទុកកំហុស៖ %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "បានរក្សាទុកទៅ %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "ជ្រើសរើសពាក្យបញ្ជាបំបាត់កំហុស ហើយចុច Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "បង្ហាញកំណត់ហេតុ"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "បិទ/បើក"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "សរុប៖ %d ពាក្យបញ្ជា (កំណត់ជាមុន៖ %d, ផ្ទាល់ខ្លួន៖ %d, បិទ៖ %d)"

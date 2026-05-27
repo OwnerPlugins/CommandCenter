@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "কাস্টম যোগ করুন"
 
 msgid "Back"
-msgstr ""
+msgstr "ব্যাক"
 
 msgid "Clear"
-msgstr ""
+msgstr "পরিষ্কার"
 
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "কমান্ড সেন্টার - টেলনেট/শেল প্লাগইন v.%s - লুলুল্লা দ্বারা।"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "কমান্ড সেন্টার v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "কমান্ড শেষ হয়েছে (কোড %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "ডিবাগ কমান্ড নিশ্চিত করুন"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "ডিবাগ লগ: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "লগ মুছুন"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "মুছুন/অক্ষম করুন"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "মুছে ফেলা হয়েছে: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "সম্পাদনা করুন"
 
 msgid "Edit command"
-msgstr ""
+msgstr "কমান্ড সম্পাদনা করুন"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "কমান্ড সম্পাদনা করুন (মূল: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "বর্ণনা সম্পাদনা করুন"
 
 msgid "Enter command"
-msgstr ""
+msgstr "কমান্ড লিখুন"
 
 msgid "Enter description"
-msgstr ""
+msgstr "বিবরণ লিখুন"
 
 msgid "Error Only"
-msgstr ""
+msgstr "ত্রুটি শুধুমাত্র"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "মুছে ফেলার সময় ত্রুটি: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "লগ পড়ার সময় ত্রুটি: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "মৃত্যুদন্ড ত্রুটি"
 
 msgid "Exit"
-msgstr ""
+msgstr "প্রস্থান করুন"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "কমান্ড শুরু করতে ব্যর্থ হয়েছে৷\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "সম্পূর্ণ লগ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "লগ লুকান"
 
 msgid "Info"
-msgstr ""
+msgstr "তথ্য"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "লগ ফাইল পাওয়া গেছে: %d | প্রদর্শনের জন্য তথ্য টিপুন"
 
 msgid "Manager"
-msgstr ""
+msgstr "ম্যানেজার"
 
 msgid "No command selected"
-msgstr ""
+msgstr "কোনো কমান্ড নির্বাচন করা হয়নি"
 
 msgid "No output to save"
-msgstr ""
+msgstr "সংরক্ষণ করার জন্য কোন আউটপুট নেই"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "লগে কোনো নির্দিষ্ট ত্রুটির ট্রেস পাওয়া যায়নি"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "শুধুমাত্র পূর্বনির্ধারিত কমান্ড নিষ্ক্রিয়/সক্রিয় করা যেতে পারে"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "আউটপুট সাফ করা হয়েছে৷\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "কাস্টম কমান্ড পরিচালনা করতে ম্যানেজার টিপুন"
 
 msgid "Ready"
-msgstr ""
+msgstr "প্রস্তুত"
 
 msgid "Run"
-msgstr ""
+msgstr "চালান"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 এ টেলনেট/শেল কমান্ড চালান"
 
 msgid "Save"
-msgstr ""
+msgstr "সংরক্ষণ করুন"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "ত্রুটি সংরক্ষণ করুন: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s এ সংরক্ষণ করা হয়েছে"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "একটি ডিবাগ কমান্ড নির্বাচন করুন এবং রান টিপুন"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "লগ দেখান"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "অক্ষম টগল করুন"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "মোট: %d কমান্ড (পূর্বনির্ধারিত: %d, কাস্টম: %d, নিষ্ক্রিয়: %d)"

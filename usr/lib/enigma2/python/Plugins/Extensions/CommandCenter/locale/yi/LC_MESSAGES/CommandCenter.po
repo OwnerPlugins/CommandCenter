@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "לייג מנהג"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "צוריק"
 
 msgid "Clear"
-msgstr ""
+msgstr "קלאָר"
 
 msgid "Close"
-msgstr ""
+msgstr "נאָענט"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "באַפֿעלן צענטער - טעלנעט/שעל פּלוגין וו.%s - דורך Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "באַפֿעלן צענטער וו.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "באַפֿעל פאַרטיק (קאָד %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "באַשטעטיקן דיבאַג באַפֿעל"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "דיבוג קלאָץ: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "ויסמעקן קלאָץ"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "ויסמעקן / דיסייבאַל"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "אויסגעמעקט: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "רעדאַגירן"
 
 msgid "Edit command"
-msgstr ""
+msgstr "רעדאַגירן באַפֿעל"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "רעדאַגירן באַפֿעל (אָריגינעל: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "רעדאַגירן באַשרייַבונג"
 
 msgid "Enter command"
-msgstr ""
+msgstr "אַרייַן באַפֿעל"
 
 msgid "Enter description"
-msgstr ""
+msgstr "אַרייַן באַשרייַבונג"
 
 msgid "Error Only"
-msgstr ""
+msgstr "בלויז טעות"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "טעות אויסמעקן: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "טעות אין לייענען קלאָץ: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "דורכפירונג טעות"
 
 msgid "Exit"
-msgstr ""
+msgstr "אַרויסגאַנג"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "ניט געקענט אָנהייבן באַפֿעלן.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "גאַנץ קלאָץ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "באַהאַלטן לאָגס"
 
 msgid "Info"
-msgstr ""
+msgstr "אינפֿאָרמאַציע"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "קלאָץ טעקעס געפֿונען: %d | דרוק אינפֿאָרמאַציע פֿאַר ווייַזן"
 
 msgid "Manager"
-msgstr ""
+msgstr "פאַרוואַלטער"
 
 msgid "No command selected"
-msgstr ""
+msgstr "קיין באַפֿעל אויסגעקליבן"
 
 msgid "No output to save"
-msgstr ""
+msgstr "קיין רעזולטאַט צו ראַטעווען"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "קיין ספּעציפיש טעות שפּור געפֿונען אין קלאָץ"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "בלויז פּרעדעפינעד קאַמאַנדז קענען זיין פאַרקריפּלט / ענייבאַלד"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "רעזולטאַט אויסגעמעקט.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "דרוק מאַנאַגער צו פירן מנהג קאַמאַנדז"
 
 msgid "Ready"
-msgstr ""
+msgstr "גרייט"
 
 msgid "Run"
-msgstr ""
+msgstr "לויפן"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "לויפן טעלנעט / שאָל קאַמאַנדז אויף Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "היט"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "היט טעות: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "געראטעוועט אין %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "אויסקלייַבן אַ דיבאַג באַפֿעל און דריקן לויפן"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "ווייַזן לאָגס"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "באַשטימען דיסאַבלע"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "גאַנץ: %d קאַמאַנדז (פּרעדעפינעד: %d, מנהג: %d, פאַרקריפּלט: %d)"

@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Přidat vlastní"
 
 msgid "Back"
-msgstr ""
+msgstr "Zadní"
 
 msgid "Clear"
-msgstr ""
+msgstr "Jasný"
 
 msgid "Close"
-msgstr ""
+msgstr "Blízko"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell Plugin v.%s - od Lululla."
 
 msgid "Command Center v.%s"
 msgstr ""
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Příkaz dokončen (kód %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Potvrďte příkaz Debug"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Protokol ladění: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Smazat protokol"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Smazat/Zakázat"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Smazáno: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Upravit"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Upravit příkaz"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Upravit příkaz (původní: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Upravit popis"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Zadejte příkaz"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Zadejte popis"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Pouze chyba"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Chyba při mazání: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Chyba při čtení protokolu: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Chyba provedení"
 
 msgid "Exit"
-msgstr ""
+msgstr "Výstup"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Spuštění příkazu se nezdařilo.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Celý protokol"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Skrýt protokoly"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Nalezené soubory protokolu: %d | Stiskněte Info pro zobrazení"
 
 msgid "Manager"
-msgstr ""
+msgstr "Manažer"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Nebyl vybrán žádný příkaz"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Žádný výstup k uložení"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "V protokolu nebyla nalezena žádná konkrétní chyba"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Zakázat/povolit lze pouze předdefinované příkazy"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Výstup byl vymazán.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Chcete-li spravovat vlastní příkazy, stiskněte Správce"
 
 msgid "Ready"
-msgstr ""
+msgstr "Připraveno"
 
 msgid "Run"
-msgstr ""
+msgstr "Běh"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Spusťte příkazy telnet/shell na Enigmě2"
 
 msgid "Save"
-msgstr ""
+msgstr "Uložit"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Chyba ukládání: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Uloženo do %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Vyberte příkaz ladění a stiskněte Spustit"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Zobrazit protokoly"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Přepnout Zakázat"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Celkem: %d příkazy (předdefinované: %d, Vlastní: %d, Zakázáno: %d)"

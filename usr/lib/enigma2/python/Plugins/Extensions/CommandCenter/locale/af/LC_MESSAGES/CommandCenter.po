@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Voeg pasgemaakte by"
 
 msgid "Back"
-msgstr ""
+msgstr "Terug"
 
 msgid "Clear"
-msgstr ""
+msgstr "Duidelik"
 
 msgid "Close"
-msgstr ""
+msgstr "Maak toe"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Bevelsentrum - Telnet/Shell-inprop v.%s - deur Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Bevelsentrum v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Opdrag voltooi (kode %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Bevestig ontfoutopdrag"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Ontfoutlogboek: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Vee logboek uit"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Vee uit/deaktiveer"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Gevee: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Wysig"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Wysig opdrag"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Wysig opdrag (oorspronklik: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Wysig beskrywing"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Voer opdrag in"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Voer beskrywing in"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Slegs fout"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Kon nie uitvee nie: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Kon nie logboek lees nie: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Uitvoeringsfout"
 
 msgid "Exit"
-msgstr ""
+msgstr "Verlaat"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Kon nie opdrag begin nie.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Volledige log"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Versteek logs"
 
 msgid "Info"
-msgstr ""
+msgstr "Inligting"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Loglêers gevind: %d | Druk Info vir vertoning"
 
 msgid "Manager"
-msgstr ""
+msgstr "Bestuurder"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Geen opdrag gekies nie"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Geen uitset om te stoor nie"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Geen spesifieke foutspoor in log gevind nie"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Slegs vooraf gedefinieerde opdragte kan gedeaktiveer/geaktiveer word"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Uitvoer is skoongemaak.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Druk Bestuurder om persoonlike opdragte te bestuur"
 
 msgid "Ready"
-msgstr ""
+msgstr "Gereed"
 
 msgid "Run"
-msgstr ""
+msgstr "Hardloop"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Voer telnet/dop-opdragte op Enigma2 uit"
 
 msgid "Save"
-msgstr ""
+msgstr "Stoor"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Stoorfout: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Gestoor na %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Kies 'n ontfoutopdrag en druk Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Wys logs"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Wissel Deaktiveer"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Totaal: %d opdragte (Vooraf gedefinieerde: %d, Pasgemaak: %d, Gedeaktiveer: %d)"

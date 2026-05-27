@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "맞춤 추가"
 
 msgid "Back"
-msgstr ""
+msgstr "뒤쪽에"
 
 msgid "Clear"
-msgstr ""
+msgstr "분명한"
 
 msgid "Close"
-msgstr ""
+msgstr "닫다"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "명령 센터 - Telnet/Shell 플러그인 v.%s - Lululla 제작."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "명령 센터 v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "명령이 완료되었습니다(코드 %d)."
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "디버그 명령 확인"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "디버그 로그: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "로그 삭제"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "삭제/비활성화"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "삭제됨: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "편집하다"
 
 msgid "Edit command"
-msgstr ""
+msgstr "편집 명령"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "편집 명령(원본: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "설명 수정"
 
 msgid "Enter command"
-msgstr ""
+msgstr "명령을 입력하세요"
 
 msgid "Enter description"
-msgstr ""
+msgstr "설명 입력"
 
 msgid "Error Only"
-msgstr ""
+msgstr "오류만"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "삭제 오류: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "로그 읽기 오류: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "실행 오류"
 
 msgid "Exit"
-msgstr ""
+msgstr "출구"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "명령을 시작하지 못했습니다.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "전체 로그"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "로그 숨기기"
 
 msgid "Info"
-msgstr ""
+msgstr "정보"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "발견된 로그 파일: %d | 쇼에 대한 언론 정보"
 
 msgid "Manager"
-msgstr ""
+msgstr "관리자"
 
 msgid "No command selected"
-msgstr ""
+msgstr "선택한 명령이 없습니다."
 
 msgid "No output to save"
-msgstr ""
+msgstr "저장할 출력이 없습니다."
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "로그에서 특정 오류 추적을 찾을 수 없습니다."
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "사전 정의된 명령만 비활성화/활성화할 수 있습니다."
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "출력이 지워졌습니다.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "사용자 정의 명령을 관리하려면 관리자를 누르세요."
 
 msgid "Ready"
-msgstr ""
+msgstr "준비가 된"
 
 msgid "Run"
-msgstr ""
+msgstr "달리다"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2에서 telnet/shell 명령 실행"
 
 msgid "Save"
-msgstr ""
+msgstr "구하다"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "저장 오류: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s에 저장됨"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "디버그 명령을 선택하고 실행을 누릅니다."
 
 msgid "Show Logs"
-msgstr ""
+msgstr "로그 표시"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "비활성화 전환"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "총계: %d개 명령(미리 정의됨: %d, 사용자 정의: %d, 비활성화됨: %d)"

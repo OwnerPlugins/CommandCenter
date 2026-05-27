@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "കസ്റ്റം ചേർക്കുക"
 
 msgid "Back"
-msgstr ""
+msgstr "തിരികെ"
 
 msgid "Clear"
-msgstr ""
+msgstr "ക്ലിയർ"
 
 msgid "Close"
-msgstr ""
+msgstr "അടയ്ക്കുക"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "കമാൻഡ് സെൻ്റർ - ടെൽനെറ്റ്/ഷെൽ പ്ലഗിൻ v.%s - ലുലുല്ലയുടെ."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "കമാൻഡ് സെൻ്റർ v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "കമാൻഡ് പൂർത്തിയായി (കോഡ് %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "ഡീബഗ് കമാൻഡ് സ്ഥിരീകരിക്കുക"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "ഡീബഗ് ലോഗ്: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "ലോഗ് ഇല്ലാതാക്കുക"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "ഇല്ലാതാക്കുക/പ്രവർത്തനരഹിതമാക്കുക"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "ഇല്ലാതാക്കി: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "എഡിറ്റ് ചെയ്യുക"
 
 msgid "Edit command"
-msgstr ""
+msgstr "കമാൻഡ് എഡിറ്റ് ചെയ്യുക"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "കമാൻഡ് എഡിറ്റ് ചെയ്യുക (യഥാർത്ഥം: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "വിവരണം എഡിറ്റ് ചെയ്യുക"
 
 msgid "Enter command"
-msgstr ""
+msgstr "കമാൻഡ് നൽകുക"
 
 msgid "Enter description"
-msgstr ""
+msgstr "വിവരണം നൽകുക"
 
 msgid "Error Only"
-msgstr ""
+msgstr "പിശക് മാത്രം"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "ഇല്ലാതാക്കുന്നതിൽ പിശക്: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "ലോഗ് വായിക്കുന്നതിൽ പിശക്: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "നിർവ്വഹണ പിശക്"
 
 msgid "Exit"
-msgstr ""
+msgstr "പുറത്ത്"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "കമാൻഡ് ആരംഭിക്കുന്നതിൽ പരാജയപ്പെട്ടു.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "പൂർണ്ണ ലോഗ്"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "ലോഗുകൾ മറയ്ക്കുക"
 
 msgid "Info"
-msgstr ""
+msgstr "വിവരം"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "ലോഗ് ഫയലുകൾ കണ്ടെത്തി: %d | കാണിക്കാൻ ഇൻഫോ അമർത്തുക"
 
 msgid "Manager"
-msgstr ""
+msgstr "മാനേജർ"
 
 msgid "No command selected"
-msgstr ""
+msgstr "കമാൻഡ് ഒന്നും തിരഞ്ഞെടുത്തിട്ടില്ല"
 
 msgid "No output to save"
-msgstr ""
+msgstr "സംരക്ഷിക്കാൻ ഔട്ട്പുട്ട് ഇല്ല"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "ലോഗിൽ പ്രത്യേക പിശക് ട്രെയ്‌സ് കണ്ടെത്തിയില്ല"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "മുൻകൂട്ടി നിശ്ചയിച്ചിട്ടുള്ള കമാൻഡുകൾ മാത്രമേ പ്രവർത്തനരഹിതമാക്കാൻ / പ്രവർത്തനക്ഷമമാക്കാൻ കഴിയൂ"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "ഔട്ട്‌പുട്ട് മായ്‌ച്ചു.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "ഇഷ്‌ടാനുസൃത കമാൻഡുകൾ നിയന്ത്രിക്കാൻ മാനേജർ അമർത്തുക"
 
 msgid "Ready"
-msgstr ""
+msgstr "തയ്യാറാണ്"
 
 msgid "Run"
-msgstr ""
+msgstr "ഓടുക"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2-ൽ ടെൽനെറ്റ്/ഷെൽ കമാൻഡുകൾ പ്രവർത്തിപ്പിക്കുക"
 
 msgid "Save"
-msgstr ""
+msgstr "സംരക്ഷിക്കുക"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "പിശക് സംരക്ഷിക്കുക: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s-ലേക്ക് സംരക്ഷിച്ചു"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "ഒരു ഡീബഗ് കമാൻഡ് തിരഞ്ഞെടുത്ത് റൺ അമർത്തുക"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "ലോഗുകൾ കാണിക്കുക"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "ടോഗിൾ പ്രവർത്തനരഹിതമാക്കുക"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "ആകെ: %d കമാൻഡുകൾ (മുൻകൂട്ടി നിശ്ചയിച്ചത്: %d, ഇഷ്‌ടാനുസൃതം: %d, അപ്രാപ്‌തമാക്കിയത്: %d)"

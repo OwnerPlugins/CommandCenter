@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "دودیز اضافه کړئ"
 
 msgid "Back"
-msgstr ""
+msgstr "شاته"
 
 msgid "Clear"
-msgstr ""
+msgstr "روښانه"
 
 msgid "Close"
-msgstr ""
+msgstr "تړل"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "د قوماندې مرکز - ټلنټ/شیل پلگ ان v.%s - د لولولا لخوا."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "د قوماندې مرکز v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "کمانډ بشپړ شو (کوډ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "د ډیبګ کمانډ تایید کړئ"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "ډیبګ لاګ: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "لاګ ړنګ کړئ"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "ړنګول / غیر فعال کړئ"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "ړنګ شوی: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "سمون"
 
 msgid "Edit command"
-msgstr ""
+msgstr "د سمون امر"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "د سمون امر (اصلي: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "توضیحات ترمیم کړئ"
 
 msgid "Enter command"
-msgstr ""
+msgstr "کمانډ دننه کړئ"
 
 msgid "Enter description"
-msgstr ""
+msgstr "توضیحات دننه کړئ"
 
 msgid "Error Only"
-msgstr ""
+msgstr "یوازې تېروتنه"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "په ړنګولو کې تېروتنه: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "د لاګ په لوستلو کې تېروتنه: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "د اجرا کولو تېروتنه"
 
 msgid "Exit"
-msgstr ""
+msgstr "وتل"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "د کمانډ په پیل کولو کې پاتې راغلی.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "بشپړ ننوتل"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "لوګو پټ کړئ"
 
 msgid "Info"
-msgstr ""
+msgstr "معلومات"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "د ننوتلو فایلونه وموندل شول: %d | د ښودلو لپاره معلومات فشار ورکړئ"
 
 msgid "Manager"
-msgstr ""
+msgstr "مدیر"
 
 msgid "No command selected"
-msgstr ""
+msgstr "هیڅ کمانډ نه دی ټاکل شوی"
 
 msgid "No output to save"
-msgstr ""
+msgstr "د خوندي کولو لپاره هیڅ محصول نشته"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "په لاګ کې کومه ځانګړې تېروتنه ونه موندل شوه"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "یوازې مخکې ټاکل شوي حکمونه غیر فعال / فعال کیدی شي"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "محصول پاک شوی.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "د دودیز حکمونو اداره کولو لپاره مدیر فشار ورکړئ"
 
 msgid "Ready"
-msgstr ""
+msgstr "چمتو"
 
 msgid "Run"
-msgstr ""
+msgstr "منډه کړه"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "په Enigma2 کې د ټیلنټ/شیل کمانډونه چل کړئ"
 
 msgid "Save"
-msgstr ""
+msgstr "خوندي کړئ"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "د خوندي کولو تېروتنه: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "په %s کې خوندي شوی"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "د ډیبګ کمانډ غوره کړئ او د چلولو فشار ورکړئ"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "لوګو ښکاره کړئ"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "غیر فعال کړئ"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "ټول: %d کمانډونه (مخکینی تعریف شوی: %d، ګمرک: %d، غیر فعال شوی: %d)"

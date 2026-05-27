@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Egyéni hozzáadása"
 
 msgid "Back"
-msgstr ""
+msgstr "Vissza"
 
 msgid "Clear"
-msgstr ""
+msgstr "Világos"
 
 msgid "Close"
-msgstr ""
+msgstr "Közeli"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Parancsközpont – Telnet/Shell Plugin v.%s – Lululla."
 
 msgid "Command Center v.%s"
 msgstr ""
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "A parancs kész (kód %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Erősítse meg a Debug parancsot"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Hibakeresési napló: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Napló törlése"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Törlés/Letiltás"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Törölve: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Szerkesztési parancs"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Szerkesztési parancs (eredeti: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Leírás szerkesztése"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Írja be a parancsot"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Írja be a leírást"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Csak hiba"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Hiba a törléskor: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Hiba a napló olvasásakor: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Végrehajtási hiba"
 
 msgid "Exit"
-msgstr ""
+msgstr "Kijárat"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Nem sikerült elindítani a parancsot.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Teljes napló"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Naplók elrejtése"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Talált naplófájlok: %d | Nyomja meg az Info gombot a műsorhoz"
 
 msgid "Manager"
-msgstr ""
+msgstr "Menedzser"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Nincs parancs kiválasztva"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Nincs menthető kimenet"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Nem található konkrét hibanyom a naplóban"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Csak előre meghatározott parancsok tilthatók/engedélyezhetők"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Kimenet törölve.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Nyomja meg a Kezelő gombot az egyéni parancsok kezeléséhez"
 
 msgid "Ready"
-msgstr ""
+msgstr "Kész"
 
 msgid "Run"
-msgstr ""
+msgstr "Fut"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Futtassa a telnet/shell parancsokat az Enigma2-n"
 
 msgid "Save"
-msgstr ""
+msgstr "Megtakarítás"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Mentési hiba: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Mentve ide: %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Válasszon ki egy hibakeresési parancsot, és nyomja meg a Futtatás gombot"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Naplók megjelenítése"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Kapcsolja ki a Letiltást"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Összesen: %d parancs (előre definiált: %d, egyéni: %d, letiltva: %d)"

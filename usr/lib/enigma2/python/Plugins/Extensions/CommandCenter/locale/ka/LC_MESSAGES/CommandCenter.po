@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "საბაჟო დამატება"
 
 msgid "Back"
-msgstr ""
+msgstr "უკან"
 
 msgid "Clear"
-msgstr ""
+msgstr "წმინდა"
 
 msgid "Close"
-msgstr ""
+msgstr "დახურვა"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell Plugin v.%s - მიერ Lululla."
 
 msgid "Command Center v.%s"
 msgstr ""
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "ბრძანება დასრულდა (კოდი %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "დაადასტურეთ გამართვის ბრძანება"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "გამართვის ჟურნალი: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "ჟურნალის წაშლა"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "წაშლა/გამორთვა"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "წაშლილია: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "რედაქტირება"
 
 msgid "Edit command"
-msgstr ""
+msgstr "რედაქტირების ბრძანება"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "რედაქტირების ბრძანება (ორიგინალი: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "აღწერილობის რედაქტირება"
 
 msgid "Enter command"
-msgstr ""
+msgstr "შეიყვანეთ ბრძანება"
 
 msgid "Enter description"
-msgstr ""
+msgstr "შეიყვანეთ აღწერა"
 
 msgid "Error Only"
-msgstr ""
+msgstr "მხოლოდ შეცდომა"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "შეცდომა წაშლისას: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "შეცდომა ჟურნალის წაკითხვისას: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "შესრულების შეცდომა"
 
 msgid "Exit"
-msgstr ""
+msgstr "გასვლა"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "ბრძანების დაწყება ვერ მოხერხდა.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "სრული ჟურნალი"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "ჟურნალების დამალვა"
 
 msgid "Info"
-msgstr ""
+msgstr "ინფორმაცია"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "ნაპოვნია ჟურნალის ფაილები: %d | დააჭირეთ ინფორმაციას შოუსთვის"
 
 msgid "Manager"
-msgstr ""
+msgstr "მენეჯერი"
 
 msgid "No command selected"
-msgstr ""
+msgstr "არ არის არჩეული ბრძანება"
 
 msgid "No output to save"
-msgstr ""
+msgstr "გამოსავალი არ არის შესანახი"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "ჟურნალში კონკრეტული შეცდომის კვალი ვერ მოიძებნა"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "შესაძლებელია მხოლოდ წინასწარ განსაზღვრული ბრძანებების გამორთვა/ჩართვა"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "გამომავალი წაშლილია.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "დააჭირეთ მენეჯერს მორგებული ბრძანებების სამართავად"
 
 msgid "Ready"
-msgstr ""
+msgstr "მზადაა"
 
 msgid "Run"
-msgstr ""
+msgstr "გაიქეცი"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "გაუშვით telnet/shell ბრძანებები Enigma2-ზე"
 
 msgid "Save"
-msgstr ""
+msgstr "შენახვა"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "შენახვის შეცდომა: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "შენახულია %s-ში"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "აირჩიეთ გამართვის ბრძანება და დააჭირეთ Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "ჟურნალების ჩვენება"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "ჩართეთ გამორთვა"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "სულ: %d ბრძანება (წინასწარ განსაზღვრული: %d, მორგებული: %d, გამორთული: %d)"

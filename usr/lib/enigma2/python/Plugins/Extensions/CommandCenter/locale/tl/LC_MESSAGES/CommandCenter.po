@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Magdagdag ng Custom"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Bumalik"
 
 msgid "Clear"
-msgstr ""
+msgstr "Maaliwalas"
 
 msgid "Close"
-msgstr ""
+msgstr "Isara"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell Plugin v.%s - ni Lululla."
 
 msgid "Command Center v.%s"
 msgstr ""
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Tapos na ang command (code %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Kumpirmahin ang Debug Command"
 
 msgid "Debug Log: %s"
 msgstr ""
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Tanggalin ang Log"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Tanggalin/Huwag paganahin"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Tinanggal: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "I-edit"
 
 msgid "Edit command"
-msgstr ""
+msgstr "I-edit ang utos"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "I-edit ang command (orihinal: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "I-edit ang paglalarawan"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Ipasok ang utos"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Ipasok ang paglalarawan"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Error Lang"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Error sa pagtanggal: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Error sa pagbabasa ng log: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Error sa pagpapatupad"
 
 msgid "Exit"
-msgstr ""
+msgstr "Lumabas"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Nabigong simulan ang utos.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Buong Log"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Itago ang Mga Log"
 
 msgid "Info"
-msgstr ""
+msgstr "Impormasyon"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Nakita ang mga log file: %d | Pindutin ang Info para ipakita"
 
 msgid "Manager"
 msgstr ""
 
 msgid "No command selected"
-msgstr ""
+msgstr "Walang napiling command"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Walang output na i-save"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Walang nakitang partikular na bakas ng error sa log"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Ang mga paunang natukoy na command lamang ang maaaring i-disable/i-enable"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Na-clear ang output.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Pindutin ang Manager para pamahalaan ang mga custom na command"
 
 msgid "Ready"
-msgstr ""
+msgstr "handa na"
 
 msgid "Run"
-msgstr ""
+msgstr "Takbo"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Patakbuhin ang mga utos ng telnet/shell sa Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "I-save"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Error sa pag-save: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Na-save sa %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Pumili ng debug command at pindutin ang Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Ipakita ang mga Log"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "I-toggle ang I-disable"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Kabuuan: %d command (Predefined: %d, Custom: %d, Disabled: %d)"

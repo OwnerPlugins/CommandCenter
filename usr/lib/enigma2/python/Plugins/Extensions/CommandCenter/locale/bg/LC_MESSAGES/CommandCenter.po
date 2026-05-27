@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Добавяне по избор"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "Clear"
-msgstr ""
+msgstr "ясно"
 
 msgid "Close"
-msgstr ""
+msgstr "затвори"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Команден център - Telnet/Shell Plugin v.%s - от Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Команден център v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Командата завършена (код %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Потвърдете командата за отстраняване на грешки"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Дневник за отстраняване на грешки: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Изтриване на дневник"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Изтриване/Деактивиране"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Изтрито: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Редактиране"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Команда за редактиране"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Команда за редактиране (оригинал: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Редактиране на описанието"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Въведете команда"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Въведете описание"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Само грешка"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Грешка при изтриването: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Грешка при четене на дневника: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Грешка при изпълнение"
 
 msgid "Exit"
-msgstr ""
+msgstr "Изход"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Неуспешно стартиране на командата.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Пълен дневник"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Скриване на регистрационни файлове"
 
 msgid "Info"
-msgstr ""
+msgstr "Информация"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Намерени регистрационни файлове: %d | Натиснете Информация за показване"
 
 msgid "Manager"
-msgstr ""
+msgstr "Управител"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Няма избрана команда"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Няма изход за запазване"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "В регистрационния файл не е открита конкретна следа за грешка"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Само предварително зададени команди могат да бъдат деактивирани/активирани"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Изходът е изчистен.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Натиснете Мениджър, за да управлявате персонализирани команди"
 
 msgid "Ready"
-msgstr ""
+msgstr "Готови"
 
 msgid "Run"
-msgstr ""
+msgstr "Бягай"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Изпълнете telnet/shell команди на Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Запазване"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Грешка при запазване: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Запазено в %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Изберете команда за отстраняване на грешки и натиснете Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Показване на регистрационни файлове"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Превключете Деактивиране"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Общо: %d команди (Предварително зададени: %d, Персонализирани: %d, Забранени: %d)"

@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Custom өстәү"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Кире"
 
 msgid "Clear"
-msgstr ""
+msgstr "Чиста"
 
 msgid "Close"
-msgstr ""
+msgstr "Ябу"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Команда үзәге - Telnet / Shell Plugin v.% S - Лулулла тарафыннан."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Команда үзәге% s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Команда тәмамланды (% d коды)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Чишү командасын раслагыз"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Чишү журналы:% s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Бүрәнәне бетерү"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Бетерү / Сүндерү"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Бетерелгән:% s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Редакцияләү"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Команда үзгәртү"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Команданы үзгәртү (оригиналь:% s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Тасвирламаны үзгәртү"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Команда кертегез"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Тасвирлама кертегез"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Хата гына"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Бетерү хата:% s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Уку журналында хата:% s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Башкару хата"
 
 msgid "Exit"
-msgstr ""
+msgstr "Чык"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Команда башлый алмады. \ N."
 
 msgid "Full Log"
-msgstr ""
+msgstr "Тулы журнал"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Бүрәнәләрне яшерегез"
 
 msgid "Info"
-msgstr ""
+msgstr "Мәгълүмат"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Табылган файллар:% d | Шоу өчен Информациягә басыгыз"
 
 msgid "Manager"
-msgstr ""
+msgstr "Менеджер"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Команда сайланмады"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Сакларга чыгу юк"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Бүрәнәдә махсус хата эзе табылмады"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Алдан билгеләнгән боерыклар гына сүндерелергә / кушылырга мөмкин"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Чыгарылды. \ N."
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Заказлы боерыклар белән идарә итү өчен менеджер басыгыз"
 
 msgid "Ready"
-msgstr ""
+msgstr "Әзер"
 
 msgid "Run"
-msgstr ""
+msgstr "Йөгер"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2-та телнет / кабель командаларын эшләгез"
 
 msgid "Save"
-msgstr ""
+msgstr "Саклагыз"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Хатаны саклагыз:% s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "% S сакланган"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Чишү командасын сайлагыз һәм Run төймәсенә басыгыз"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Бүрәнәләрне күрсәт"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Сүндерү"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Барлыгы:% d боерыклары (Алдан билгеләнгән:% d, Клиент:% d, Инвалид:% d)"

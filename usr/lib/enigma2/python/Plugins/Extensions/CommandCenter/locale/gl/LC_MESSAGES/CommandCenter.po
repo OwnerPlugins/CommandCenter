@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Engadir personalizado"
 
 msgid "Back"
-msgstr ""
+msgstr "De volta"
 
 msgid "Clear"
-msgstr ""
+msgstr "Limpar"
 
 msgid "Close"
-msgstr ""
+msgstr "Pechar"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Centro de comandos - Complemento Telnet/Shell v.%s - de Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Centro de comandos v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Comando rematado (código %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Confirme o comando de depuración"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Rexistro de depuración: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Eliminar rexistro"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Eliminar/Desactivar"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Eliminado: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Comando de edición"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Comando de edición (orixinal: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Editar descrición"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Introduza o comando"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Introduce unha descrición"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Só erro"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Erro ao eliminar: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Erro ao ler o rexistro: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Erro de execución"
 
 msgid "Exit"
-msgstr ""
+msgstr "Saír"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Produciuse un erro ao iniciar o comando.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Rexistro completo"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Ocultar rexistros"
 
 msgid "Info"
-msgstr ""
+msgstr "Información"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Atopáronse ficheiros de rexistro: %d | Preme Información para mostrar"
 
 msgid "Manager"
-msgstr ""
+msgstr "Xerente"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Non se seleccionou ningún comando"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Non hai saída que gardar"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Non se atopou ningún rastro de erro específico no rexistro"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Só se poden desactivar/activar os comandos predefinidos"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Borrouse a saída.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Preme Xestor para xestionar comandos personalizados"
 
 msgid "Ready"
-msgstr ""
+msgstr "Listo"
 
 msgid "Run"
-msgstr ""
+msgstr "Corre"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Execute comandos telnet/shell en Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Gardar"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Erro de gardar: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Gardado en %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Seleccione un comando de depuración e prema Executar"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Mostrar rexistros"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Alternar Desactivar"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Total: %d comandos (predefinidos: %d, personalizados: %d, desactivados: %d)"

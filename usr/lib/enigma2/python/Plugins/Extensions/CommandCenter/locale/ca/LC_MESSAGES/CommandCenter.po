@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Afegeix personalitzat"
 
 msgid "Back"
-msgstr ""
+msgstr "Enrere"
 
 msgid "Clear"
-msgstr ""
+msgstr "Clar"
 
 msgid "Close"
-msgstr ""
+msgstr "Tancar"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Centre de comandaments - Connector Telnet/Shell v.%s - de Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Centre de comandaments v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Comandament acabada (codi %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Confirmeu l'ordre de depuració"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Registre de depuració: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Suprimeix el registre"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Suprimeix/Desactiva"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Suprimit: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Edita"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Edita l'ordre"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Edita l'ordre (original: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Edita la descripció"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Introduïu l'ordre"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Introduïu la descripció"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Només error"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Error en suprimir: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Error en llegir el registre: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Error d'execució"
 
 msgid "Exit"
-msgstr ""
+msgstr "Sortida"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "No s'ha pogut iniciar l'ordre.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Registre complet"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Amaga els registres"
 
 msgid "Info"
-msgstr ""
+msgstr "Informació"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "S'han trobat fitxers de registre: %d | Premeu Informació per al programa"
 
 msgid "Manager"
-msgstr ""
+msgstr "Gestor"
 
 msgid "No command selected"
-msgstr ""
+msgstr "No s'ha seleccionat cap comanda"
 
 msgid "No output to save"
-msgstr ""
+msgstr "No hi ha sortida per desar"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "No s'ha trobat cap rastre d'error específic al registre"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Només es poden desactivar/activar les ordres predefinides"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Sortida esborrada.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Premeu Gestor per gestionar les ordres personalitzades"
 
 msgid "Ready"
-msgstr ""
+msgstr "A punt"
 
 msgid "Run"
-msgstr ""
+msgstr "Corre"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Executeu ordres telnet/shell a Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Desa"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Error de desar: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Desat a %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Seleccioneu una ordre de depuració i premeu Executar"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Mostra els registres"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Activa o desactiva"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Total: %d ordres (predefinides: %d, personalitzades: %d, desactivades: %d)"

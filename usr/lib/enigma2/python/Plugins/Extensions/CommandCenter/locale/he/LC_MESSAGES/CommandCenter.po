@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "הוסף מותאם אישית"
 
 msgid "Back"
-msgstr ""
+msgstr "בְּחֲזָרָה"
 
 msgid "Clear"
-msgstr ""
+msgstr "בָּרוּר"
 
 msgid "Close"
-msgstr ""
+msgstr "לִסְגוֹר"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "מרכז הפיקוד - Telnet/Shell Plugin v.%s - מאת Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "מרכז הפיקוד v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "הפקודה הסתיימה (קוד %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "אשר את פקודת ניפוי באגים"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "יומן ניפוי באגים: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "מחק יומן"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "מחק/השבת"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "נמחק: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "לַעֲרוֹך"
 
 msgid "Edit command"
-msgstr ""
+msgstr "ערוך פקודה"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "פקודת ערוך (מקורי: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "ערוך תיאור"
 
 msgid "Enter command"
-msgstr ""
+msgstr "הזן פקודה"
 
 msgid "Enter description"
-msgstr ""
+msgstr "הזן תיאור"
 
 msgid "Error Only"
-msgstr ""
+msgstr "שגיאה בלבד"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "שגיאה במחיקת: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "שגיאה בקריאת יומן: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "שגיאת ביצוע"
 
 msgid "Exit"
-msgstr ""
+msgstr "יְצִיאָה"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "הפעלת הפקודה נכשלה.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "יומן מלא"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "הסתר יומנים"
 
 msgid "Info"
-msgstr ""
+msgstr "מידע"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "נמצאו קבצי יומן: %d | לחץ על מידע להצגה"
 
 msgid "Manager"
-msgstr ""
+msgstr "מְנַהֵל"
 
 msgid "No command selected"
-msgstr ""
+msgstr "לא נבחרה פקודה"
 
 msgid "No output to save"
-msgstr ""
+msgstr "אין פלט לשמירה"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "לא נמצא עקבות שגיאה ספציפית ביומן"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "ניתן להשבית/להפעיל רק פקודות מוגדרות מראש"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "הפלט נוקה.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "הקש על מנהל כדי לנהל פקודות מותאמות אישית"
 
 msgid "Ready"
-msgstr ""
+msgstr "מוּכָן"
 
 msgid "Run"
-msgstr ""
+msgstr "לָרוּץ"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "הפעל פקודות Telnet/Shell ב-Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "לְהַצִיל"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "שגיאת שמירה: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "נשמר ב-%s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "בחר פקודת ניפוי באגים ולחץ על הפעלה"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "הצג יומנים"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "החלף השבת"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "סה"כ: %d פקודות (מוגדרות מראש: %d, מותאמת אישית: %d, מושבתות: %d)"

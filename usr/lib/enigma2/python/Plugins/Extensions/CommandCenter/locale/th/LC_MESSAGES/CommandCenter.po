@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "เพิ่มกำหนดเอง"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "กลับ"
 
 msgid "Clear"
-msgstr ""
+msgstr "ชัดเจน"
 
 msgid "Close"
-msgstr ""
+msgstr "ปิด"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "ศูนย์บัญชาการ - Telnet/Shell Plugin v.%s - โดย Lululla"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "ศูนย์บัญชาการ v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "คำสั่งเสร็จสิ้น (รหัส %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "ยืนยันคำสั่งแก้ไขข้อบกพร่อง"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "บันทึกการแก้ไขข้อบกพร่อง: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "ลบบันทึก"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "ลบ/ปิดการใช้งาน"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "ลบแล้ว: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "แก้ไข"
 
 msgid "Edit command"
-msgstr ""
+msgstr "แก้ไขคำสั่ง"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "แก้ไขคำสั่ง (เดิม: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "แก้ไขคำอธิบาย"
 
 msgid "Enter command"
-msgstr ""
+msgstr "ป้อนคำสั่ง"
 
 msgid "Enter description"
-msgstr ""
+msgstr "ป้อนคำอธิบาย"
 
 msgid "Error Only"
-msgstr ""
+msgstr "ข้อผิดพลาดเท่านั้น"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการลบ: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "เกิดข้อผิดพลาดในการอ่านบันทึก: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "ข้อผิดพลาดในการดำเนินการ"
 
 msgid "Exit"
-msgstr ""
+msgstr "ออก"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "ไม่สามารถเริ่มคำสั่งได้\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "บันทึกแบบเต็ม"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "ซ่อนบันทึก"
 
 msgid "Info"
-msgstr ""
+msgstr "ข้อมูล"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "พบไฟล์บันทึก: %d | กดข้อมูลเพื่อแสดง"
 
 msgid "Manager"
-msgstr ""
+msgstr "ผู้จัดการ"
 
 msgid "No command selected"
-msgstr ""
+msgstr "ไม่ได้เลือกคำสั่ง"
 
 msgid "No output to save"
-msgstr ""
+msgstr "ไม่มีเอาต์พุตที่จะบันทึก"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "ไม่พบการติดตามข้อผิดพลาดเฉพาะในบันทึก"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "เฉพาะคำสั่งที่กำหนดไว้ล่วงหน้าเท่านั้นที่สามารถปิดใช้งาน/เปิดใช้งานได้"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "ล้างเอาต์พุตแล้ว\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "กด Manager เพื่อจัดการคำสั่งที่กำหนดเอง"
 
 msgid "Ready"
-msgstr ""
+msgstr "พร้อม"
 
 msgid "Run"
-msgstr ""
+msgstr "วิ่ง"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "เรียกใช้คำสั่ง telnet/shell บน Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "บันทึก"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "บันทึกข้อผิดพลาด: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "บันทึกไปที่ %s แล้ว"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "เลือกคำสั่งดีบักแล้วกด Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "แสดงบันทึก"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "สลับปิดการใช้งาน"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "ทั้งหมด: คำสั่ง %d (กำหนดไว้ล่วงหน้า: %d, กำหนดเอง: %d, ปิดใช้งาน: %d)"

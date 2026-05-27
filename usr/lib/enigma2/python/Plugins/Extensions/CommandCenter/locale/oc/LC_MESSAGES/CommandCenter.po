@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Apondre personalizat"
 
 msgid "Back"
-msgstr ""
+msgstr "Arrièr"
 
 msgid "Clear"
-msgstr ""
+msgstr "Clar"
 
 msgid "Close"
-msgstr ""
+msgstr "Barrar"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Centre de comandas - Telnet/Shell Plugin v.%s - per Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Centre de comandas v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Comanda acabada (còde %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Confirmar la comanda de desbugatge"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Jornal de desbugatge : %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Suprimir lo jornal"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Suprimir/Desactivar"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Suprimit : %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Modificar"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Comanda de modificacion"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Comanda de modificacion (original : %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Modificar la descripcion"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Picatz la comanda"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Picatz la descripcion"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Error solament"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Error de supression : %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Error de lectura del jornal : %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Error d'execucion"
 
 msgid "Exit"
-msgstr ""
+msgstr "Sortida"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Fracàs al començament de la comanda.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Jornal complet"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Amagar los jornals"
 
 msgid "Info"
-msgstr ""
+msgstr "Informacions"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Fichièrs de jornal trobats : %d | Premsa Info per mostrar"
 
 msgid "Manager"
-msgstr ""
+msgstr "Director"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Cap de comanda seleccionada"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Pas de sortida d'enregistrar"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Cap de traça d'error especifica pas trobada dins lo jornal"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Sonque las comandas predefinidas pòdon èsser desactivadas/activadas"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Sortida escafada.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Quichatz sus Gestionari per gerir las comandas personalizadas"
 
 msgid "Ready"
-msgstr ""
+msgstr "Prèst"
 
 msgid "Run"
-msgstr ""
+msgstr "Córrer"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Executar las comandas telnet/shell sus Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Salvar"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Error d'enregistrament : %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Enregistrat dins %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Seleccionatz una comanda de desbugatge e quichatz sus Executar"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Afichar los jornals"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Desactivar"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Total: %d comandas (Predefinit: %d, Personalizat: %d, Desactivat: %d)"

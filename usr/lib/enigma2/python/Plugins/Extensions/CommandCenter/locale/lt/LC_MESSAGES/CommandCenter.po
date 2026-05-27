@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Pridėti pasirinktinį"
 
 msgid "Back"
-msgstr ""
+msgstr "Atgal"
 
 msgid "Clear"
-msgstr ""
+msgstr "Aišku"
 
 msgid "Close"
-msgstr ""
+msgstr "Uždaryti"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Komandų centras – Telnet/Shell Plugin v.%s – pateikė Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Komandų centras v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Komanda baigta (kodas %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Patvirtinkite derinimo komandą"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Derinimo žurnalas: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Ištrinti žurnalą"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Ištrinti / Išjungti"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Ištrinta: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redaguoti"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Redaguoti komandą"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Redagavimo komanda (originalas: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Redaguoti aprašymą"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Įveskite komandą"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Įveskite aprašymą"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Tik klaida"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Klaida ištrinant: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Klaida skaitant žurnalą: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Vykdymo klaida"
 
 msgid "Exit"
-msgstr ""
+msgstr "Išeiti"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Nepavyko paleisti komandos.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Visas žurnalas"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Slėpti žurnalus"
 
 msgid "Info"
-msgstr ""
+msgstr "Informacija"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Rasti žurnalo failai: %d | Norėdami parodyti, paspauskite Informacija"
 
 msgid "Manager"
-msgstr ""
+msgstr "Vadovas"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Nepasirinkta jokia komanda"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Nėra išvesties, kurią būtų galima išsaugoti"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Žurnale nerasta jokių konkrečių klaidų pėdsakų"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Galima išjungti / įjungti tik iš anksto nustatytas komandas"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Išvestis išvalyta.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Norėdami tvarkyti pasirinktines komandas, paspauskite tvarkytuvė"
 
 msgid "Ready"
-msgstr ""
+msgstr "Paruošta"
 
 msgid "Run"
-msgstr ""
+msgstr "Bėk"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Paleiskite telnet / shell komandas Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Išsaugoti"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Išsaugoti klaida: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Išsaugota %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Pasirinkite derinimo komandą ir paspauskite Vykdyti"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Rodyti žurnalus"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Perjungti Išjungti"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Iš viso: %d komandų (iš anksto nustatyta: %d, tinkinta: %d, išjungta: %d)"

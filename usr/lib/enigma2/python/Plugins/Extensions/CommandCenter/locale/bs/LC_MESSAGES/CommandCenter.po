@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Dodaj Custom"
 
 msgid "Back"
-msgstr ""
+msgstr "Nazad"
 
 msgid "Clear"
-msgstr ""
+msgstr "Jasno"
 
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Komandni centar - Telnet/Shell dodatak v.%s - od Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Komandni centar v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Naredba završena (kôd %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Potvrdite naredbu za otklanjanje grešaka"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Dnevnik otklanjanja grešaka: %s"
 
 msgid "Delete Log"
 msgstr ""
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Izbriši/Onemogući"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Izbrisano: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Uredi naredbu"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Uredi naredbu (izvorno: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Uredi opis"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Unesite komandu"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Unesite opis"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Samo greška"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Greška pri brisanju: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Greška pri čitanju dnevnika: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Greška u izvršenju"
 
 msgid "Exit"
-msgstr ""
+msgstr "Izađi"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Pokretanje komande nije uspjelo.\n"
 
 msgid "Full Log"
 msgstr ""
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Sakrij zapise"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Pronađene datoteke dnevnika: %d | Pritisnite Info za emisiju"
 
 msgid "Manager"
-msgstr ""
+msgstr "Menadžer"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Nije odabrana nijedna naredba"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Nema izlaza za spremanje"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "U dnevniku nije pronađen nikakav specifičan trag greške"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Samo unaprijed definirane komande mogu biti onemogućene/omogućene"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Izlaz je obrisan.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Pritisnite Manager za upravljanje prilagođenim komandama"
 
 msgid "Ready"
-msgstr ""
+msgstr "Spreman"
 
 msgid "Run"
-msgstr ""
+msgstr "Trči"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Pokrenite telnet/shell komande na Enigmi2"
 
 msgid "Save"
-msgstr ""
+msgstr "Sačuvaj"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Greška pri čuvanju: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Sačuvano u %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Odaberite naredbu za otklanjanje grešaka i pritisnite Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Prikaži dnevnike"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Uključi Onemogući"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Ukupno: %d komande (predefinirano: %d, prilagođeno: %d, onemogućeno: %d)"

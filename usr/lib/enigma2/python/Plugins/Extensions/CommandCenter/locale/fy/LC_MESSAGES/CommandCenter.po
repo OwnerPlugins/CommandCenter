@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Oanpaste tafoegje"
 
 msgid "Back"
-msgstr ""
+msgstr "Rêch"
 
 msgid "Clear"
-msgstr ""
+msgstr "Klear"
 
 msgid "Close"
-msgstr ""
+msgstr "Slute"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Kommandosintrum - Telnet/Shell Plugin v.%s - troch Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Kommandosintrum v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Kommando klear (koade %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Befêstigje debugkommando"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Debug-log: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Wiskje Log"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Wiskje / útskeakelje"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Wiske: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Bewurkje"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Kommando bewurkje"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Kommando bewurkje (orizjineel: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Beskriuwing bewurkje"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Kommando ynfiere"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Fier beskriuwing yn"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Allinnich flater"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Flater by it wiskjen: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Flater by it lêzen fan log: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Utfier flater"
 
 msgid "Exit"
-msgstr ""
+msgstr "Útgong"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "It begjinnen fan kommando is mislearre.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Folsleine log"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Ferbergje logs"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Logtriemmen fûn: %d | Druk op Info foar show"
 
 msgid "Manager"
-msgstr ""
+msgstr "Behearder"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Gjin kommando selektearre"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Gjin útfier om te bewarjen"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Gjin spesifike flaterspoar fûn yn log"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Allinich foarôf definieare kommando's kinne wurde útskeakele / ynskeakele"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Utfier wiske.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Druk op Manager om oanpaste kommando's te behearjen"
 
 msgid "Ready"
-msgstr ""
+msgstr "Klear"
 
 msgid "Run"
 msgstr ""
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Run telnet / shell kommando's op Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Rêde"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Bewarje flater: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Opslein yn %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Selektearje in debug kommando en druk op Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Logs sjen litte"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Skeakelje útskeakelje"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Totaal: %d kommando's (foarôf definiearre: %d, Oanpaste: %d, Utskeakele: %d)"

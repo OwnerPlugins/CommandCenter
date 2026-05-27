@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Xweserî lê zêde bike"
 
 msgid "Back"
-msgstr ""
+msgstr "Paş"
 
 msgid "Clear"
-msgstr ""
+msgstr "Zelal"
 
 msgid "Close"
-msgstr ""
+msgstr "Nêzîkî"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Navenda Ferman - Telnet/Plugin Shell v.%s - ji hêla Lululla ve."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Navenda Ferman v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Ferman qediya (kod %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Fermana Debug piştrast bikin"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Têketinê Debug: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Têketinê jêbirin"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Jêbirin/Neçalak bike"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Hat jêbirin: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Weşandin"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Fermana biguherîne"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Fermana biguherîne (orijînal: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Danasîna biguherîne"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Ferman binivîse"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Danasînê binivîse"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Tenê xeletî"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Di jêbirinê de çewtî: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Di xwendina têketinê de çewtî: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Çewtiya darvekirinê"
 
 msgid "Exit"
-msgstr ""
+msgstr "Derî"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Ferman dest pê nekir.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Têketinê tije"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Têketin veşêre"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Pelên têketinê hatin dîtin: %d | Ji bo pêşandanê Agahdariya Çapemeniyê"
 
 msgid "Manager"
-msgstr ""
+msgstr "Rêvebir"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ferman nehat hilbijartin"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Tu encam ji bo xilas"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Di têketinê de şopa xeletiyek taybetî nehat dîtin"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Tenê fermanên pêşwextkirî dikarin bên neçalakkirin/çalakkirin"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Derketin hat paqijkirin.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Gerînendeyê Çapemeniyê ji bo birêvebirina emrên xwerû"
 
 msgid "Ready"
-msgstr ""
+msgstr "Amade"
 
 msgid "Run"
-msgstr ""
+msgstr "Rev"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Fermanên telnet/şêlê li ser Enigma2 bimeşînin"
 
 msgid "Save"
-msgstr ""
+msgstr "Rizgarkirin"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Çewtiya hilanînê: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Li %s hat hilanîn"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Fermanek debugê hilbijêrin û Ran bikin"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Têketin nîşan bide"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Neçalak bike"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Bi tevayî: %d ferman (Pêşî: %d, Xweser: %d, Neçalak: %d)"

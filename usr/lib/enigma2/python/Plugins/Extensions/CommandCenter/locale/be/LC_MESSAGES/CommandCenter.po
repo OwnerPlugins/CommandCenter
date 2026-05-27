@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Дадаць карыстальніцкі"
 
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 msgid "Clear"
-msgstr ""
+msgstr "Ясна"
 
 msgid "Close"
-msgstr ""
+msgstr "Блізка"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Камандны цэнтр - Telnet/Shell Plugin v.%s - ад Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Камандны цэнтр v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Каманда завершана (код %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Пацвердзіце каманду адладкі"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Журнал адладкі: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Выдаліць журнал"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Выдаліць/Адключыць"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Выдалена: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Рэдагаваць"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Каманда рэдагавання"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Каманда рэдагавання (арыгінал: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Рэдагаваць апісанне"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Увядзіце каманду"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Увядзіце апісанне"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Толькі памылка"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Памылка выдалення: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Памылка чытання журнала: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Памылка выканання"
 
 msgid "Exit"
-msgstr ""
+msgstr "Выхад"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Не атрымалася запусціць каманду.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Поўны часопіс"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Схаваць часопісы"
 
 msgid "Info"
-msgstr ""
+msgstr "Інфармацыя"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Знойдзены файлы журналаў: %d | Націсніце Info для паказу"
 
 msgid "Manager"
-msgstr ""
+msgstr "Менеджэр"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ніякая каманда не выбрана"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Няма вываду для захавання"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "У журнале не знойдзена пэўнага следу памылкі"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Толькі загадзя вызначаныя каманды можна адключыць/уключыць"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Вывад ачышчаны.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Націсніце "Дыспетчар", каб кіраваць карыстальніцкімі камандамі"
 
 msgid "Ready"
-msgstr ""
+msgstr "Гатовы"
 
 msgid "Run"
-msgstr ""
+msgstr "Бегчы"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Выканайце каманды telnet/shell на Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Захаваць"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Памылка захавання: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Захавана ў %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Выберыце каманду адладкі і націсніце "Выканаць"."
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Паказаць журналы"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Пераключыць Адключыць"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Усяго: %d каманд (загадзя вызначаны: %d, карыстальніцкі: %d, адключаны: %d)"

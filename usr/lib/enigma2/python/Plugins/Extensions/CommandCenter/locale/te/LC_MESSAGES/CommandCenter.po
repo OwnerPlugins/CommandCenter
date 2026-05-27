@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "కస్టమ్ జోడించండి"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "వెనుకకు"
 
 msgid "Clear"
-msgstr ""
+msgstr "క్లియర్"
 
 msgid "Close"
-msgstr ""
+msgstr "మూసివేయి"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "కమాండ్ సెంటర్ - టెల్నెట్/షెల్ ప్లగిన్ v.%s - లులుల్లా ద్వారా."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "కమాండ్ సెంటర్ v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "ఆదేశం పూర్తయింది (కోడ్ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "డీబగ్ కమాండ్‌ని నిర్ధారించండి"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "డీబగ్ లాగ్: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "లాగ్‌ను తొలగించండి"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "తొలగించు/ఆపివేయి"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "తొలగించబడింది: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "సవరించు"
 
 msgid "Edit command"
-msgstr ""
+msgstr "ఆదేశాన్ని సవరించండి"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "ఆదేశాన్ని సవరించు (అసలు: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "వివరణను సవరించండి"
 
 msgid "Enter command"
-msgstr ""
+msgstr "ఆదేశాన్ని నమోదు చేయండి"
 
 msgid "Enter description"
-msgstr ""
+msgstr "వివరణను నమోదు చేయండి"
 
 msgid "Error Only"
-msgstr ""
+msgstr "లోపం మాత్రమే"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "తొలగించడంలో లోపం: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "లాగ్ చదవడంలో లోపం: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "అమలు లోపం"
 
 msgid "Exit"
-msgstr ""
+msgstr "నిష్క్రమించు"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "ఆదేశాన్ని ప్రారంభించడంలో విఫలమైంది.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "పూర్తి లాగ్"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "లాగ్‌లను దాచండి"
 
 msgid "Info"
-msgstr ""
+msgstr "సమాచారం"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "లాగ్ ఫైల్‌లు కనుగొనబడ్డాయి: %d | ప్రదర్శన కోసం సమాచారాన్ని నొక్కండి"
 
 msgid "Manager"
-msgstr ""
+msgstr "మేనేజర్"
 
 msgid "No command selected"
-msgstr ""
+msgstr "ఆదేశం ఏదీ ఎంచుకోబడలేదు"
 
 msgid "No output to save"
-msgstr ""
+msgstr "సేవ్ చేయడానికి అవుట్‌పుట్ లేదు"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "లాగ్‌లో నిర్దిష్ట లోపం ట్రేస్ కనుగొనబడలేదు"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "ముందే నిర్వచించబడిన ఆదేశాలు మాత్రమే నిలిపివేయబడతాయి/ప్రారంభించబడతాయి"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "అవుట్‌పుట్ క్లియర్ చేయబడింది.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "అనుకూల ఆదేశాలను నిర్వహించడానికి మేనేజర్ నొక్కండి"
 
 msgid "Ready"
-msgstr ""
+msgstr "సిద్ధంగా ఉంది"
 
 msgid "Run"
-msgstr ""
+msgstr "పరుగు"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2పై టెల్నెట్/షెల్ ఆదేశాలను అమలు చేయండి"
 
 msgid "Save"
-msgstr ""
+msgstr "సేవ్ చేయండి"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "సేవ్ ఎర్రర్: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%sకి సేవ్ చేయబడింది"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "డీబగ్ ఆదేశాన్ని ఎంచుకుని, రన్ నొక్కండి"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "లాగ్‌లను చూపించు"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "టోగుల్ డిసేబుల్"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "మొత్తం: %d ఆదేశాలు (ముందే నిర్వచించబడినవి: %d, అనుకూలం: %d, నిలిపివేయబడినవి: %d)"

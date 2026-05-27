@@ -16,7 +16,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Özel Ekle"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -24,133 +24,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Geri"
 
 msgid "Clear"
-msgstr ""
+msgstr "Temizlemek"
 
 msgid "Close"
-msgstr ""
+msgstr "Kapalı"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Komuta Merkezi - Telnet/Shell Eklentisi v.%s - Lululla tarafından."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Komuta Merkezi vs.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Komut tamamlandı (kod %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Hata Ayıklama Komutunu Onayla"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Hata Ayıklama Günlüğü: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Günlüğü Sil"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Sil/Devre Dışı Bırak"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Silindi: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Düzenlemek"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Komutu düzenle"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Düzenleme komutu (orijinal: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Açıklamayı düzenle"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Komutu girin"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Açıklamayı girin"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Yalnızca Hata"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Silinirken hata oluştu: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Günlük okunurken hata oluştu: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Yürütme hatası"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çıkış"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Komut başlatılamadı.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Tam Günlük"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Günlükleri Gizle"
 
 msgid "Info"
-msgstr ""
+msgstr "Bilgi"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Günlük dosyaları bulundu: %d | Gösteri için Bilgi'ye basın"
 
 msgid "Manager"
-msgstr ""
+msgstr "Müdür"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Hiçbir komut seçilmedi"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Kaydedilecek çıktı yok"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Günlükte belirli bir hata izi bulunamadı"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Yalnızca önceden tanımlanmış komutlar devre dışı bırakılabilir/etkinleştirilebilir"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Çıkış temizlendi.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Özel komutları yönetmek için Yönetici'ye basın"
 
 msgid "Ready"
-msgstr ""
+msgstr "Hazır"
 
 msgid "Run"
-msgstr ""
+msgstr "Koşmak"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2'de telnet/shell komutlarını çalıştırın"
 
 msgid "Save"
-msgstr ""
+msgstr "Kaydetmek"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Hatayı kaydet: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s'e kaydedildi"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Bir hata ayıklama komutu seçin ve Çalıştır'a basın"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Günlükleri Göster"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Devre Dışı Bırakmayı Aç/Kapat"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Toplam: %d komut (Ön tanımlı: %d, Özel: %d, Devre Dışı: %d)"

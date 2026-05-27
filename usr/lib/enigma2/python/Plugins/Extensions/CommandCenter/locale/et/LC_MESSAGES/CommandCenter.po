@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Lisa kohandatud"
 
 msgid "Back"
-msgstr ""
+msgstr "Tagasi"
 
 msgid "Clear"
-msgstr ""
+msgstr "Selge"
 
 msgid "Close"
-msgstr ""
+msgstr "Sule"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Käsukeskus – Telneti/Shelli pistikprogramm v.%s – autor Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Käsukeskus v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Käsk lõpetatud (kood %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Kinnitage silumiskäsk"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Silumislogi: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Kustuta logi"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Kustuta/Keela"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Kustutatud: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Muuda"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Redigeerimiskäsk"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Redigeerimiskäsk (originaal: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Muuda kirjeldust"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Sisestage käsk"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Sisesta kirjeldus"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Ainult viga"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Viga kustutamisel: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Viga logi lugemisel: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Täitmise viga"
 
 msgid "Exit"
-msgstr ""
+msgstr "Välju"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Käsu käivitamine ebaõnnestus.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Täielik logi"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Peida logid"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Leitud logifailid: %d | Näituse kuvamiseks vajutage Info"
 
 msgid "Manager"
-msgstr ""
+msgstr "Juht"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ühtegi käsku pole valitud"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Salvestatavat väljundit pole"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Logist konkreetset veajälge ei leitud"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Ainult eelmääratletud käske saab keelata/lubada"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Väljund on kustutatud.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Kohandatud käskude haldamiseks vajutage nuppu Haldur"
 
 msgid "Ready"
-msgstr ""
+msgstr "Valmis"
 
 msgid "Run"
-msgstr ""
+msgstr "Jookse"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Käivitage Enigma2-s telnet/shelli käsud"
 
 msgid "Save"
-msgstr ""
+msgstr "Salvesta"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Salvestusviga: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Salvestatud asukohta %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Valige silumiskäsk ja vajutage Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Kuva logid"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Lülitage Keela"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Kokku: %d käsku (Eelmääratletud: %d, Kohandatud: %d, Keelatud: %d)"

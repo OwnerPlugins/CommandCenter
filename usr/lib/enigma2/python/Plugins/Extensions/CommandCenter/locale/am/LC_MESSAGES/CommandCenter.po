@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "ብጁ ያክሉ"
 
 msgid "Back"
-msgstr ""
+msgstr "ተመለስ"
 
 msgid "Clear"
-msgstr ""
+msgstr "ግልጽ"
 
 msgid "Close"
-msgstr ""
+msgstr "ገጠመ"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "የትእዛዝ ማእከል - Telnet/Shell Plugin v.%s - በሉሉላ።"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "የትእዛዝ ማዕከል v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "ትዕዛዙ አልቋል (ኮድ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "የማረም ትዕዛዙን ያረጋግጡ"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "የማረም ምዝግብ ማስታወሻ፡ %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "ምዝግብን ሰርዝ"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "ሰርዝ/አሰናክል"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "ተሰርዟል፡ %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "አርትዕ"
 
 msgid "Edit command"
-msgstr ""
+msgstr "ትዕዛዙን ያርትዑ"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "ትዕዛዙን ያርትዑ (የመጀመሪያው: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "መግለጫ አርትዕ"
 
 msgid "Enter command"
-msgstr ""
+msgstr "ትዕዛዝ አስገባ"
 
 msgid "Enter description"
-msgstr ""
+msgstr "መግለጫ አስገባ"
 
 msgid "Error Only"
-msgstr ""
+msgstr "ስህተት ብቻ"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "በመሰረዝ ላይ ስህተት፡ %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "የምዝግብ ማስታወሻ ማንበብ ላይ ስህተት: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "የማስፈጸም ስህተት"
 
 msgid "Exit"
-msgstr ""
+msgstr "ውጣ"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "ትእዛዝ መጀመር አልተሳካም።\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "ሙሉ ምዝግብ ማስታወሻ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "ምዝግብ ማስታወሻዎችን ደብቅ"
 
 msgid "Info"
-msgstr ""
+msgstr "መረጃ"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "የምዝግብ ማስታወሻ ፋይሎች ተገኝተዋል፡ %d | ለእይታ መረጃን ይጫኑ"
 
 msgid "Manager"
-msgstr ""
+msgstr "አስተዳዳሪ"
 
 msgid "No command selected"
-msgstr ""
+msgstr "ምንም ትእዛዝ አልተመረጠም።"
 
 msgid "No output to save"
-msgstr ""
+msgstr "ለማስቀመጥ ምንም ውጤት የለም።"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "በምዝግብ ማስታወሻ ውስጥ ምንም የተለየ የስህተት ዱካ አልተገኘም።"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "አስቀድሞ የተገለጹ ትዕዛዞች ብቻ ሊሰናከሉ/ማንቃት ይችላሉ።"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "ውፅዓት ጸድቷል።\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "ብጁ ትዕዛዞችን ለማስተዳደር አስተዳዳሪን ይጫኑ"
 
 msgid "Ready"
-msgstr ""
+msgstr "ዝግጁ"
 
 msgid "Run"
-msgstr ""
+msgstr "ሩጡ"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "በEnigma2 ላይ የቴልኔት/ሼል ትዕዛዞችን ያሂዱ"
 
 msgid "Save"
-msgstr ""
+msgstr "አስቀምጥ"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "ስህተት አስቀምጥ፡ %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "ወደ %s ተቀምጧል"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "የማረም ትዕዛዝ ይምረጡ እና አሂድን ይጫኑ"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "የምዝግብ ማስታወሻዎችን አሳይ"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "አሰናክልን ቀይር"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "ጠቅላላ፡ %d ትዕዛዞች (ቅድመ የተገለጸው፡ %d፣ ብጁ፡ %d፣ ተሰናክሏል፡ %d)"

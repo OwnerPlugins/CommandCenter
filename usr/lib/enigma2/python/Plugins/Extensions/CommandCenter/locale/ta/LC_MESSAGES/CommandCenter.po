@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "விருப்பத்தைச் சேர்க்கவும்"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "மீண்டும்"
 
 msgid "Clear"
-msgstr ""
+msgstr "தெளிவு"
 
 msgid "Close"
-msgstr ""
+msgstr "மூடு"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "கட்டளை மையம் - டெல்நெட்/ஷெல் செருகுநிரல் v.%s - லுலுல்லா மூலம்."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "கட்டளை மையம் v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "கட்டளை முடிந்தது (குறியீடு %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "பிழைத்திருத்த கட்டளையை உறுதிப்படுத்தவும்"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "பிழைத்திருத்தப் பதிவு: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "பதிவை நீக்கு"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "நீக்கு/முடக்கு"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "நீக்கப்பட்டது: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "திருத்தவும்"
 
 msgid "Edit command"
-msgstr ""
+msgstr "கட்டளையைத் திருத்தவும்"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "கட்டளையைத் திருத்து (அசல்: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "விளக்கத்தைத் திருத்தவும்"
 
 msgid "Enter command"
-msgstr ""
+msgstr "கட்டளையை உள்ளிடவும்"
 
 msgid "Enter description"
-msgstr ""
+msgstr "விளக்கத்தை உள்ளிடவும்"
 
 msgid "Error Only"
-msgstr ""
+msgstr "பிழை மட்டும்"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "நீக்குவதில் பிழை: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "பதிவைப் படிப்பதில் பிழை: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "செயல்படுத்துவதில் பிழை"
 
 msgid "Exit"
-msgstr ""
+msgstr "வெளியேறு"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "கட்டளையைத் தொடங்குவதில் தோல்வி.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "முழு பதிவு"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "பதிவுகளை மறை"
 
 msgid "Info"
-msgstr ""
+msgstr "தகவல்"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "பதிவு கோப்புகள் கண்டறியப்பட்டன: %d | நிகழ்ச்சிக்கு தகவல் என்பதை அழுத்தவும்"
 
 msgid "Manager"
-msgstr ""
+msgstr "மேலாளர்"
 
 msgid "No command selected"
-msgstr ""
+msgstr "கட்டளை எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
 
 msgid "No output to save"
-msgstr ""
+msgstr "சேமிக்க வெளியீடு இல்லை"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "பதிவில் குறிப்பிட்ட பிழை தடயம் எதுவும் இல்லை"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "முன் வரையறுக்கப்பட்ட கட்டளைகளை மட்டுமே முடக்க/செயல்படுத்த முடியும்"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "வெளியீடு அழிக்கப்பட்டது.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "தனிப்பயன் கட்டளைகளை நிர்வகிக்க மேலாளரை அழுத்தவும்"
 
 msgid "Ready"
-msgstr ""
+msgstr "தயார்"
 
 msgid "Run"
-msgstr ""
+msgstr "ஓடவும்"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 இல் telnet/shell கட்டளைகளை இயக்கவும்"
 
 msgid "Save"
-msgstr ""
+msgstr "சேமிக்கவும்"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "சேமி பிழை: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s இல் சேமிக்கப்பட்டது"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "பிழைத்திருத்த கட்டளையைத் தேர்ந்தெடுத்து ரன் அழுத்தவும்"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "பதிவுகளைக் காட்டு"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "முடக்கு"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "மொத்தம்: %d கட்டளைகள் (முன் வரையறுக்கப்பட்டவை: %d, தனிப்பயன்: %d, முடக்கப்பட்டது: %d)"

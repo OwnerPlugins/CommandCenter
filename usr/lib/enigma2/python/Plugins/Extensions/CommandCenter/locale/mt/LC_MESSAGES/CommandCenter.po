@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Żid Custom"
 
 msgid "Back"
-msgstr ""
+msgstr "Lura"
 
 msgid "Clear"
-msgstr ""
+msgstr "Ċara"
 
 msgid "Close"
-msgstr ""
+msgstr "Agħlaq"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Ċentru tal-Kmand - Telnet/Shell Plugin v.%s - minn Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Ċentru tal-Kmand v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Kmand lest (kodiċi %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Ikkonferma Kmand tad-Debug"
 
 msgid "Debug Log: %s"
 msgstr ""
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Ħassar Log"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Ħassar / Itfi"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Imħassar: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Editja"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Editja kmand"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Editja kmand (oriġinali: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Editja d-deskrizzjoni"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Daħħal kmand"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Daħħal id-deskrizzjoni"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Żball Biss"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Żball waqt it-tħassir: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Żball fil-qari tar-reġistru: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Żball ta' eżekuzzjoni"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ħruġ"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Naqas milli jibda l-kmand.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Log Sħiħ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Aħbi Zkuk"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Log files misjuba: %d | Agħfas Info għall-ispettaklu"
 
 msgid "Manager"
-msgstr ""
+msgstr "Maniġer"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ebda kmand magħżul"
 
 msgid "No output to save"
-msgstr ""
+msgstr "L-ebda output biex issalva"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "L-ebda traċċa ta' żball speċifika ma nstabet fil-log"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Kmandi predefiniti biss jistgħu jiġu diżattivati/attivati"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Output approvat.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Agħfas il-Maniġer biex timmaniġġja kmandi tad-dwana"
 
 msgid "Ready"
-msgstr ""
+msgstr "Lest"
 
 msgid "Run"
-msgstr ""
+msgstr "Mexxi"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Mexxi l-kmandi tat-telnet/shell fuq Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Ħlief"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Ħlief żball: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Issejvjat f'%s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Agħżel kmand tad-debug u agħfas Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Uri Zkuk"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Toggle Iddiżattiva"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Total: %d kmandi (Predefinit: %d, Custom: %d, Disabled: %d)"

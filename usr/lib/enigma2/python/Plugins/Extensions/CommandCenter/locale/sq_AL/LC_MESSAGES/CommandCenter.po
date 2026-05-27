@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Shto Custom"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Mbrapa"
 
 msgid "Clear"
-msgstr ""
+msgstr "E qartë"
 
 msgid "Close"
-msgstr ""
+msgstr "Mbylle"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Qendra e komandës - Telnet/Shell Plugin v.%s - nga Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Qendra e komandës v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Komanda përfundoi (kodi %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Konfirmo komandën e korrigjimit"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Regjistri i korrigjimit: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Fshi Regjistrin"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Fshi/Çaktivizo"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Fshirë: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redakto"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Redakto komandën"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Komandën e modifikimit (origjinal: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Redakto përshkrimin"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Fut komandën"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Fut përshkrimin"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Vetëm gabim"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Gabim gjatë fshirjes: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Gabim gjatë leximit të regjistrit: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Gabim ekzekutimi"
 
 msgid "Exit"
-msgstr ""
+msgstr "Dilni"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Fillimi i komandës dështoi.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Regjistri i plotë"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Fshih regjistrat"
 
 msgid "Info"
-msgstr ""
+msgstr "Informacion"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Skedarët e regjistrit të gjetur: %d | Shtypni Info për shfaqje"
 
 msgid "Manager"
-msgstr ""
+msgstr "Menaxheri"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Asnjë komandë e zgjedhur"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Nuk ka dalje për të kursyer"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Nuk u gjet asnjë gjurmë specifike e gabimit në regjistër"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Vetëm komandat e paracaktuara mund të çaktivizohen/aktivizohen"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Dalja u fshi.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Shtypni Menaxher për të menaxhuar komandat e personalizuara"
 
 msgid "Ready"
-msgstr ""
+msgstr "Gati"
 
 msgid "Run"
-msgstr ""
+msgstr "Vraponi"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Ekzekutoni komandat telnet/shell në Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Ruaj"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Gabim i ruajtjes: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Ruajtur në %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Zgjidhni një komandë korrigjimi dhe shtypni Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Shfaq regjistrat"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Ndrysho Çaktivizo"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Gjithsej: %d komanda (të paracaktuara: %d, të personalizuara: %d, të çaktivizuara: %d)"

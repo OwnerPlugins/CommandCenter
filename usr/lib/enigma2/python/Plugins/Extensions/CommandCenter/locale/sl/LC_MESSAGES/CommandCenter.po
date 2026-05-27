@@ -16,7 +16,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Dodaj po meri"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -24,133 +24,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Nazaj"
 
 msgid "Clear"
-msgstr ""
+msgstr "jasno"
 
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell Plugin v.%s - avtor Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Ukazni center proti %s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Ukaz končan (koda %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Potrdite ukaz za odpravljanje napak"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Dnevnik odpravljanja napak: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Izbriši dnevnik"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Izbriši/onemogoči"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Izbrisano: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Uredi ukaz"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Uredi ukaz (izvirno: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Uredi opis"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Vnesite ukaz"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Vnesite opis"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Samo napaka"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Napaka pri brisanju: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Napaka pri branju dnevnika: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Napaka pri izvedbi"
 
 msgid "Exit"
-msgstr ""
+msgstr "Izhod"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Zagon ukaza ni uspel.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Celoten dnevnik"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Skrij dnevnike"
 
 msgid "Info"
-msgstr ""
+msgstr "Informacije"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Najdene dnevniške datoteke: %d | Pritisnite Info za prikaz"
 
 msgid "Manager"
-msgstr ""
+msgstr "Vodja"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Ni izbran ukaz"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Ni rezultatov za shranjevanje"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "V dnevniku ni bilo mogoče najti posebne sledi napake"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Onemogočiti/omogočiti je mogoče samo vnaprej določene ukaze"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Izhod počiščen.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Pritisnite Upravitelj za upravljanje ukazov po meri"
 
 msgid "Ready"
-msgstr ""
+msgstr "pripravljena"
 
 msgid "Run"
-msgstr ""
+msgstr "Teči"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Zaženite ukaze telnet/shell na Enigmi2"
 
 msgid "Save"
-msgstr ""
+msgstr "Shrani"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Napaka pri shranjevanju: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Shranjeno v %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Izberite ukaz za odpravljanje napak in pritisnite Zaženi"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Prikaži dnevnike"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Preklop Onemogoči"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Skupaj: %d ukazov (prednastavljeno: %d, po meri: %d, onemogočeno: %d)"

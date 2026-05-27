@@ -16,7 +16,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Lägg till anpassad"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -24,133 +24,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Tillbaka"
 
 msgid "Clear"
-msgstr ""
+msgstr "Rensa"
 
 msgid "Close"
-msgstr ""
+msgstr "Nära"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Kommandocenter - Telnet/Shell Plugin v.%s - av Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Kommandocenter v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Kommandot avslutat (kod %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Bekräfta felsökningskommandot"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Felsökningslogg: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Ta bort logg"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Ta bort/inaktivera"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Raderad: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Redigera kommando"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Redigera kommando (original: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Redigera beskrivning"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Ange kommando"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Ange beskrivning"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Endast fel"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Fel vid borttagning av: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Fel vid läsning av loggen: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Utförandefel"
 
 msgid "Exit"
-msgstr ""
+msgstr "Utgång"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Det gick inte att starta kommandot.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Fullständig logg"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Göm loggar"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Loggfiler hittades: %d | Tryck på Info för visning"
 
 msgid "Manager"
-msgstr ""
+msgstr "Chef"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Inget kommando valt"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Ingen utdata att spara"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Inget specifikt felspår hittades i loggen"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Endast fördefinierade kommandon kan inaktiveras/aktiveras"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Utdata rensades.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Tryck på Manager för att hantera anpassade kommandon"
 
 msgid "Ready"
-msgstr ""
+msgstr "Redo"
 
 msgid "Run"
-msgstr ""
+msgstr "Sikt"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Kör telnet/shell-kommandon på Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Spara fel: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Sparad till %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Välj ett felsökningskommando och tryck på Kör"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Visa loggar"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Växla inaktivera"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Totalt: %d kommandon (Fördefinierade: %d, Anpassad: %d, Inaktiverad: %d)"

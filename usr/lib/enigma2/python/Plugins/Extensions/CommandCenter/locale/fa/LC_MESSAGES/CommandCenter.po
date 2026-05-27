@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "سفارشی اضافه کنید"
 
 msgid "Back"
-msgstr ""
+msgstr "برگشت"
 
 msgid "Clear"
-msgstr ""
+msgstr "پاک کردن"
 
 msgid "Close"
-msgstr ""
+msgstr "بستن"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Plugin Shell v.%s - توسط Lululla."
 
 msgid "Command Center v.%s"
 msgstr ""
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "فرمان تمام شد (کد %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "فرمان Debug را تأیید کنید"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "گزارش اشکال زدایی: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "حذف Log"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "حذف/غیرفعال کردن"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "حذف شده: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "ویرایش کنید"
 
 msgid "Edit command"
-msgstr ""
+msgstr "دستور ویرایش"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "دستور ویرایش (اصلی: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "ویرایش توضیحات"
 
 msgid "Enter command"
-msgstr ""
+msgstr "دستور را وارد کنید"
 
 msgid "Enter description"
-msgstr ""
+msgstr "توضیحات را وارد کنید"
 
 msgid "Error Only"
-msgstr ""
+msgstr "فقط خطا"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "خطا در حذف: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "خطا در خواندن گزارش: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "خطای اجرا"
 
 msgid "Exit"
-msgstr ""
+msgstr "خارج شوید"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "دستور شروع نشد.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "ثبت کامل"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "پنهان کردن گزارش ها"
 
 msgid "Info"
-msgstr ""
+msgstr "اطلاعات"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "فایل های گزارش یافت شد: %d | برای نمایش اطلاعات را فشار دهید"
 
 msgid "Manager"
-msgstr ""
+msgstr "مدیر"
 
 msgid "No command selected"
-msgstr ""
+msgstr "هیچ فرمانی انتخاب نشده است"
 
 msgid "No output to save"
-msgstr ""
+msgstr "خروجی برای ذخیره وجود ندارد"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "هیچ رد خطای خاصی در لاگ یافت نشد"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "فقط دستورات از پیش تعریف شده را می توان غیرفعال/فعال کرد"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "خروجی پاک شد.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "برای مدیریت دستورات سفارشی، Manager را فشار دهید"
 
 msgid "Ready"
-msgstr ""
+msgstr "آماده است"
 
 msgid "Run"
-msgstr ""
+msgstr "اجرا کنید"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "دستورات telnet/shell را روی Enigma2 اجرا کنید"
 
 msgid "Save"
-msgstr ""
+msgstr "ذخیره کنید"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "خطای ذخیره: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "در %s ذخیره شد"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "یک دستور debug را انتخاب کرده و Run را فشار دهید"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "نمایش گزارش‌ها"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "غیرفعال کردن را تغییر دهید"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "کل: %d فرمان (از پیش تعریف شده: %d، سفارشی: %d، غیرفعال: %d)"

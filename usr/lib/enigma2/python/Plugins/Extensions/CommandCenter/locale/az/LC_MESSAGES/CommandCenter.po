@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Xüsusi əlavə edin"
 
 msgid "Back"
-msgstr ""
+msgstr "Geri"
 
 msgid "Clear"
-msgstr ""
+msgstr "Təmiz"
 
 msgid "Close"
-msgstr ""
+msgstr "Bağlayın"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Komanda Mərkəzi - Telnet/Shell Plugin v.%s - Lululla tərəfindən."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Komanda Mərkəzi v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Komanda tamamlandı (kod %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Debug əmrini təsdiqləyin"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Sazlama jurnalı: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Qeydi silin"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Sil/Söndür"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Silindi: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redaktə et"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Redaktə əmri"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Redaktə əmri (orijinal: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Təsviri redaktə edin"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Komanda daxil edin"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Təsvir daxil edin"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Yalnız Xəta"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Silinmə xətası: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Jurnalın oxunması xətası: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "İcra xətası"
 
 msgid "Exit"
-msgstr ""
+msgstr "Çıx"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Komandanı başlatmaq alınmadı.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Tam Qeydiyyat"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Qeydləri gizlədin"
 
 msgid "Info"
-msgstr ""
+msgstr "Məlumat"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Giriş faylları tapıldı: %d | Göstərmək üçün Məlumat düyməsini basın"
 
 msgid "Manager"
-msgstr ""
+msgstr "menecer"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Heç bir komanda seçilməyib"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Saxlamaq üçün çıxış yoxdur"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Jurnalda xüsusi xəta izi tapılmadı"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Yalnız əvvəlcədən təyin edilmiş əmrləri söndürmək/aktiv etmək olar"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Çıxış təmizləndi.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Xüsusi əmrləri idarə etmək üçün Menecer düyməsini basın"
 
 msgid "Ready"
-msgstr ""
+msgstr "Hazır"
 
 msgid "Run"
-msgstr ""
+msgstr "Qaç"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2-də telnet/shell əmrlərini işlədin"
 
 msgid "Save"
-msgstr ""
+msgstr "Saxla"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Saxlama xətası: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s-da yadda saxlanıldı"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Sazlama əmrini seçin və Run düyməsini basın"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Qeydləri göstərin"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Deaktiv et"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Cəmi: %d əmr (Əvvəlcədən təyin edilmiş: %d, Fərdi: %d, Deaktiv: %d)"

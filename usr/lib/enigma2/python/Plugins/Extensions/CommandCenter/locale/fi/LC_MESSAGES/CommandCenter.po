@@ -29,10 +29,10 @@ msgid "Clear"
 msgstr "Tyhjennä"
 
 msgid "Close"
-msgstr ""
+msgstr "Lähellä"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Komentokeskus - Telnet/Shell Plugin v.%s - tekijä Lululla."
 
 #, fuzzy
 msgid "Command Center v.%s"
@@ -42,19 +42,19 @@ msgid "Command finished (code %d)"
 msgstr "Komento valmis (koodi %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Vahvista virheenkorjauskomento"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Virheenkorjausloki: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Poista loki"
 
 msgid "Delete/Disable"
 msgstr "Poista/Kytke pois"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Poistettu: %s"
 
 msgid "Edit"
 msgstr "Muokkaa"
@@ -75,13 +75,13 @@ msgid "Enter description"
 msgstr "Anna kuvaus"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Vain virhe"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Virhe poistettaessa: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Virhe lokin lukemisessa: %s"
 
 msgid "Execution error"
 msgstr "Suoritusvirhe"
@@ -93,16 +93,16 @@ msgid "Failed to start command.\n"
 msgstr "Komennon käynnistys epäonnistui.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Täysi loki"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Piilota lokit"
 
 msgid "Info"
 msgstr "Tiedot"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Löytyi lokitiedostoja: %d | Paina Info saadaksesi esityksen"
 
 msgid "Manager"
 msgstr "Hallinta"
@@ -114,7 +114,7 @@ msgid "No output to save"
 msgstr "Ei tallennettavaa tulostetta"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Loista ei löytynyt erityistä virhejälkeä"
 
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Vain ennalta määritetyt komennot voidaan ottaa käyttöön tai poistaa käytöstä"
@@ -144,10 +144,10 @@ msgid "Saved to %s"
 msgstr "Tallennettu kohteeseen %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Valitse virheenkorjauskomento ja paina Suorita"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Näytä lokit"
 
 msgid "Toggle Disable"
 msgstr "Ota käyttöön / poista käytöstä"

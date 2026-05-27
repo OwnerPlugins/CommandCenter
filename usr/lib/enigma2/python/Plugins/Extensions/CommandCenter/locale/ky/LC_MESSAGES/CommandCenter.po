@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Ыңгайлаштырылган кошуу"
 
 msgid "Back"
-msgstr ""
+msgstr "Артка"
 
 msgid "Clear"
-msgstr ""
+msgstr "Таза"
 
 msgid "Close"
-msgstr ""
+msgstr "Жабуу"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell Plugin v.%s - Lululla тарабынан."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Буйрук борбору v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Буйрук бүттү (код %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Мүчүлүштүктөрдү оңдоо буйругун ырастаңыз"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Мүчүлүштүктөрдү оңдоо журналы: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Журналды жок кылуу"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Өчүрүү/Өчүрүү"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Жок кылынды: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Түзөтүү"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Түзөтүү буйругу"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Түзөтүү буйругу (түп нускасы: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Сүрөттөмөлөрдү түзөтүү"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Буйрук киргизиңиз"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Сүрөттөмөлөрдү киргизиңиз"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Ката гана"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Жок кылуу катасы: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Журналды окуу катасы: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Аткаруу катасы"
 
 msgid "Exit"
-msgstr ""
+msgstr "Чыгыңыз"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Буйрук башталбай калды.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Толук журнал"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Журналдарды жашыруу"
 
 msgid "Info"
-msgstr ""
+msgstr "Маалымат"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Журнал файлдары табылды: %d | Көрсөтүү үчүн Маалыматты басыңыз"
 
 msgid "Manager"
-msgstr ""
+msgstr "менеджер"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Эч кандай буйрук тандалган"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Сактоо үчүн жыйынтык жок"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Журналда кандайдыр бир ката изи табылган жок"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Алдын ала аныкталган буйруктарды гана өчүрүп/ишке келтирсе болот"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Чыгуу тазаланды.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Ыңгайлаштырылган буйруктарды башкаруу үчүн Менеджерди басыңыз"
 
 msgid "Ready"
-msgstr ""
+msgstr "Даяр"
 
 msgid "Run"
-msgstr ""
+msgstr "чурка"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2де telnet/shell буйруктарын иштетиңиз"
 
 msgid "Save"
-msgstr ""
+msgstr "Сактоо"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Сактоо катасы: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%sке сакталды"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Мүчүлүштүктөрдү оңдоо буйругун тандап, Run басыңыз"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Журналдарды көрсөтүү"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Өчүрүү/өчүрүү"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Бардыгы: %d буйрук (Алдын ала аныкталган: %d, Ыңгайлаштырылган: %d, Өчүрүлгөн: %d)"

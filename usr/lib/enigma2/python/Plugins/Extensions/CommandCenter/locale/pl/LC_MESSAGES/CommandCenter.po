@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Dodaj niestandardowe"
 
 msgid "Back"
-msgstr ""
+msgstr "Z powrotem"
 
 msgid "Clear"
-msgstr ""
+msgstr "Jasne"
 
 msgid "Close"
-msgstr ""
+msgstr "Zamknąć"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Centrum poleceń — wtyczka Telnet/Shell v.%s — autorstwa Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Centrum dowodzenia v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Polecenie zakończone (kod %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Potwierdź polecenie debugowania"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Dziennik debugowania: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Usuń dziennik"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Usuń/wyłącz"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Usunięto: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redagować"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Edytuj polecenie"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Polecenie edycji (oryginał: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Edytuj opis"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Wprowadź polecenie"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Wprowadź opis"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Tylko błąd"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Błąd podczas usuwania: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Błąd odczytu dziennika: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Błąd wykonania"
 
 msgid "Exit"
-msgstr ""
+msgstr "Wyjście"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Nie udało się uruchomić polecenia.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Pełny dziennik"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Ukryj dzienniki"
 
 msgid "Info"
-msgstr ""
+msgstr "Informacje"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Znaleziono pliki dziennika: %d | Informacje prasowe o programie"
 
 msgid "Manager"
-msgstr ""
+msgstr "Menedżer"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Nie wybrano żadnego polecenia"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Brak wyników do zapisania"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "W dzienniku nie znaleziono konkretnego śladu błędu"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Można wyłączyć/włączyć tylko predefiniowane polecenia"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Dane wyjściowe zostały usunięte.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Naciśnij Menedżer, aby zarządzać poleceniami niestandardowymi"
 
 msgid "Ready"
-msgstr ""
+msgstr "Gotowy"
 
 msgid "Run"
-msgstr ""
+msgstr "Uruchomić"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Uruchom polecenia telnet/shell na Enigmie2"
 
 msgid "Save"
-msgstr ""
+msgstr "Ratować"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Błąd zapisu: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Zapisano w %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Wybierz polecenie debugowania i naciśnij Uruchom"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Pokaż logi"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Przełącz opcję Wyłącz"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Razem: %d poleceń (predefiniowane: %d, niestandardowe: %d, wyłączone: %d)"

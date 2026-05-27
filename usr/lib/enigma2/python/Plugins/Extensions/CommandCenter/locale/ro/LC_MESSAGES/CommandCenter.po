@@ -16,7 +16,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Adăugați personalizat"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -24,133 +24,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Spate"
 
 msgid "Clear"
-msgstr ""
+msgstr "Clar"
 
 msgid "Close"
-msgstr ""
+msgstr "Aproape"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Command Center - Telnet/Shell Plugin v.%s - de Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Centrul de comandă v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Comanda terminată (cod %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Confirmați comanda de depanare"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Jurnal de depanare: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Ștergeți jurnalul"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Șterge/Dezactivează"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Șters: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Edita"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Comanda Editare"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Comanda de editare (original: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Editați descrierea"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Introdu comanda"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Introduceți descrierea"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Numai eroare"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Eroare la ștergere: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Eroare la citirea jurnalului: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Eroare de execuție"
 
 msgid "Exit"
-msgstr ""
+msgstr "Ieșire"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Nu s-a pornit comanda.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Jurnal complet"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Ascunde jurnalele"
 
 msgid "Info"
 msgstr ""
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Fișiere jurnal găsite: %d | Apăsați pe Info pentru afișare"
 
 msgid "Manager"
 msgstr ""
 
 msgid "No command selected"
-msgstr ""
+msgstr "Nicio comandă selectată"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Nicio ieșire de salvat"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Nu s-a găsit nicio urmă de eroare specifică în jurnal"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Numai comenzile predefinite pot fi dezactivate/activate"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Ieșirea a fost șters.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Apăsați Manager pentru a gestiona comenzile personalizate"
 
 msgid "Ready"
-msgstr ""
+msgstr "Gata"
 
 msgid "Run"
-msgstr ""
+msgstr "Fugi"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Rulați comenzi telnet/shell pe Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Salva"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Eroare de salvare: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Salvat în %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Selectați o comandă de depanare și apăsați Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Afișați jurnalele"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Comutați Dezactivați"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Total: %d comenzi (Predefinite: %d, Personalizate: %d, Dezactivate: %d)"

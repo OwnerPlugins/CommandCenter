@@ -22,136 +22,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "કસ્ટમ ઉમેરો"
 
 msgid "Back"
-msgstr ""
+msgstr "પાછળ"
 
 msgid "Clear"
-msgstr ""
+msgstr "સાફ કરો"
 
 msgid "Close"
-msgstr ""
+msgstr "બંધ કરો"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "કમાન્ડ સેન્ટર - ટેલનેટ/શેલ પ્લગઇન v.%s - લુલુલા દ્વારા."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "કમાન્ડ સેન્ટર v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "આદેશ સમાપ્ત થયો (કોડ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "ડીબગ આદેશની પુષ્ટિ કરો"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "ડીબગ લોગ: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "લોગ કાઢી નાખો"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "કાઢી નાખો/અક્ષમ કરો"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "કાઢી નાખ્યું: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "સંપાદિત કરો"
 
 msgid "Edit command"
-msgstr ""
+msgstr "આદેશ સંપાદિત કરો"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "આદેશ સંપાદિત કરો (મૂળ: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "વર્ણન સંપાદિત કરો"
 
 msgid "Enter command"
-msgstr ""
+msgstr "આદેશ દાખલ કરો"
 
 msgid "Enter description"
-msgstr ""
+msgstr "વર્ણન દાખલ કરો"
 
 msgid "Error Only"
-msgstr ""
+msgstr "ભૂલ માત્ર"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "કાઢી નાખવામાં ભૂલ: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "લોગ વાંચવામાં ભૂલ: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "એક્ઝેક્યુશન ભૂલ"
 
 msgid "Exit"
-msgstr ""
+msgstr "બહાર નીકળો"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "આદેશ શરૂ કરવામાં નિષ્ફળ.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "સંપૂર્ણ લોગ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "લૉગ્સ છુપાવો"
 
 msgid "Info"
-msgstr ""
+msgstr "માહિતી"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "લોગ ફાઇલો મળી: %d | શો માટે માહિતી દબાવો"
 
 msgid "Manager"
-msgstr ""
+msgstr "મેનેજર"
 
 msgid "No command selected"
-msgstr ""
+msgstr "કોઈ આદેશ પસંદ કર્યો નથી"
 
 msgid "No output to save"
-msgstr ""
+msgstr "સાચવવા માટે કોઈ આઉટપુટ નથી"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "લોગમાં કોઈ ચોક્કસ ભૂલ ટ્રેસ મળી નથી"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "ફક્ત પૂર્વવ્યાખ્યાયિત આદેશોને અક્ષમ/સક્ષમ કરી શકાય છે"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "આઉટપુટ સાફ.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "કસ્ટમ આદેશોનું સંચાલન કરવા માટે મેનેજર દબાવો"
 
 msgid "Ready"
-msgstr ""
+msgstr "તૈયાર છે"
 
 msgid "Run"
-msgstr ""
+msgstr "ચલાવો"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 પર ટેલનેટ/શેલ આદેશો ચલાવો"
 
 msgid "Save"
-msgstr ""
+msgstr "સાચવો"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "ભૂલ સાચવો: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s માં સાચવેલ"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "ડીબગ આદેશ પસંદ કરો અને રન દબાવો"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "લૉગ્સ બતાવો"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "ટૉગલ અક્ષમ કરો"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "કુલ: %d આદેશો (પૂર્વવ્યાખ્યાયિત: %d, કસ્ટમ: %d, અક્ષમ: %d)"

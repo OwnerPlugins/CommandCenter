@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Custom نى قوشۇڭ"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "قايتىش"
 
 msgid "Clear"
-msgstr ""
+msgstr "ئېنىق"
 
 msgid "Close"
-msgstr ""
+msgstr "تاقاش"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "قوماندانلىق مەركىزى - Telnet / Shell Plugin v.% S - Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "قوماندانلىق مەركىزى% s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "بۇيرۇق تاماملاندى (كود% d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "ھەل قىلىش بۇيرۇقىنى جەزملەشتۈرۈڭ"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "خاتالىق خاتىرىسى:% s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Log نى ئۆچۈرۈڭ"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "ئۆچۈرۈش / چەكلەش"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "ئۆچۈرۈلدى:% s"
 
 msgid "Edit"
-msgstr ""
+msgstr "تەھرىر"
 
 msgid "Edit command"
-msgstr ""
+msgstr "بۇيرۇقنى تەھرىرلەش"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "بۇيرۇقنى تەھرىرلەش (ئەسلى:% s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "چۈشەندۈرۈشنى تەھرىرلەڭ"
 
 msgid "Enter command"
-msgstr ""
+msgstr "بۇيرۇقنى كىرگۈزۈڭ"
 
 msgid "Enter description"
-msgstr ""
+msgstr "چۈشەندۈرۈش كىرگۈزۈڭ"
 
 msgid "Error Only"
-msgstr ""
+msgstr "پەقەت خاتالىق"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "ئۆچۈرۈش خاتالىقى:% s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "ئوقۇش خاتىرىسىدە خاتالىق:% s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "ئىجرا خاتالىقى"
 
 msgid "Exit"
-msgstr ""
+msgstr "چىقىش"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "بۇيرۇقنى باشلاش مەغلۇب بولدى. \ N."
 
 msgid "Full Log"
-msgstr ""
+msgstr "تولۇق خاتىرە"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "خاتىرىلەرنى يوشۇرۇش"
 
 msgid "Info"
-msgstr ""
+msgstr "ئۇچۇر"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "تېپىلغان خاتىرە ھۆججەتلىرى:% d | كۆرسىتىش ئۈچۈن ئۇچۇرنى بېسىڭ"
 
 msgid "Manager"
-msgstr ""
+msgstr "باشقۇرغۇچى"
 
 msgid "No command selected"
-msgstr ""
+msgstr "ھېچقانداق بۇيرۇق تاللانمىدى"
 
 msgid "No output to save"
-msgstr ""
+msgstr "ساقلىغىلى بولمايدۇ"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "خاتىرىدە ئېنىق خاتالىق ئىزلىرى تېپىلمىدى"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "پەقەت ئالدىن بېكىتىلگەن بۇيرۇقلارنىلا چەكلەشكە / قوزغىتىشقا بولىدۇ"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "چىقىرىۋېتىلدى. \ N."
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "ئىختىيارى بۇيرۇقلارنى باشقۇرۇش ئۈچۈن باشقۇرغۇچنى بېسىڭ"
 
 msgid "Ready"
-msgstr ""
+msgstr "تەييار"
 
 msgid "Run"
-msgstr ""
+msgstr "ئىجرا"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 دا telnet / shell بۇيرۇقلىرىنى ئىجرا قىلىڭ"
 
 msgid "Save"
-msgstr ""
+msgstr "ساقلاش"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "خاتالىقنى ساقلاش:% s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "% S غا ساقلاندى"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "ھەل قىلىش بۇيرۇقىنى تاللاڭ ۋە ئىجرا نى بېسىڭ"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "خاتىرە كۆرسەت"
 
 msgid "Toggle Disable"
 msgstr ""
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "ئومۇمىي:% d بۇيرۇقلىرى (ئالدىن بېكىتىلگەن:% d ، Custom:% d ، چەكلەنگەن:% d)"

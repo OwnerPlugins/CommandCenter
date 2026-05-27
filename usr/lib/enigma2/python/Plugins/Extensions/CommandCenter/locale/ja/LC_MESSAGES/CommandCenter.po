@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "カスタムの追加"
 
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 msgid "Clear"
-msgstr ""
+msgstr "クリア"
 
 msgid "Close"
-msgstr ""
+msgstr "近い"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "コマンド センター - Telnet/Shell プラグイン v.%s - Lululla 作。"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "コマンドセンター対%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "コマンドが終了しました (コード %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "デバッグコマンドの確認"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "デバッグ ログ: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "ログの削除"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "削除/無効化"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "削除されました: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 msgid "Edit command"
-msgstr ""
+msgstr "編集コマンド"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "編集コマンド (オリジナル: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "説明の編集"
 
 msgid "Enter command"
-msgstr ""
+msgstr "コマンドを入力してください"
 
 msgid "Enter description"
-msgstr ""
+msgstr "説明を入力してください"
 
 msgid "Error Only"
-msgstr ""
+msgstr "エラーのみ"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "削除エラー: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "ログの読み取り中にエラーが発生しました: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "実行エラー"
 
 msgid "Exit"
-msgstr ""
+msgstr "出口"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "コマンドの開始に失敗しました。\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "完全なログ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "ログを非表示にする"
 
 msgid "Info"
-msgstr ""
+msgstr "情報"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "見つかったログ ファイル: %d |ショーのプレス情報"
 
 msgid "Manager"
-msgstr ""
+msgstr "マネージャー"
 
 msgid "No command selected"
-msgstr ""
+msgstr "コマンドが選択されていません"
 
 msgid "No output to save"
-msgstr ""
+msgstr "保存する出力がありません"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "ログに特定のエラー トレースが見つかりません"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "事前定義されたコマンドのみを無効化/有効化できます。"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "出力がクリアされました。\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "マネージャーを押してカスタム コマンドを管理します"
 
 msgid "Ready"
-msgstr ""
+msgstr "準備ができて"
 
 msgid "Run"
-msgstr ""
+msgstr "走る"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 で Telnet/シェル コマンドを実行する"
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "保存エラー: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s に保存されました"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "デバッグ コマンドを選択し、「実行」を押します。"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "ログを表示"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "無効に切り替える"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "合計: %d コマンド (事前定義: %d、カスタム: %d、無効: %d)"

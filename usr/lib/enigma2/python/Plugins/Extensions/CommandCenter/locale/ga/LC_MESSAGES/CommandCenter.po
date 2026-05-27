@@ -23,136 +23,136 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Cuir Saincheaptha leis"
 
 msgid "Back"
-msgstr ""
+msgstr "Ar ais"
 
 msgid "Clear"
-msgstr ""
+msgstr "Glan"
 
 msgid "Close"
-msgstr ""
+msgstr "Dún"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Lárionad Ceannais - Breiseán Telnet/Shell v.%s - le Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Lárionad Ordú v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Ordú críochnaithe (cód %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Deimhnigh Ordú Dífhabhtaithe"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Loga Dífhabhtaithe: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Scrios Loga"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Scrios/Díchumasaigh"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Scriosta: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Cuir in eagar"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Cuir ordú in eagar"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Cuir an t-ordú in eagar (bunaidh: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Cuir cur síos in eagar"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Cuir isteach ordú"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Iontráil cur síos"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Earráid amháin"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Earráid agus é ag scriosadh: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Earráid agus an loga á léamh: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Earráid fhorghníomhaithe"
 
 msgid "Exit"
-msgstr ""
+msgstr "Scoir"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Theip ar an ordú a thosú.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Log Iomlán"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Folaigh Logchomhaid"
 
 msgid "Info"
-msgstr ""
+msgstr "Eolas"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Aimsíodh logchomhaid: %d | Brúigh Eolas le haghaidh seó"
 
 msgid "Manager"
-msgstr ""
+msgstr "Bainisteoir"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Níor roghnaíodh aon ordú"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Gan aschur le sábháil"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Níor aimsíodh aon rian earráide ar leith sa loga"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Ní féidir ach orduithe réamhshainithe a dhíchumasú/a chumasú"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Glanadh an t-aschur.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Brúigh Bainisteoir chun orduithe saincheaptha a bhainistiú"
 
 msgid "Ready"
-msgstr ""
+msgstr "Réidh"
 
 msgid "Run"
-msgstr ""
+msgstr "Rith"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Rith orduithe telnet/bhlaosc ar Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Sábháil"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Earráid shábháil: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Sábháilte go %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Roghnaigh ordú dífhabhtaithe agus brúigh Rith"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Taispeáin Logchomhaid"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Scoránaigh Díchumasaigh"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Iomlán: %d orduithe (Réamhshainithe: %d, Saincheaptha: %d, Díchumasaithe: %d)"

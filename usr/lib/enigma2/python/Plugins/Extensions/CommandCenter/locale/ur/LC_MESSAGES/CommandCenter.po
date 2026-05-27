@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "حسب ضرورت شامل کریں۔"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "پیچھے"
 
 msgid "Clear"
-msgstr ""
+msgstr "صاف"
 
 msgid "Close"
-msgstr ""
+msgstr "بند"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "کمانڈ سینٹر - ٹیل نیٹ/شیل پلگ ان v.%s - بذریعہ Lululla۔"
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "کمانڈ سینٹر v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "کمانڈ ختم (کوڈ %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "ڈیبگ کمانڈ کی تصدیق کریں۔"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "ڈیبگ لاگ: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "لاگ حذف کریں۔"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "حذف/غیر فعال کریں۔"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "حذف کر دیا گیا: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "ترمیم کریں۔"
 
 msgid "Edit command"
-msgstr ""
+msgstr "کمانڈ میں ترمیم کریں۔"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "کمانڈ میں ترمیم کریں (اصل: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "تفصیل میں ترمیم کریں۔"
 
 msgid "Enter command"
-msgstr ""
+msgstr "کمانڈ درج کریں۔"
 
 msgid "Enter description"
-msgstr ""
+msgstr "تفصیل درج کریں۔"
 
 msgid "Error Only"
-msgstr ""
+msgstr "غلطی صرف"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "حذف کرنے میں خرابی: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "لاگ پڑھنے میں خرابی: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "پھانسی کی خرابی۔"
 
 msgid "Exit"
-msgstr ""
+msgstr "باہر نکلیں۔"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "کمانڈ شروع کرنے میں ناکام۔\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "مکمل لاگ"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "لاگز چھپائیں۔"
 
 msgid "Info"
-msgstr ""
+msgstr "معلومات"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "لاگ فائلیں ملیں: %d | شو کے لیے معلومات کو دبائیں۔"
 
 msgid "Manager"
-msgstr ""
+msgstr "مینیجر"
 
 msgid "No command selected"
-msgstr ""
+msgstr "کوئی کمانڈ منتخب نہیں کیا گیا۔"
 
 msgid "No output to save"
-msgstr ""
+msgstr "بچانے کے لیے کوئی آؤٹ پٹ نہیں ہے۔"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "لاگ میں کوئی خاص خرابی کا سراغ نہیں ملا"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "صرف پہلے سے طے شدہ کمانڈز کو غیر فعال/فعال کیا جا سکتا ہے۔"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "آؤٹ پٹ صاف ہو گیا۔\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "کسٹم کمانڈز کا نظم کرنے کے لیے مینیجر کو دبائیں۔"
 
 msgid "Ready"
-msgstr ""
+msgstr "تیار"
 
 msgid "Run"
-msgstr ""
+msgstr "دوڑو"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Enigma2 پر ٹیل نیٹ/شیل کمانڈز چلائیں۔"
 
 msgid "Save"
-msgstr ""
+msgstr "محفوظ کریں۔"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "غلطی محفوظ کریں: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "%s میں محفوظ کیا گیا۔"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "ڈیبگ کمانڈ منتخب کریں اور چلائیں کو دبائیں۔"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "لاگز دکھائیں۔"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "غیر فعال ٹوگل کریں۔"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "کل: %d کمانڈز (پہلے سے طے شدہ: %d، حسب ضرورت: %d، غیر فعال: %d)"

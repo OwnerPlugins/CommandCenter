@@ -15,7 +15,7 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Add Custom"
-msgstr ""
+msgstr "Ongeza Custom"
 
 # CommandCenter translations
 # Copyright (C) 2025 Lululla Team
@@ -23,133 +23,133 @@ msgstr ""
 # [lululla] <ekekaz@gmail.com>, 2025.
 #
 msgid "Back"
-msgstr ""
+msgstr "Nyuma"
 
 msgid "Clear"
-msgstr ""
+msgstr "Wazi"
 
 msgid "Close"
-msgstr ""
+msgstr "Funga"
 
 msgid "Command Center - Telnet/Shell Plugin v.%s - by Lululla."
-msgstr ""
+msgstr "Kituo cha Amri - Programu-jalizi ya Telnet/Shell v.%s - na Lululla."
 
 msgid "Command Center v.%s"
-msgstr ""
+msgstr "Kituo cha Amri v.%s"
 
 msgid "Command finished (code %d)"
-msgstr ""
+msgstr "Amri imekamilika (msimbo %d)"
 
 msgid "Confirm Debug Command"
-msgstr ""
+msgstr "Thibitisha Amri ya Utatuzi"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Rekodi ya Utatuzi: %s"
 
 msgid "Delete Log"
-msgstr ""
+msgstr "Futa Kumbukumbu"
 
 msgid "Delete/Disable"
-msgstr ""
+msgstr "Futa/Zimaza"
 
 msgid "Deleted: %s"
-msgstr ""
+msgstr "Imefutwa: %s"
 
 msgid "Edit"
-msgstr ""
+msgstr "Hariri"
 
 msgid "Edit command"
-msgstr ""
+msgstr "Badilisha amri"
 
 msgid "Edit command (original: %s)"
-msgstr ""
+msgstr "Badilisha amri (asili: %s)"
 
 msgid "Edit description"
-msgstr ""
+msgstr "Badilisha maelezo"
 
 msgid "Enter command"
-msgstr ""
+msgstr "Ingiza amri"
 
 msgid "Enter description"
-msgstr ""
+msgstr "Ingiza maelezo"
 
 msgid "Error Only"
-msgstr ""
+msgstr "Hitilafu Pekee"
 
 msgid "Error deleting: %s"
-msgstr ""
+msgstr "Hitilafu katika kufuta: %s"
 
 msgid "Error reading log: %s"
-msgstr ""
+msgstr "Hitilafu ya kusoma kumbukumbu: %s"
 
 msgid "Execution error"
-msgstr ""
+msgstr "Hitilafu ya utekelezaji"
 
 msgid "Exit"
-msgstr ""
+msgstr "Utgång"
 
 msgid "Failed to start command.\n"
-msgstr ""
+msgstr "Imeshindwa kuanzisha amri.\n"
 
 msgid "Full Log"
-msgstr ""
+msgstr "Ingia Kamili"
 
 msgid "Hide Logs"
-msgstr ""
+msgstr "Ficha Kumbukumbu"
 
 msgid "Info"
-msgstr ""
+msgstr "Habari"
 
 msgid "Log files found: %d | Press Info for show"
-msgstr ""
+msgstr "Faili za kumbukumbu zimepatikana: %d | Bonyeza Maelezo kwa onyesho"
 
 msgid "Manager"
-msgstr ""
+msgstr "Meneja"
 
 msgid "No command selected"
-msgstr ""
+msgstr "Hakuna amri iliyochaguliwa"
 
 msgid "No output to save"
-msgstr ""
+msgstr "Hakuna pato la kuhifadhi"
 
 msgid "No specific error trace found in log"
-msgstr ""
+msgstr "Hakuna ufuatiliaji maalum wa hitilafu uliopatikana kwenye kumbukumbu"
 
 msgid "Only predefined commands can be disabled/enabled"
-msgstr ""
+msgstr "Amri zilizobainishwa tu ndizo zinazoweza kulemazwa/kuwashwa"
 
 msgid "Output cleared.\n"
-msgstr ""
+msgstr "Pato limefutwa.\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr ""
+msgstr "Bonyeza Kidhibiti ili kudhibiti amri maalum"
 
 msgid "Ready"
-msgstr ""
+msgstr "Tayari"
 
 msgid "Run"
-msgstr ""
+msgstr "Kimbia"
 
 msgid "Run telnet/shell commands on Enigma2"
-msgstr ""
+msgstr "Endesha amri za telnet/shell kwenye Enigma2"
 
 msgid "Save"
-msgstr ""
+msgstr "Hifadhi"
 
 msgid "Save error: %s"
-msgstr ""
+msgstr "Hitilafu ya kuhifadhi: %s"
 
 msgid "Saved to %s"
-msgstr ""
+msgstr "Imehifadhiwa kwa %s"
 
 msgid "Select a debug command and press Run"
-msgstr ""
+msgstr "Chagua amri ya utatuzi na ubonyeze Run"
 
 msgid "Show Logs"
-msgstr ""
+msgstr "Onyesha Kumbukumbu"
 
 msgid "Toggle Disable"
-msgstr ""
+msgstr "Geuza Zima"
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
-msgstr ""
+msgstr "Jumla: Amri %d (Zilizofafanuliwa awali: %d, Maalum: %d, Zimezimwa: %d)"
