@@ -472,7 +472,8 @@ def update_pot_file(xml_strings, py_strings):
         else:
             f.write(f'# {PLUGIN_NAME} translations\n')
             f.write('# Copyright (C) 2025 Lululla Team\n')
-            f.write('# This file is distributed under the same license as the Lululla package.\n')
+            f.write(
+                '# This file is distributed under the same license as the Lululla package.\n')
             f.write('# [lululla] <ekekaz@gmail.com>, 2025.\n')
             f.write('#\n')
             f.write('msgid ""\n')
