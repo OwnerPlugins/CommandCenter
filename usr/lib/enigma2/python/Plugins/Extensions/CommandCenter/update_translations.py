@@ -9,22 +9,24 @@ Integrates Google Translate auto-translation for missing strings
 Last Updated: 2026-05-27
 ##############################################################################
 """
-import os
 import re
-import subprocess
-import hashlib
 import json
 import time
 import socket
-from xml.etree import ElementTree as ET
+import hashlib
+import subprocess
 from json import loads
 from urllib.parse import urlencode
+from xml.etree import ElementTree as ET
 from urllib.request import Request, urlopen
+from os import makedirs, walk, environ, remove, listdir
+from os.path import dirname, abspath, basename, join, exists, isdir
 
-PLUGIN_NAME = "CommandCenter"
-PLUGIN_DIR = os.path.dirname(os.path.abspath(__file__))
-LOCALE_DIR = os.path.join(PLUGIN_DIR, "locale")
-POT_FILE = os.path.join(LOCALE_DIR, "{}.pot".format(PLUGIN_NAME))
+PLUGIN_DIR = dirname(abspath(__file__))
+PLUGIN_NAME = basename(PLUGIN_DIR)   # <-- nome della cartella
+LOCALE_DIR = join(PLUGIN_DIR, "locale")
+POT_FILE = join(LOCALE_DIR, "{}.pot".format(PLUGIN_NAME))
+
 
 # ============================================================
 # GOOGLE TRANSLATE MODULE CONFIGURATION
@@ -32,7 +34,7 @@ POT_FILE = os.path.join(LOCALE_DIR, "{}.pot".format(PLUGIN_NAME))
 TRANSLATE_API_URL = "https://translate.googleapis.com/translate_a/single"
 REQUEST_TIMEOUT = 8
 MAX_CHARS_PER_REQUEST = 2000
-CACHE_FILE = os.path.join(PLUGIN_DIR, "translation_cache.json")
+CACHE_FILE = join(PLUGIN_DIR, "translation_cache.json")
 ENABLE_LOGGING = True
 DEBUG = True   # Set to False to reduce output
 
@@ -64,7 +66,7 @@ def _get_system_language():
         return lang.split('_')[0].lower()
     except ImportError:
         # Fallback for GitHub Actions or headless environment
-        lang = os.environ.get('LANG', 'en_US.UTF-8').split('.')[0]
+        lang = environ.get('LANG', 'en_US.UTF-8').split('.')[0]
         return lang.split('_')[0].lower()
     except Exception:
         return 'en'
@@ -152,9 +154,9 @@ def save_cache_to_disk():
     if not _cache_dirty:
         return
     try:
-        cache_dir = os.path.dirname(CACHE_FILE)
-        if not os.path.exists(cache_dir):
-            os.makedirs(cache_dir, exist_ok=True)
+        cache_dir = dirname(CACHE_FILE)
+        if not exists(cache_dir):
+            makedirs(cache_dir, exist_ok=True)
         with open(CACHE_FILE, 'w', encoding='utf-8') as f:
             json.dump(_translation_cache, f, ensure_ascii=False, indent=2)
         _log(f"Cache saved ({len(_translation_cache)} entries)")
@@ -165,7 +167,7 @@ def save_cache_to_disk():
 
 def load_cache_from_disk():
     global _translation_cache
-    if os.path.exists(CACHE_FILE):
+    if exists(CACHE_FILE):
         try:
             with open(CACHE_FILE, 'r', encoding='utf-8') as f:
                 _translation_cache = json.load(f)
@@ -240,7 +242,7 @@ def translate_text(text, target_lang=None, use_cache=True):
 
 def auto_translate_po_file(po_file, target_lang):
     """Automatically translate empty msgstr entries in a .po file"""
-    if not os.path.exists(po_file):
+    if not exists(po_file):
         return False
     with open(po_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -277,11 +279,11 @@ def auto_translate_po_file(po_file, target_lang):
 
 
 def ensure_directory_structure(lang_code):
-    lang_dir = os.path.join(LOCALE_DIR, lang_code)
-    lc_messages_dir = os.path.join(lang_dir, "LC_MESSAGES")
+    lang_dir = join(LOCALE_DIR, lang_code)
+    lc_messages_dir = join(lang_dir, "LC_MESSAGES")
     try:
-        if not os.path.exists(lc_messages_dir):
-            os.makedirs(lc_messages_dir, exist_ok=True)
+        if not exists(lc_messages_dir):
+            makedirs(lc_messages_dir, exist_ok=True)
             print("  Created directory structure for: {}".format(lang_code))
         return lc_messages_dir
     except Exception as e:
@@ -290,8 +292,8 @@ def ensure_directory_structure(lang_code):
 
 
 def extract_xml_strings():
-    xml_file = os.path.join(PLUGIN_DIR, "setup.xml")
-    if not os.path.exists(xml_file):
+    xml_file = join(PLUGIN_DIR, "setup.xml")
+    if not exists(xml_file):
         print("INFO: {} not found! Skipping XML extraction.".format(xml_file))
         return []
     strings = []
@@ -350,13 +352,13 @@ def clean_strings(strings):
 def extract_python_strings():
     py_strings = []
     try:
-        temp_pot = os.path.join(PLUGIN_DIR, "temp_python.pot")
+        temp_pot = join(PLUGIN_DIR, "temp_python.pot")
         py_files = []
-        for root_dir, _, files in os.walk(PLUGIN_DIR):
+        for root_dir, _, files in walk(PLUGIN_DIR):
             for f in files:
                 if f.endswith('.py') and not f.startswith(
                         'test_') and f != 'update_translations.py':
-                    py_files.append(os.path.join(root_dir, f))
+                    py_files.append(join(root_dir, f))
         if not py_files:
             print("No .py files found")
             return []
@@ -383,7 +385,7 @@ def extract_python_strings():
         except OSError as e:
             print("ERROR running xgettext: {}".format(e))
             return []
-        if os.path.exists(temp_pot):
+        if exists(temp_pot):
             with open(temp_pot, 'r') as f:
                 content = f.read()
             for match in re.finditer(r'msgid "([^"]+)"', content):
@@ -391,7 +393,7 @@ def extract_python_strings():
                 if text and text.strip():
                     py_strings.append(text.strip())
             try:
-                os.remove(temp_pot)
+                remove(temp_pot)
             except Exception:
                 pass
         print("Python: found {} strings".format(len(py_strings)))
@@ -403,7 +405,7 @@ def extract_python_strings():
 
 def update_pot_file(xml_strings, py_strings):
     try:
-        os.makedirs(LOCALE_DIR, exist_ok=True)
+        makedirs(LOCALE_DIR, exist_ok=True)
     except Exception:
         pass
     all_strings = list(set(xml_strings + py_strings))
@@ -418,7 +420,7 @@ def update_pot_file(xml_strings, py_strings):
     print("TOTAL: {} unique strings".format(len(all_strings)))
     existing_translations = {}
     pot_header = ""
-    if os.path.exists(POT_FILE):
+    if exists(POT_FILE):
         try:
             with open(POT_FILE, 'r') as f:
                 content = f.read()
@@ -618,17 +620,17 @@ STANDARD_LANGUAGES = [
 
 
 def update_po_files():
-    if not os.path.exists(POT_FILE):
+    if not exists(POT_FILE):
         print("ERROR: .pot file not found")
         return
     existing_languages = []
-    if os.path.exists(LOCALE_DIR):
-        for item in os.listdir(LOCALE_DIR):
-            item_path = os.path.join(LOCALE_DIR, item)
-            if os.path.isdir(item_path) and item != 'templates':
-                po_file = os.path.join(
+    if exists(LOCALE_DIR):
+        for item in listdir(LOCALE_DIR):
+            item_path = join(LOCALE_DIR, item)
+            if isdir(item_path) and item != 'templates':
+                po_file = join(
                     item_path, "LC_MESSAGES", "{}.po".format(PLUGIN_NAME))
-                if os.path.exists(po_file):
+                if exists(po_file):
                     existing_languages.append(item)
     all_languages = list(set(existing_languages + STANDARD_LANGUAGES))
     all_languages.sort()
@@ -640,8 +642,8 @@ def update_po_files():
         lc_messages_dir = ensure_directory_structure(lang_code)
         if not lc_messages_dir:
             continue
-        po_file = os.path.join(lc_messages_dir, "{}.po".format(PLUGIN_NAME))
-        if os.path.exists(po_file):
+        po_file = join(lc_messages_dir, "{}.po".format(PLUGIN_NAME))
+        if exists(po_file):
             print("Updating: {}".format(lang_code))
             fix_po_file(po_file)
             cmd = [
@@ -755,14 +757,14 @@ def create_template_po_file(po_file, lang_code):
 
 
 def compile_mo_files():
-    if not os.path.exists(LOCALE_DIR):
+    if not exists(LOCALE_DIR):
         print("No locale directory found")
         return
-    for lang_code in os.listdir(LOCALE_DIR):
-        lc_messages_dir = os.path.join(LOCALE_DIR, lang_code, "LC_MESSAGES")
-        po_file = os.path.join(lc_messages_dir, "{}.po".format(PLUGIN_NAME))
-        mo_file = os.path.join(lc_messages_dir, "{}.mo".format(PLUGIN_NAME))
-        if os.path.exists(po_file):
+    for lang_code in listdir(LOCALE_DIR):
+        lc_messages_dir = join(LOCALE_DIR, lang_code, "LC_MESSAGES")
+        po_file = join(lc_messages_dir, "{}.po".format(PLUGIN_NAME))
+        mo_file = join(lc_messages_dir, "{}.mo".format(PLUGIN_NAME))
+        if exists(po_file):
             try:
                 fix_po_file(po_file)
                 cmd = ['msgfmt', po_file, '-o', mo_file]
