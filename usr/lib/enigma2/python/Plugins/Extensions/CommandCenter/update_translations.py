@@ -366,7 +366,7 @@ def extract_python_strings():
                     py_strings.append(text.strip())
             try:
                 os.remove(temp_pot)
-            except:
+            except Exception:
                 pass
         print("Python: found {} strings".format(len(py_strings)))
         return clean_strings(py_strings)
@@ -378,7 +378,7 @@ def extract_python_strings():
 def update_pot_file(xml_strings, py_strings):
     try:
         os.makedirs(LOCALE_DIR, exist_ok=True)
-    except:
+    except Exception:
         pass
     all_strings = list(set(xml_strings + py_strings))
     filtered_strings = []
@@ -401,7 +401,7 @@ def update_pot_file(xml_strings, py_strings):
                 pot_header = parts[0]
             for match in re.finditer(r'msgid "([^"]+)"\s*\nmsgstr "([^"]*)"', content, re.DOTALL):
                 existing_translations[match.group(1)] = match.group(2)
-        except:
+        except Exception:
             pass
     with open(POT_FILE, 'w') as f:
         if pot_header:
