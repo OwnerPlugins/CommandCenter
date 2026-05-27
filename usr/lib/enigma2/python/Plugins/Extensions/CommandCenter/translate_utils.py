@@ -299,7 +299,10 @@ def translate_text(text, target_lang=None, use_cache=True):
 
     # Error handling for overly long texts
     if len(text_unicode) > MAX_CHARS_PER_REQUEST:
-        _log("Text too long (" + str(len(text_unicode)) + " chars), truncated to " + str(MAX_CHARS_PER_REQUEST))
+        _log("Text too long (" +
+             str(len(text_unicode)) +
+             " chars), truncated to " +
+             str(MAX_CHARS_PER_REQUEST))
         text_unicode = text_unicode[:MAX_CHARS_PER_REQUEST]
 
     # Prepare the request
