@@ -646,7 +646,7 @@ class DebugScreen(Screen):
             "yellow": self.toggle_logs,
             "blue": self.delete_selected_log,
             "ok": self.handle_ok,
-            "info": self.handle_info
+            "info": self.handle_info,
             "up": self.move_up,
             "down": self.move_down,
         }, -1)
@@ -683,7 +683,6 @@ class DebugScreen(Screen):
     def handle_info(self):
         if self.logs_visible:
             self.show_log_content()
-
 
     def toggle_logs(self):
         self.logs_visible = not self.logs_visible
