@@ -1,0 +1,11 @@
+<screen name="DebugScreen" position="460,180" size="1000,650" title="Command Center by Lululla - Debug Mode" backgroundColor="#10000000">
+    <widget name="debug_list" position="10,40" size="980,500" font="Regular;26" itemHeight="35" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
+    <widget name="log_list" visible="False" position="10,40" size="980,500" font="Regular;26" itemHeight="35" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
+    <widget name="key_red" position="10,570" size="120,40" backgroundColor="#9f1313" font="Regular;18" valign="center" halign="center" cornerRadius="26" />
+    <widget name="key_green" position="140,570" size="120,40" backgroundColor="#005500" font="Regular;18" valign="center" halign="center" cornerRadius="26" />
+    <widget name="key_yellow" position="270,570" size="120,40" backgroundColor="#a08000" font="Regular;18" valign="center" halign="center" cornerRadius="26" />
+    <widget name="key_blue" position="400,570" size="120,40" backgroundColor="#18188b" font="Regular;18" valign="center" halign="center" cornerRadius="26" />
+    <eLabel name="" position="530,570" size="120,40" backgroundColor="#33000000" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
+    <eLabel name="" position="659,570" size="120,40" backgroundColor="#33000000" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="OK" />
+    <widget name="statusbar" position="10,620" size="980,25" font="Regular;18" backgroundColor="#33000000" />
+</screen>

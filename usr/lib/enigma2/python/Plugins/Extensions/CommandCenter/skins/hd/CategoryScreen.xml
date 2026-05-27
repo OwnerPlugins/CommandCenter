@@ -1,5 +1,7 @@
 <screen name="CategoryScreen" position="660,265" size="600,650" title="Command Center - Categories" backgroundColor="#10000000">
-    <widget name="categories" position="10,40" size="580,500" font="Regular;26" itemHeight="35" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
-    <widget name="key_blue" position="470,585" size="120,40" backgroundColor="#18188b" font="Regular;20" valign="center" halign="center" />
-    <widget name="statusbar" position="10,580" size="450,60" font="Regular;22" backgroundColor="#33000000" />
+    <widget name="categories" position="10,40" size="580,450" font="Regular;26" itemHeight="35" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
+    <eLabel name="" position="177,580" size="140,50" backgroundColor="#33000000" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
+    <eLabel name="" position="19,580" size="140,50" backgroundColor="#33000000" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="MENU" />
+    <widget name="key_blue" position="440,580" size="140,50" backgroundColor="#18188b" font="Regular;20" valign="center" halign="center" cornerRadius="26" />
+    <widget name="statusbar" position="10,510" size="580,60" font="Regular;22" backgroundColor="#33000000" />
 </screen>

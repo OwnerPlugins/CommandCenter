@@ -1,0 +1,7 @@
+<screen name="LogViewer" position="center,center" size="1253,653" title="Debug Log Viewer" backgroundColor="#10000000">
+    <widget name="full_text" position="6,50" size="1240,420" font="Console;16" />
+    <widget name="error_text" position="6,480" size="1240,126" font="Console;17" foregroundColor="#ff0000" />
+    <eLabel position="6,473" size="1240,1" backgroundColor="#555555" zPosition="1" />
+    <widget name="key_red" position="19,609" size="172,33" font="Regular;22" valign="center" halign="center" backgroundColor="#9f1313" cornerRadius="26" />
+    <widget name="key_green" position="191,609" size="172,33" font="Regular;22" valign="center" halign="center" backgroundColor="#005500" cornerRadius="26" />
+</screen>
