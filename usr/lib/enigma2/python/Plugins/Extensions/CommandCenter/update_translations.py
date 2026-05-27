@@ -472,10 +472,7 @@ def update_pot_file(xml_strings, py_strings):
         else:
             f.write(f'# {PLUGIN_NAME} translations\n')
             f.write('# Copyright (C) 2025 Lululla Team\n')
-            f.write(
-                '# This file is distributed under the same license as the '
-                'Lululla package.\n'
-            )
+            f.write('# This file is distributed under the same license as the Lululla package.\n')
             f.write('# [lululla] <ekekaz@gmail.com>, 2025.\n')
             f.write('#\n')
             f.write('msgid ""\n')
@@ -491,10 +488,8 @@ def update_pot_file(xml_strings, py_strings):
             f.write('"Content-Type: text/plain; charset=UTF-8\\n"\n')
             f.write('"Content-Transfer-Encoding: 8bit\\n"\n\n')
         for msgid in all_strings:
-            f.write(
-                f'\nmsgid "{msgid}"\nmsgstr "{
-                    existing_translations.get(
-                        msgid, "")}"\n')
+            msgstr_value = existing_translations.get(msgid, "")
+            f.write(f'\nmsgid "{msgid}"\nmsgstr "{msgstr_value}"\n')
     print(f"Updated .pot file: {POT_FILE}")
     return len(all_strings)
 
