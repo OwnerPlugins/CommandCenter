@@ -220,21 +220,16 @@ class CategoryScreen(Screen):
         self["categories"] = MenuList([])
         self["key_blue"] = Label(_("Manager"))
         self["statusbar"] = Label(_("Press Manager to manage custom commands"))
-        self["actions"] = ActionMap(["OkCancelActions",
-                                     "ColorActions",
-                                     "DirectionActions",
-                                     "InfoActions",
-                                     "MenuActions"],
-                                    {"ok": self.select_category,
-                                     "cancel": self.close,
-                                     "red": self.close,
-                                     "blue": self.open_manager,
-                                     "up": self.categories_up,
-                                     "down": self.categories_down,
-                                     "info": self.show_info,
-                                     "menu": self.open_debug_screen,
-                                     },
-                                    -1)
+        self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions", "InfoActions", "MenuActions"], {
+            "ok": self.select_category,
+            "cancel": self.close,
+            "red": self.close,
+            "blue": self.open_manager,
+            "up": self.categories_up,
+            "down": self.categories_down,
+            "info": self.show_info,
+            "menu": self.open_debug_screen,
+        }, -1)
         self.populate_categories()
 
     def open_debug_screen(self):
@@ -676,8 +671,7 @@ class DebugScreen(Screen):
         self.setFocus(self["debug_list"])
 
     def populate_debug_list(self):
-        # solo descrizioni
-        items = [desc for (cmd, desc) in self.debug_commands]
+        items = [desc for (cmd, desc) in self.debug_commands]  # solo descrizioni
         self["debug_list"].setList(items)
 
     def handle_ok(self):
@@ -697,9 +691,7 @@ class DebugScreen(Screen):
             self["debug_list"].hide()
             self["log_list"].show()
             self.setFocus(self["log_list"])
-            self["statusbar"].setText(
-                _("Log files found: %d | Press Info for show") % len(
-                    self.current_logs))
+            self["statusbar"].setText(_("Log files found: %d | Press Info for show") % len(self.current_logs))
             self["key_yellow"].setText(_("Hide Logs"))
             self["key_green"].setText("")
             self["key_green"].hide()
@@ -707,8 +699,7 @@ class DebugScreen(Screen):
             self["debug_list"].show()
             self["log_list"].hide()
             self.setFocus(self["debug_list"])
-            self["statusbar"].setText(
-                _("Select a debug command and press Run"))
+            self["statusbar"].setText(_("Select a debug command and press Run"))
             self["key_yellow"].setText(_("Show Logs"))
             self["key_green"].setText(_("Run"))
             self["key_green"].show()
@@ -734,29 +725,22 @@ class DebugScreen(Screen):
             return
         cmd, desc = self.debug_commands[idx]
         self.session.openWithCallback(
-            lambda answer: self.confirm_run(
-                answer,
-                cmd,
-                desc),
+            lambda answer: self.confirm_run(answer, cmd, desc),
             MessageBox,
-            _("⚠️ WARNING ⚠️\n\nThis debug command may restart or crash Enigma2.\n\nCommand: %s\n\n%s\n\nPress OK to execute or Cancel to abort.") %
-            (desc,
-             cmd),
+            _("⚠️ WARNING ⚠️\n\nThis debug command may restart or crash Enigma2.\n\nCommand: %s\n\n%s\n\nPress OK to execute or Cancel to abort.") % (desc, cmd),
             MessageBox.TYPE_YESNO,
-            windowTitle=_("Confirm Debug Command"))
+            windowTitle=_("Confirm Debug Command")
+        )
 
     def confirm_run(self, answer, cmd, desc):
         if not answer:
             return
         self.close()
         import tempfile
-        # Directory persistente per i log
         log_dir = "/home/root/logs"
         if not exists(log_dir):
             os.makedirs(log_dir)
-        log_filename = join(
-            log_dir, "debug_%s.log" %
-            datetime.now().strftime("%Y%m%d_%H%M%S"))
+        log_filename = join(log_dir, "debug_%s.log" % datetime.now().strftime("%Y%m%d_%H%M%S"))
         script_content = f"""#!/bin/sh
     log="{log_filename}"
     echo "=== Command: {cmd} ===" > $log
@@ -785,7 +769,8 @@ class DebugScreen(Screen):
             "/tmp/grab*.log",
             "/home/root/logs/*.log",
             "/home/root/logs/debug_*.log",
-            "/home/root/debug_*.log"
+            "/home/root/debug_*.log",
+            "/home/root/.log",
         ]
         for pattern in patterns:
             self.current_logs.extend(glob.glob(pattern))
@@ -835,7 +820,7 @@ class LogViewer(Screen):
         with codecs.open(skin, "r", encoding="utf-8") as f:
             self.skin = f.read()
         self.logfile = logfile
-        self.current_view = "full"   # "full" or "error"
+        self.current_view = "full"
         self.full_text = ""
         self.error_text = ""
         self.setTitle(_("Debug Log: %s") % basename(logfile))

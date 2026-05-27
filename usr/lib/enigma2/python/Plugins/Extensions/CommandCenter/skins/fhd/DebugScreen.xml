@@ -7,5 +7,6 @@
     <widget name="key_blue" position="460,860" size="140,50" backgroundColor="#18188b" font="Regular;22" valign="center" halign="center" cornerRadius="26" />
     <eLabel name="" position="610,860" size="140,50" backgroundColor="#33000000" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="INFO" />
     <eLabel name="" position="759,860" size="140,50" backgroundColor="#33000000" halign="center" valign="center" transparent="0" cornerRadius="26" font="Regular; 17" zPosition="1" text="OK" />
+    <eLabel position="6,850" size="1485,1" backgroundColor="#555555" zPosition="1" />
     <widget name="statusbar" position="10,920" size="1480,30" font="Regular;22" backgroundColor="#33000000" />
 </screen>

@@ -1,9 +1,10 @@
-<screen name="ManagerScreen" position="center,center" size="1100,720" title="Command Center by Lululla" backgroundColor="#10000000">
-    <widget name="command_list" position="10,40" size="1056,550" font="Regular;26" itemHeight="35" cornerRadius="90" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="10" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
-    <widget name="key_red" position="10,625" size="120,40" backgroundColor="#9f1313" font="Regular;20" valign="center" halign="center" cornerRadius="26" />
-    <widget name="key_green" position="141,625" size="120,40" backgroundColor="#005500" font="Regular;20" valign="center" halign="center" cornerRadius="26" />
-    <widget name="key_yellow" position="270,625" size="120,40" backgroundColor="#a08000" font="Regular;20" valign="center" halign="center" cornerRadius="26" />
-    <widget name="key_blue" position="400,625" size="120,40" backgroundColor="#18188b" font="Regular;20" valign="center" halign="center" cornerRadius="26" />
-    <widget name="key_info" position="530,625" size="120,40" backgroundColor="#33000000" font="Regular;20" valign="center" halign="center" cornerRadius="26" />
-    <widget name="statusbar" position="10,675" size="1080,40" font="Regular;22" backgroundColor="#33000000" />
+<screen name="ManagerScreen" position="center,center" size="1024,648" title="Command Center by Lululla" backgroundColor="#10000000">
+    <widget name="command_list" position="7,27" size="1010,546" font="Regular;22" itemHeight="27" cornerRadius="61" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="7" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
+    <widget name="key_red" position="7,587" size="96,34" backgroundColor="#9f1313" font="Regular;15" valign="center" halign="center" cornerRadius="18" />
+    <widget name="key_green" position="109,587" size="96,34" backgroundColor="#005500" font="Regular;15" valign="center" halign="center" cornerRadius="18" />
+    <widget name="key_yellow" position="211,587" size="96,34" backgroundColor="#a08000" font="Regular;15" valign="center" halign="center" cornerRadius="18" />
+    <widget name="key_blue" position="313,587" size="96,34" backgroundColor="#18188b" font="Regular;15" valign="center" halign="center" cornerRadius="18" />
+    <widget name="key_info" position="416,587" size="96,34" backgroundColor="#33000000" font="Regular;15" valign="center" halign="center" cornerRadius="18" />
+    <eLabel position="4,580" size="1014,1" backgroundColor="#555555" zPosition="1" />
+    <widget name="statusbar" position="7,628" size="1010,20" font="Regular;15" backgroundColor="#33000000" />
 </screen>
