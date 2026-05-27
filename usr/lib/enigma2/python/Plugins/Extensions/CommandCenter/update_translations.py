@@ -194,7 +194,9 @@ def translate_text(text, target_lang=None, use_cache=True):
         if cached is not None:
             return cached
     if len(text_unicode) > MAX_CHARS_PER_REQUEST:
-        _log(f"Text too long ({len(text_unicode)}), truncated to {MAX_CHARS_PER_REQUEST}")
+        _log(
+            f"Text too long ({
+                len(text_unicode)}), truncated to {MAX_CHARS_PER_REQUEST}")
         text_unicode = text_unicode[:MAX_CHARS_PER_REQUEST]
     params = {
         "client": "gtx",
@@ -261,7 +263,8 @@ def auto_translate_po_file(po_file, target_lang):
                     translated = translate_text(msgid, target_lang)
                     if translated and translated != msgid:
                         msgstr_line = f'msgstr "{translated}"\n'
-                        print(f"  [auto-translated] {msgid[:40]}... -> {translated[:40]}...")
+                        print(
+                            f"  [auto-translated] {msgid[:40]}... -> {translated[:40]}...")
                 new_lines.append(msgstr_line)
                 i += 1
         else:
@@ -325,7 +328,17 @@ def clean_strings(strings):
         if not s or not s.strip():
             continue
         s = s.strip()
-        if s in ['{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}']:
+        if s in [
+            '{0}',
+            '{1}',
+            '{2}',
+            '{3}',
+            '{4}',
+            '{5}',
+            '{6}',
+            '{7}',
+            '{8}',
+                '{9}']:
             continue
         if re.match(r'^[0-9\s\W]+$', s):
             continue
@@ -340,16 +353,28 @@ def extract_python_strings():
         py_files = []
         for root_dir, _, files in os.walk(PLUGIN_DIR):
             for f in files:
-                if f.endswith('.py') and not f.startswith('test_') and f != 'update_translations.py':
+                if f.endswith('.py') and not f.startswith(
+                        'test_') and f != 'update_translations.py':
                     py_files.append(os.path.join(root_dir, f))
         if not py_files:
             print("No .py files found")
             return []
-        cmd = ['xgettext', '--no-wrap', '-L', 'Python', '--from-code=UTF-8',
-               '-kpgettext:1c,2', '--add-comments=TRANSLATORS:', '-d', PLUGIN_NAME,
-               '-s', '-o', temp_pot] + py_files
+        cmd = [
+            'xgettext',
+            '--no-wrap',
+            '-L',
+            'Python',
+            '--from-code=UTF-8',
+            '-kpgettext:1c,2',
+            '--add-comments=TRANSLATORS:',
+            '-d',
+            PLUGIN_NAME,
+            '-s',
+            '-o',
+            temp_pot] + py_files
         try:
-            process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            process = subprocess.Popen(
+                cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             stdout, stderr = process.communicate()
             if process.returncode != 0:
                 print("ERROR xgettext: {}".format(stderr))
@@ -399,7 +424,10 @@ def update_pot_file(xml_strings, py_strings):
             parts = content.split('msgid "')
             if len(parts) > 1:
                 pot_header = parts[0]
-            for match in re.finditer(r'msgid "([^"]+)"\s*\nmsgstr "([^"]*)"', content, re.DOTALL):
+            for match in re.finditer(
+                r'msgid "([^"]+)"\s*\nmsgstr "([^"]*)"',
+                content,
+                    re.DOTALL):
                 existing_translations[match.group(1)] = match.group(2)
         except Exception:
             pass
@@ -409,7 +437,8 @@ def update_pot_file(xml_strings, py_strings):
         else:
             f.write('# {} translations\n'.format(PLUGIN_NAME))
             f.write('# Copyright (C) 2025 Lululla Team\n')
-            f.write('# This file is distributed under the same license as the Lululla package.\n')
+            f.write(
+                '# This file is distributed under the same license as the Lululla package.\n')
             f.write('# [lululla] <ekekaz@gmail.com>, 2025.\n')
             f.write('#\n')
             f.write('msgid ""\n')
@@ -425,7 +454,10 @@ def update_pot_file(xml_strings, py_strings):
             f.write('"Content-Type: text/plain; charset=UTF-8\\n"\n')
             f.write('"Content-Transfer-Encoding: 8bit\\n"\n\n')
         for msgid in all_strings:
-            f.write('\nmsgid "{}"\nmsgstr "{}"\n'.format(msgid, existing_translations.get(msgid, "")))
+            f.write(
+                '\nmsgid "{}"\nmsgstr "{}"\n'.format(
+                    msgid, existing_translations.get(
+                        msgid, "")))
     print("Updated .pot file: {}".format(POT_FILE))
     return len(all_strings)
 
@@ -438,8 +470,10 @@ def fix_po_file(po_file):
         i = 0
         while i < len(lines):
             line = lines[i]
-            if line.strip() == 'msgid ""' and i + 1 < len(lines) and lines[i + 1].strip() == 'msgstr ""':
-                if not any(ls.strip().startswith('"Project-Id-Version:') for ls in fixed_lines):
+            if line.strip() == 'msgid ""' and i + \
+                    1 < len(lines) and lines[i + 1].strip() == 'msgstr ""':
+                if not any(ls.strip().startswith('"Project-Id-Version:')
+                           for ls in fixed_lines):
                     fixed_lines.append(line)
                     fixed_lines.append(lines[i + 1])
                     i += 2
@@ -465,7 +499,8 @@ def fix_po_file(po_file):
                 msgid_line = fixed_lines[i]
                 if msgid_line in seen_msgids:
                     i += 1
-                    while i < len(fixed_lines) and fixed_lines[i].strip() != '':
+                    while i < len(
+                            fixed_lines) and fixed_lines[i].strip() != '':
                         i += 1
                     continue
                 else:
@@ -484,13 +519,101 @@ def fix_po_file(po_file):
 
 
 STANDARD_LANGUAGES = [
-    'af', 'am', 'ar', 'az', 'be', 'bg', 'bn', 'bs', 'ca', 'cs', 'cy', 'da', 'de', 'el', 'en', 'en_GB',
-    'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fr', 'fy', 'ga', 'gd', 'gl', 'gu', 'he', 'hi', 'hr', 'hu', 'hy',
-    'id', 'is', 'it', 'ja', 'ka', 'kk', 'km', 'kn', 'ko', 'ku', 'ky', 'lt', 'lv', 'mk', 'ml', 'mn', 'mr',
-    'ms', 'mt', 'my', 'nb', 'ne', 'nl', 'no', 'oc', 'or', 'pa', 'pl', 'ps', 'pt', 'pt_BR', 'pt_PT', 'ro',
-    'ru', 'si', 'sk', 'sl', 'sq', 'sq_AL', 'sr', 'sr_Latn', 'sv', 'sw', 'ta', 'te', 'tg', 'th', 'tk', 'tl',
-    'tr', 'tt', 'ug', 'uk', 'ur', 'uz', 'vi', 'yi', 'zh', 'zh_CN', 'zh_HK', 'zh_SG', 'zh_TW'
-]
+    'af',
+    'am',
+    'ar',
+    'az',
+    'be',
+    'bg',
+    'bn',
+    'bs',
+    'ca',
+    'cs',
+    'cy',
+    'da',
+    'de',
+    'el',
+    'en',
+    'en_GB',
+    'eo',
+    'es',
+    'et',
+    'eu',
+    'fa',
+    'fi',
+    'fr',
+    'fy',
+    'ga',
+    'gd',
+    'gl',
+    'gu',
+    'he',
+    'hi',
+    'hr',
+    'hu',
+    'hy',
+    'id',
+    'is',
+    'it',
+    'ja',
+    'ka',
+    'kk',
+    'km',
+    'kn',
+    'ko',
+    'ku',
+    'ky',
+    'lt',
+    'lv',
+    'mk',
+    'ml',
+    'mn',
+    'mr',
+    'ms',
+    'mt',
+    'my',
+    'nb',
+    'ne',
+    'nl',
+    'no',
+    'oc',
+    'or',
+    'pa',
+    'pl',
+    'ps',
+    'pt',
+    'pt_BR',
+    'pt_PT',
+    'ro',
+    'ru',
+    'si',
+    'sk',
+    'sl',
+    'sq',
+    'sq_AL',
+    'sr',
+    'sr_Latn',
+    'sv',
+    'sw',
+    'ta',
+    'te',
+    'tg',
+    'th',
+    'tk',
+    'tl',
+    'tr',
+    'tt',
+    'ug',
+    'uk',
+    'ur',
+    'uz',
+    'vi',
+    'yi',
+    'zh',
+    'zh_CN',
+    'zh_HK',
+    'zh_SG',
+    'zh_TW']
 
 
 def update_po_files():
@@ -502,12 +625,16 @@ def update_po_files():
         for item in os.listdir(LOCALE_DIR):
             item_path = os.path.join(LOCALE_DIR, item)
             if os.path.isdir(item_path) and item != 'templates':
-                po_file = os.path.join(item_path, "LC_MESSAGES", "{}.po".format(PLUGIN_NAME))
+                po_file = os.path.join(
+                    item_path, "LC_MESSAGES", "{}.po".format(PLUGIN_NAME))
                 if os.path.exists(po_file):
                     existing_languages.append(item)
     all_languages = list(set(existing_languages + STANDARD_LANGUAGES))
     all_languages.sort()
-    print("Processing {} languages: {}".format(len(all_languages), ', '.join(all_languages)))
+    print(
+        "Processing {} languages: {}".format(
+            len(all_languages),
+            ', '.join(all_languages)))
     for lang_code in all_languages:
         lc_messages_dir = ensure_directory_structure(lang_code)
         if not lc_messages_dir:
@@ -516,9 +643,16 @@ def update_po_files():
         if os.path.exists(po_file):
             print("Updating: {}".format(lang_code))
             fix_po_file(po_file)
-            cmd = ['msgmerge', '--update', '--backup=none', '--no-wrap', po_file, POT_FILE]
+            cmd = [
+                'msgmerge',
+                '--update',
+                '--backup=none',
+                '--no-wrap',
+                po_file,
+                POT_FILE]
             try:
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                process = subprocess.Popen(
+                    cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 process.communicate()
                 if process.returncode == 0:
                     fix_po_file(po_file)
@@ -527,20 +661,33 @@ def update_po_files():
                 else:
                     print("  First merge failed, fixing and retrying...")
                     if fix_po_file(po_file):
-                        process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                        process = subprocess.Popen(
+                            cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                         process.communicate()
                         if process.returncode == 0:
                             print(" ✓ {} updated after fix".format(lang_code))
                             auto_translate_po_file(po_file, lang_code)
                         else:
-                            print(" ✗ ERROR updating {} after fix".format(lang_code))
+                            print(
+                                " ✗ ERROR updating {} after fix".format(lang_code))
             except Exception as e:
                 print(" ✗ ERROR updating {}: {}".format(lang_code, e))
         else:
             print("Creating new: {}".format(lang_code))
-            cmd = ['msginit', '--no-wrap', '-i', POT_FILE, '-o', po_file, '-l', lang_code.replace('_', '-')]
+            cmd = [
+                'msginit',
+                '--no-wrap',
+                '-i',
+                POT_FILE,
+                '-o',
+                po_file,
+                '-l',
+                lang_code.replace(
+                    '_',
+                    '-')]
             try:
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                process = subprocess.Popen(
+                    cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 process.communicate()
                 if process.returncode == 0:
                     print(" ✓ Created new file for: {}".format(lang_code))
@@ -566,14 +713,18 @@ def create_template_po_file(po_file, lang_code):
 
         # Extract all non‑empty msgid blocks (skip the header msgid "")
         # This regex matches: msgid "something" newline msgstr "" newline
-        msgid_blocks = re.findall(r'msgid "([^"]+)"\s*\nmsgstr ""\s*\n', pot_content, re.DOTALL)
+        msgid_blocks = re.findall(
+            r'msgid "([^"]+)"\s*\nmsgstr ""\s*\n',
+            pot_content,
+            re.DOTALL)
 
         # Write the new .po file from scratch
         with open(po_file, 'w', encoding='utf-8') as f:
             # Standard header (written only once)
             f.write('# {} translations\n'.format(PLUGIN_NAME))
             f.write('# Copyright (C) 2025 Lululla Team\n')
-            f.write('# This file is distributed under the same license as the Lululla package.\n')
+            f.write(
+                '# This file is distributed under the same license as the Lululla package.\n')
             f.write('# [lululla] <ekekaz@gmail.com>, 2025.\n')
             f.write('#\n')
             f.write('msgid ""\n')
@@ -582,7 +733,8 @@ def create_template_po_file(po_file, lang_code):
             f.write('"POT-Creation-Date: \\n"\n')
             f.write('"PO-Revision-Date: \\n"\n')
             f.write('"Last-Translator: \\n"\n')
-            f.write('"Language-Team: {} <ekekaz@gmail.com>\\n"\n'.format(lang_code))
+            f.write(
+                '"Language-Team: {} <ekekaz@gmail.com>\\n"\n'.format(lang_code))
             f.write('"Language: {}\\n"\n'.format(lang_code))
             f.write('"MIME-Version: 1.0\\n"\n')
             f.write('"Content-Type: text/plain; charset=UTF-8\\n"\n')
@@ -613,10 +765,12 @@ def compile_mo_files():
             try:
                 fix_po_file(po_file)
                 cmd = ['msgfmt', po_file, '-o', mo_file]
-                process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                process = subprocess.Popen(
+                    cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
                 process.communicate()
                 if process.returncode == 0:
-                    print("✓ Compiled: {}/LC_MESSAGES/{}.mo".format(lang_code, PLUGIN_NAME))
+                    print(
+                        "✓ Compiled: {}/LC_MESSAGES/{}.mo".format(lang_code, PLUGIN_NAME))
                 else:
                     print("✗ ERROR compiling {}".format(lang_code))
             except Exception as e:
