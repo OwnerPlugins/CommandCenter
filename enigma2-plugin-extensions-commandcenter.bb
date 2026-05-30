@@ -16,8 +16,19 @@ SRC_URI = "git://github.com/OwnerPlugins/CommandCenter.git;protocol=https;branch
 
 S = "${WORKDIR}/git"
 
-FILES:${PN} = "/usr/*"
-
 do_install() {
-    cp -rp ${S}/usr* /etc/* ${D}/ 
+    install -d ${D}${libdir}/enigma2/python/Plugins/Extensions/CommandCenter
+    cp -r ${S}/usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/* \
+          ${D}${libdir}/enigma2/python/Plugins/Extensions/CommandCenter/
+    
+    # Copia eventuali file etc
+    if [ -d ${S}/etc ]; then
+        cp -rp ${S}/etc ${D}/
+    fi
 }
+
+FILES:${PN} = " \
+    ${libdir}/enigma2/python/Plugins/Extensions/CommandCenter \
+    /etc/commandcenter_commands.json \
+    /etc/enigma2/commandcenter_commands.json \
+"
