@@ -14,12 +14,12 @@ PKGV = "1.0+git${GITPKGV}"
 VER ="1.0"
 PR = "r0"
 
-SRC_URI = "git://github.com/CommandCenter/CommandCenter.git;protocol=https;branch=main"
+SRC_URI = "git://github.com/OwnerPlugins/CommandCenter.git;protocol=https;branch=main"
 
 S = "${WORKDIR}/git"
 
 FILES:${PN} = "/usr/*"
 
 do_install() {
-    cp -rp ${S}/usr* /var/* /tmp/* ${D}/ 
+    cp -rp ${S}/usr* /etc/* ${D}/ 
 }
