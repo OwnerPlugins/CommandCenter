@@ -1,12 +1,10 @@
-SUMMARY = "Lululla"
+SUMMARY = "CommandCenter by Lululla"
 MAINTAINER = "Lululla"
 SECTION = "base"
 PRIORITY = "required"
-LICENSE = "proprietary"
+LICENSE = "CLOSED"
 
-require conf/license/license-gplv2.inc
-
-inherit allarch gitpkgv
+inherit gitpkgv allarch
 
 SRCREV = "${AUTOREV}"
 PV = "1.0+git${SRCPV}"
