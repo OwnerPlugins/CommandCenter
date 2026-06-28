@@ -46,7 +46,7 @@ msgid "Confirm Debug Command"
 msgstr "Ikkonferma Kmand tad-Debug"
 
 msgid "Debug Log: %s"
-msgstr ""
+msgstr "Log tad-debug: %s"
 
 msgid "Delete Log"
 msgstr "Ħassar Log"
