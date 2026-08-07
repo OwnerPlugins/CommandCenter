@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ Command Center
 
-[![Version](https://img.shields.io/badge/Version-1.2-blue.svg)](https://github.com/OwnerPlugins/CommandCenter)
+[![Version](https://img.shields.io/badge/Version-1.3-blue.svg)](https://github.com/OwnerPlugins/CommandCenter)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![Release](https://img.shields.io/github/v/release/OwnerPlugins/CommandCenter)](https://github.com/OwnerPlugins/CommandCenter/releases)
@@ -76,7 +76,8 @@ The plugin includes **hundreds of pre‑defined commands** covering:
   </tr>
 </table>
 
-## ✨ Features (v1.2)
+
+## ✨ Features (v1.3)
 
 ### Core Features
 - 📂 **Categorized commands** – quickly find what you need.
@@ -88,7 +89,7 @@ The plugin includes **hundreds of pre‑defined commands** covering:
 - 🎨 **Color‑coded buttons** – intuitive navigation.
 - 📋 **Command descriptions** – understand what each command does.
 
-### Advanced Features (New in v1.2)
+### Advanced Features (New in v1.3)
 - 🐞 **Debug Mode Screen** – dedicated environment for dangerous / debugging commands that may restart or crash Enigma2.
   - Predefined debug commands (full debug restart, stop Enigma2, journal logs, screenshot, etc.).
   - Commands run in background, output saved to persistent logs (`/home/root/logs/debug_*.log`).
@@ -162,7 +163,7 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 - **INFO** – toggle the `[DISABLED]` state for **predefined commands only** (disabled commands won’t appear in the main list).
 - **RED** – exit the manager.
 
-### Debug Mode Screen (NEW in v1.2)
+### Debug Mode Screen (NEW in v1.3)
 
 - **UP / DOWN** – select a debug command.
 - **GREEN / OK** – run the selected debug command (confirmation required).
@@ -174,7 +175,7 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 **What is Debug Mode for?**  
 Some commands (like `init 4 ; killall -9 enigma2 ; ENIGMA_DEBUG_LVL=4 enigma2`) will restart or crash Enigma2. Normal execution would immediately close the plugin and you would lose the output. Debug Mode runs such commands in a detached background script, saving all output to a persistent log file in `/home/root/logs/`. After Enigma2 restarts, you can come back to Debug Mode, press YELLOW to see the list of logs, select one and press INFO to view it in the dedicated Log Viewer.
 
-### Log Viewer Screen (NEW in v1.2)
+### Log Viewer Screen (NEW in v1.3)
 
 - **UP / DOWN** – scroll the log text **line by line**.
 - **LEFT / RIGHT** or **CH+/CH–** – scroll **page by page**.

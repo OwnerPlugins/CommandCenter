@@ -202,39 +202,39 @@
     "📦 Package Search (opkg)": [
         [
             "opkg update",
-            "Aggiorna lista pacchetti"
+            "Update package list"
         ],
         [
             "opkg list | grep -i ssl",
-            "Cerca pacchetti SSL"
+            "Search SSL packages"
         ],
         [
             "opkg list | grep -i dvbcsa",
-            "Cerca pacchetti dvbcsa"
+            "Search dvbcsa packages"
         ],
         [
             "opkg list | grep -i pcsc",
-            "Cerca pacchetti pcsc"
+            "Search pcsc packages"
         ],
         [
             "opkg list-installed | grep -i ssl",
-            "Pacchetti SSL installati"
+            "Installed SSL packages"
         ],
         [
             "opkg list-installed | grep -i pcsc",
-            "Pacchetti pcsc installati"
+            "Installed pcsc packages"
         ],
         [
             "openssl version",
-            "Versione OpenSSL"
+            "OpenSSL version"
         ],
         [
             "ls -l /usr/lib/libss*.*",
-            "Trova libreria SSL"
+            "Find SSL library"
         ],
         [
             "opkg install libcrypto-compat",
-            "Installa libcrypto-compat"
+            "Install libcrypto-compat"
         ]
     ],
     "📸 Screenshot": [
@@ -254,61 +254,185 @@
     "🔗 Symlink & Architecture": [
         [
             "ln -sf /usr/lib/enigma2/python/Plugins/Extensions/ /",
-            "Crea symlink Extensions"
+            "Create symlink Extensions"
         ],
         [
             "ln -sf /usr/share/enigma2/ /",
-            "Crea symlink share"
+            "Create symlink share"
         ],
         [
-            "TARGET=$(find /media -maxdepth 1 -type d ! -name 'media' -exec mountpoint -q {} \\; -print | head -n 1) && [ -n \"$TARGET\" ] && ln -sf \"$TARGET\" /hdd && ln -sf \"$TARGET/picon\" /usr/share/enigma2/picon && ln -sf \"$TARGET/picon\" /picon && echo \"Creato per: $TARGET\"",
-            "Crea symlink automatica per HDD/picon"
+            "TARGET=$(find /media -maxdepth 1 -type d ! -name 'media' -exec mountpoint -q {} \\; -print | head -n 1) && [ -n \"$TARGET\" ] && ln -sf \"$TARGET\" /hdd && ln -sf \"$TARGET/picon\" /usr/share/enigma2/picon && ln -sf \"$TARGET/picon\" /picon && echo \"Created for: $TARGET\"",
+            "Auto-create symlinks for HDD/picon"
         ],
         [
             "dpkg --print-architecture | grep -iE 'arm|aarch64|mips|cortex|sh4|sh_4'",
-            "Architettura box (dpkg)"
+            "Box architecture (dpkg)"
         ],
         [
             "opkg print-architecture | grep -iE 'arm|aarch64|mips|cortex|h4|sh_4'",
-            "Architettura box (opkg)"
+            "Box architecture (opkg)"
         ]
     ],
     "🔧 OSCam Tools": [
         [
             "find /usr/bin -name 'oscam*' -type f",
-            "Cerca file oscam in /usr/bin"
+            "Search oscam files in /usr/bin"
         ],
         [
             "ls -la /usr/bin/oscam*",
-            "Dettaglio file oscam"
+            "List oscam files details"
         ],
         [
             "find /usr/bin -name 'oscam*' -type f 2>/dev/null",
-            "Cerca ricorsiva oscam"
+            "Recursive oscam search"
         ],
         [
             "find /usr/bin -name 'oscam*' -o -name '*oscam*' -type f 2>/dev/null",
-            "Cerca con wildcard estesa"
+            "Extended wildcard oscam search"
         ],
         [
             "find /usr/bin -name 'oscam*' -type f 2>/dev/null | wc -l",
-            "Conta file oscam trovati"
+            "Count oscam files found"
         ],
         [
             "ps aux | grep oscam | grep -v grep",
-            "Verifica se oscam è in esecuzione"
+            "Check if oscam is running"
         ],
         [
             "find / -name '*oscam*' -type f 2>/dev/null | head -20",
-            "Cerca oscam in tutto il sistema (lento)"
+            "Search oscam everywhere (slow)"
         ],
         [
             "find /usr/bin -name '*oscam*' -type f -exec file {} \\;",
-            "Cerca script oscam"
+            "Find oscam scripts"
         ],
         [
             "find /usr/bin -name 'oscam*' -type f -executable",
-            "Cerca eseguibili oscam"
+            "Find oscam executables"
+        ]
+    ],
+    "📡 OSCam Management": [
+        [
+            "D=$(date +\"%d.%m.%Y\"); mkdir -p /etc/tuxbox/config/backup_files-$D; cp /etc/tuxbox/config/oscam.* /etc/tuxbox/config/backup_files-$D/ 2>/dev/null",
+            "Backup OSCam configuration (with date)"
+        ],
+        [
+            "echo '' > /tmp/oscam.log",
+            "Clear OScam log"
+        ],
+        [
+            "rm -f /etc/tuxbox/config/oscam.ccache",
+            "Clear ICAM cache"
+        ],
+        [
+            "rm -f /etc/tuxbox/config/*.emmstat /etc/tuxbox/config/*.emmcache",
+            "Delete EMM statistics"
+        ],
+        [
+            "ping -c 2 dns2eu.com",
+            "Ping ICAM server (dns2eu.com)"
+        ],
+        [
+            "wget --no-check-certificate -U 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36' -O /etc/tuxbox/config/softcam.key https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/SoftCam.Key 2>/dev/null",
+            "Download latest softcam.key from Mohamed19OS"
+        ],
+        [
+            "grep -q '\\[account\\]' /etc/tuxbox/config/oscam.conf && echo 'WARNING: Account in oscam.conf!' || echo 'Syntax OK!'",
+            "Check OScam config syntax"
+        ],
+        [
+            "chmod -R 755 /etc/tuxbox/config/script/",
+            "Fix OScam script permissions"
+        ],
+        [
+            "tail -n 30 /tmp/oscam.log 2>/dev/null",
+            "Show last 30 lines of OScam log"
+        ],
+        [
+            "grep -E 'label|enable|protocol|device' /etc/tuxbox/config/oscam.server",
+            "Show OScam reader status"
+        ],
+        [
+            "killall -9 streamproxy wget curl 2>/dev/null",
+            "Resolve IPTV stream blocks"
+        ]
+    ],
+    "📡 Common Interface": [
+        [
+            "/etc/init.d/ciplushelper start",
+            "Start CI+ helper daemon"
+        ],
+        [
+            "/etc/init.d/ciplushelper stop",
+            "Stop CI+ helper daemon"
+        ],
+        [
+            "killall ciplushelper 2>/dev/null",
+            "Force kill CI+ helper"
+        ],
+        [
+            "pgrep ciplushelper",
+            "Check if CI+ helper is running"
+        ],
+        [
+            "ln -sf /etc/init.d/ciplushelper /etc/rc2.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc3.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc4.d/S50ciplushelper && ln -sf /etc/init.d/ciplushelper /etc/rc5.d/S50ciplushelper",
+            "Enable CI+ helper autostart"
+        ],
+        [
+            "rm -f /etc/rc2.d/S50ciplushelper /etc/rc3.d/S50ciplushelper /etc/rc4.d/S50ciplushelper /etc/rc5.d/S50ciplushelper",
+            "Disable CI+ helper autostart"
+        ],
+        [
+            "cp -R /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplus /etc/ciplus",
+            "Install CI+ certificates (copy /etc/ciplus)"
+        ],
+        [
+            "rm -rf /etc/ciplus",
+            "Remove CI+ certificates (/etc/ciplus)"
+        ],
+        [
+            "mv /etc/ciplus0_enable /etc/ciplus0_disable",
+            "Disable CI+ slot 0"
+        ],
+        [
+            "mv /etc/ciplus0_disable /etc/ciplus0_enable",
+            "Enable CI+ slot 0"
+        ],
+        [
+            "mv /etc/ciplus1_enable /etc/ciplus1_disable",
+            "Disable CI+ slot 1"
+        ],
+        [
+            "mv /etc/ciplus1_disable /etc/ciplus1_enable",
+            "Enable CI+ slot 1"
+        ],
+        [
+            "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/cicert.bin /etc/cicert.bin",
+            "Install cicert.bin (Zgemma specific)"
+        ],
+        [
+            "[ ! -f /etc/ciplus0_enable ] && echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > /etc/ciplus0_enable",
+            "Create enable file for slot 0 (if missing)"
+        ],
+        [
+            "[ ! -f /etc/ciplus1_enable ] && echo 'rename ciplus*_enable to ciplus*_disable for deactivate ciplus certification of the module.' > /etc/ciplus1_enable",
+            "Create enable file for slot 1 (if missing)"
+        ],
+        [
+            "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper_bin/zgemma-arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper",
+            "Install Zgemma ARM binary (with cicert.bin support)"
+        ],
+        [
+            "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper_bin/arm/ciplushelper /usr/bin/ciplushelper && chmod 755 /usr/bin/ciplushelper",
+            "Install default ARM binary"
+        ],
+        [
+            "cp /usr/lib/enigma2/python/Plugins/Extensions/Ciplushelper/ciplushelper.sh /etc/init.d/ciplushelper && chmod 755 /etc/init.d/ciplushelper",
+            "Update CI+ helper init script"
+        ],
+        [
+            "wget -q --no-check-certificate https://raw.githubusercontent.com/OwnerPlugins/Ciplushelper/main/installer.sh -O - | /bin/bash",
+            "Update CI+ helper plugin (online installer)"
         ]
     ],
     "🕹️ Enigma2 Specific": [
