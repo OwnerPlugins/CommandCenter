@@ -101,7 +101,7 @@ msgid "Hide Logs"
 msgstr "Logboeken verbergen"
 
 msgid "Info"
-msgstr ""
+msgstr "Informatie"
 
 msgid "Log files found: %d | Press Info for show"
 msgstr "Logbestanden gevonden: %d | Druk op Info voor weergave"
