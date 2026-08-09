@@ -10,7 +10,7 @@
 #  Credits:                                             #
 #  - Original concept: Lululla                          #
 #  - Development: Lululla                               #
-#  - Contributions: OpenPLi, Enigma2 community          #
+#  - Contributions: Enigma2 community                   #
 #                                                       #
 #  This program is free software: you can redistribute  #
 #  it and/or modify it under the terms of the GNU       #
@@ -25,7 +25,6 @@
 #  General Public License for more details.             #
 #                                                       #
 #########################################################
-
 import json
 import os
 import codecs
