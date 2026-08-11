@@ -88,8 +88,8 @@ msgstr "Hitilafu ya utekelezaji"
 msgid "Exit"
 msgstr "Utgång"
 
-msgid "Failed to start command.\n"
-msgstr "Imeshindwa kuanzisha amri.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Imeshindwa kuanzisha amri.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Ingia Kamili"
@@ -118,8 +118,8 @@ msgstr "Hakuna ufuatiliaji maalum wa hitilafu uliopatikana kwenye kumbukumbu"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Amri zilizobainishwa tu ndizo zinazoweza kulemazwa/kuwashwa"
 
-msgid "Output cleared.\n"
-msgstr "Pato limefutwa.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Pato limefutwa.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Bonyeza Kidhibiti ili kudhibiti amri maalum"

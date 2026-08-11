@@ -90,8 +90,8 @@ msgstr "Kesalahan eksekusi"
 msgid "Exit"
 msgstr "KELUAR"
 
-msgid "Failed to start command.\n"
-msgstr "Gagal memulai perintah.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Gagal memulai perintah.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Catatan Lengkap"
@@ -120,8 +120,8 @@ msgstr "Tidak ada jejak kesalahan spesifik yang ditemukan di log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Hanya perintah yang telah ditentukan sebelumnya yang dapat dinonaktifkan/diaktifkan"
 
-msgid "Output cleared.\n"
-msgstr "Keluaran dihapus.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Keluaran dihapus.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Tekan Manajer untuk mengelola perintah khusus"

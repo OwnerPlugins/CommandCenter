@@ -91,8 +91,8 @@ msgstr "Vykdymo klaida"
 msgid "Exit"
 msgstr "Išeiti"
 
-msgid "Failed to start command.\n"
-msgstr "Nepavyko paleisti komandos.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Nepavyko paleisti komandos.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Visas žurnalas"
@@ -121,8 +121,8 @@ msgstr "Žurnale nerasta jokių konkrečių klaidų pėdsakų"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Galima išjungti / įjungti tik iš anksto nustatytas komandas"
 
-msgid "Output cleared.\n"
-msgstr "Išvestis išvalyta.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Išvestis išvalyta.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Norėdami tvarkyti pasirinktines komandas, paspauskite tvarkytuvė"

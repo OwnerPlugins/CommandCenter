@@ -90,8 +90,8 @@ msgstr "د اجرا کولو تېروتنه"
 msgid "Exit"
 msgstr "وتل"
 
-msgid "Failed to start command.\n"
-msgstr "د کمانډ په پیل کولو کې پاتې راغلی.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "د کمانډ په پیل کولو کې پاتې راغلی.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "بشپړ ننوتل"
@@ -120,8 +120,8 @@ msgstr "په لاګ کې کومه ځانګړې تېروتنه ونه موندل 
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "یوازې مخکې ټاکل شوي حکمونه غیر فعال / فعال کیدی شي"
 
-msgid "Output cleared.\n"
-msgstr "محصول پاک شوی.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "محصول پاک شوی.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "د دودیز حکمونو اداره کولو لپاره مدیر فشار ورکړئ"

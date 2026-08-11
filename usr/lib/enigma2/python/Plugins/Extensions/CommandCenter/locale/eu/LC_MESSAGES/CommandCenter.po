@@ -90,8 +90,8 @@ msgstr "Exekuzio errorea"
 msgid "Exit"
 msgstr "Irten"
 
-msgid "Failed to start command.\n"
-msgstr "Ezin izan da abiarazi komandoa.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Ezin izan da abiarazi komandoa.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Erregistro osoa"
@@ -120,8 +120,8 @@ msgstr "Ez da akatsen arrasto zehatzik aurkitu erregistroan"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Aurrez definitutako komandoak soilik desgaitu/gaitu daitezke"
 
-msgid "Output cleared.\n"
-msgstr "Irteera garbitu da.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Irteera garbitu da.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Sakatu Kudeatzailea komando pertsonalizatuak kudeatzeko"

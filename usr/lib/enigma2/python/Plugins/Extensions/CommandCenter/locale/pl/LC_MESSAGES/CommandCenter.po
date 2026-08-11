@@ -91,8 +91,8 @@ msgstr "Błąd wykonania"
 msgid "Exit"
 msgstr "Wyjście"
 
-msgid "Failed to start command.\n"
-msgstr "Nie udało się uruchomić polecenia.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Nie udało się uruchomić polecenia.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Pełny dziennik"
@@ -121,8 +121,8 @@ msgstr "W dzienniku nie znaleziono konkretnego śladu błędu"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Można wyłączyć/włączyć tylko predefiniowane polecenia"
 
-msgid "Output cleared.\n"
-msgstr "Dane wyjściowe zostały usunięte.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Dane wyjściowe zostały usunięte.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Naciśnij Menedżer, aby zarządzać poleceniami niestandardowymi"

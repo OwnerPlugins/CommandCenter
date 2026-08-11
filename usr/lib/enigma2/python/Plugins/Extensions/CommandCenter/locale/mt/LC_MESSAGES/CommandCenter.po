@@ -90,8 +90,8 @@ msgstr "Żball ta' eżekuzzjoni"
 msgid "Exit"
 msgstr "Ħruġ"
 
-msgid "Failed to start command.\n"
-msgstr "Naqas milli jibda l-kmand.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Naqas milli jibda l-kmand.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Log Sħiħ"
@@ -120,8 +120,8 @@ msgstr "L-ebda traċċa ta' żball speċifika ma nstabet fil-log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Kmandi predefiniti biss jistgħu jiġu diżattivati/attivati"
 
-msgid "Output cleared.\n"
-msgstr "Output approvat.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Output approvat.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Agħfas il-Maniġer biex timmaniġġja kmandi tad-dwana"

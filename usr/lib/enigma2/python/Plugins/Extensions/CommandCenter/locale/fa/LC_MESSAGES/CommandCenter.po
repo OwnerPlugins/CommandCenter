@@ -90,8 +90,8 @@ msgstr "خطای اجرا"
 msgid "Exit"
 msgstr "خارج شوید"
 
-msgid "Failed to start command.\n"
-msgstr "دستور شروع نشد.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "دستور شروع نشد.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "ثبت کامل"
@@ -120,8 +120,8 @@ msgstr "هیچ رد خطای خاصی در لاگ یافت نشد"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "فقط دستورات از پیش تعریف شده را می توان غیرفعال/فعال کرد"
 
-msgid "Output cleared.\n"
-msgstr "خروجی پاک شد.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "خروجی پاک شد.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "برای مدیریت دستورات سفارشی، Manager را فشار دهید"

@@ -88,8 +88,8 @@ msgstr "Errore di esecuzione"
 msgid "Exit"
 msgstr "Esci"
 
-msgid "Failed to start command.\n"
-msgstr "Impossibile avviare il comando.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Impossibile avviare il comando.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Log completo"
@@ -118,8 +118,8 @@ msgstr "Nessuna traccia di errore specifica trovata nel log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Solo i comandi predefiniti possono essere disabilitati/abilitati"
 
-msgid "Output cleared.\n"
-msgstr "Output cancellato.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Output cancellato.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Premi Gestione per gestire i comandi personalizzati"

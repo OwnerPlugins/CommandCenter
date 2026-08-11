@@ -90,7 +90,7 @@ msgstr ""
 msgid "Exit"
 msgstr ""
 
-msgid "Failed to start command.\n"
+msgid "Failed to start command.\\\\\\\\n"
 msgstr ""
 
 msgid "Full Log"
@@ -120,7 +120,7 @@ msgstr ""
 msgid "Only predefined commands can be disabled/enabled"
 msgstr ""
 
-msgid "Output cleared.\n"
+msgid "Output cleared.\\\\\\\\n"
 msgstr ""
 
 msgid "Press Manager to manage custom commands"

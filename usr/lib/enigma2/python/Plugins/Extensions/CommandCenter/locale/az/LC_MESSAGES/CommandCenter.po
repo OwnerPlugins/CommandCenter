@@ -90,8 +90,8 @@ msgstr "İcra xətası"
 msgid "Exit"
 msgstr "Çıx"
 
-msgid "Failed to start command.\n"
-msgstr "Komandanı başlatmaq alınmadı.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Komandanı başlatmaq alınmadı.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Tam Qeydiyyat"
@@ -120,8 +120,8 @@ msgstr "Jurnalda xüsusi xəta izi tapılmadı"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Yalnız əvvəlcədən təyin edilmiş əmrləri söndürmək/aktiv etmək olar"
 
-msgid "Output cleared.\n"
-msgstr "Çıxış təmizləndi.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Çıxış təmizləndi.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Xüsusi əmrləri idarə etmək üçün Menecer düyməsini basın"

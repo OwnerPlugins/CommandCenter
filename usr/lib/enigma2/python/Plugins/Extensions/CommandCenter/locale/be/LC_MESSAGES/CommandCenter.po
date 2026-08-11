@@ -91,8 +91,8 @@ msgstr "Памылка выканання"
 msgid "Exit"
 msgstr "Выхад"
 
-msgid "Failed to start command.\n"
-msgstr "Не атрымалася запусціць каманду.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Не атрымалася запусціць каманду.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Поўны часопіс"
@@ -121,11 +121,11 @@ msgstr "У журнале не знойдзена пэўнага следу па
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Толькі загадзя вызначаныя каманды можна адключыць/уключыць"
 
-msgid "Output cleared.\n"
-msgstr "Вывад ачышчаны.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Вывад ачышчаны.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
-msgstr "Націсніце "Дыспетчар", каб кіраваць карыстальніцкімі камандамі"
+msgstr "Націсніце \\\\\\\"Дыспетчар\\\\\\\", каб кіраваць карыстальніцкімі камандамі"
 
 msgid "Ready"
 msgstr "Гатовы"
@@ -146,7 +146,7 @@ msgid "Saved to %s"
 msgstr "Захавана ў %s"
 
 msgid "Select a debug command and press Run"
-msgstr "Выберыце каманду адладкі і націсніце "Выканаць"."
+msgstr "Выберыце каманду адладкі і націсніце \\\\\\\"Выканаць\\\\\\\"."
 
 msgid "Show Logs"
 msgstr "Паказаць журналы"

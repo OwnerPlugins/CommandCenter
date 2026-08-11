@@ -90,8 +90,8 @@ msgstr "निष्पादन त्रुटि"
 msgid "Exit"
 msgstr "बाहर निकलना"
 
-msgid "Failed to start command.\n"
-msgstr "आदेश प्रारंभ करने में विफल.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "आदेश प्रारंभ करने में विफल.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "पूर्ण लॉग"
@@ -120,8 +120,8 @@ msgstr "लॉग में कोई विशिष्ट त्रुटि �
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "केवल पूर्वनिर्धारित कमांड को ही अक्षम/सक्षम किया जा सकता है"
 
-msgid "Output cleared.\n"
-msgstr "आउटपुट साफ़ हो गया.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "आउटपुट साफ़ हो गया.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "कस्टम कमांड प्रबंधित करने के लिए मैनेजर दबाएँ"

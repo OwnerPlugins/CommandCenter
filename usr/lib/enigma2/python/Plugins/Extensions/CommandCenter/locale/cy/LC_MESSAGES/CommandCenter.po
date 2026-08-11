@@ -90,8 +90,8 @@ msgstr "Gwall gweithredu"
 msgid "Exit"
 msgstr "Ymadael"
 
-msgid "Failed to start command.\n"
-msgstr "Wedi methu cychwyn y gorchymyn.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Wedi methu cychwyn y gorchymyn.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Log Llawn"
@@ -120,8 +120,8 @@ msgstr "Ni chanfuwyd unrhyw olrhain gwall penodol yn y log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Dim ond gorchmynion rhagddiffiniedig y gellir eu hanalluogi/galluogi"
 
-msgid "Output cleared.\n"
-msgstr "Allbwn wedi'i glirio.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Allbwn wedi'i glirio.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Pwyswch Rheolwr i reoli gorchmynion arferiad"

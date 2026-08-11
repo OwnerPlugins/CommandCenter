@@ -90,8 +90,8 @@ msgstr "Utfier flater"
 msgid "Exit"
 msgstr "Útgong"
 
-msgid "Failed to start command.\n"
-msgstr "It begjinnen fan kommando is mislearre.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "It begjinnen fan kommando is mislearre.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Folsleine log"
@@ -120,8 +120,8 @@ msgstr "Gjin spesifike flaterspoar fûn yn log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Allinich foarôf definieare kommando's kinne wurde útskeakele / ynskeakele"
 
-msgid "Output cleared.\n"
-msgstr "Utfier wiske.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Utfier wiske.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Druk op Manager om oanpaste kommando's te behearjen"

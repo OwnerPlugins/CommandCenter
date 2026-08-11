@@ -90,8 +90,8 @@ msgstr "ಮರಣದಂಡನೆ ದೋಷ"
 msgid "Exit"
 msgstr "ನಿರ್ಗಮಿಸಿ"
 
-msgid "Failed to start command.\n"
-msgstr "ಆಜ್ಞೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ವಿಫಲವಾಗಿದೆ.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "ಆಜ್ಞೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ವಿಫಲವಾಗಿದೆ.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "ಪೂರ್ಣ ಲಾಗ್"
@@ -120,8 +120,8 @@ msgstr "ಲಾಗ್‌ನಲ್ಲಿ ಯಾವುದೇ ನಿರ್ದಿಷ�
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "ಪೂರ್ವನಿರ್ಧರಿತ ಆಜ್ಞೆಗಳನ್ನು ಮಾತ್ರ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಬಹುದು/ಸಕ್ರಿಯಗೊಳಿಸಬಹುದು"
 
-msgid "Output cleared.\n"
-msgstr "ಔಟ್‌ಪುಟ್ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "ಔಟ್‌ಪುಟ್ ತೆರವುಗೊಳಿಸಲಾಗಿದೆ.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "ಕಸ್ಟಮ್ ಆಜ್ಞೆಗಳನ್ನು ನಿರ್ವಹಿಸಲು ಮ್ಯಾನೇಜರ್ ಅನ್ನು ಒತ್ತಿರಿ"

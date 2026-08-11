@@ -90,8 +90,8 @@ msgstr "Орындау қатесі"
 msgid "Exit"
 msgstr "Шығу"
 
-msgid "Failed to start command.\n"
-msgstr "Пәрменді бастау мүмкін болмады.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Пәрменді бастау мүмкін болмады.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Толық журнал"
@@ -120,8 +120,8 @@ msgstr "Журналда нақты қате ізі табылмады"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Тек алдын ала анықталған пәрмендерді өшіруге/қосуға болады"
 
-msgid "Output cleared.\n"
-msgstr "Шығару өшірілді.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Шығару өшірілді.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Пайдаланушы пәрмендерін басқару үшін Менеджер түймесін басыңыз"

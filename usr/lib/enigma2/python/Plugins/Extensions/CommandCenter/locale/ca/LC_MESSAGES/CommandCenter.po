@@ -91,8 +91,8 @@ msgstr "Error d'execució"
 msgid "Exit"
 msgstr "Sortida"
 
-msgid "Failed to start command.\n"
-msgstr "No s'ha pogut iniciar l'ordre.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "No s'ha pogut iniciar l'ordre.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Registre complet"
@@ -121,8 +121,8 @@ msgstr "No s'ha trobat cap rastre d'error específic al registre"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Només es poden desactivar/activar les ordres predefinides"
 
-msgid "Output cleared.\n"
-msgstr "Sortida esborrada.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Sortida esborrada.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Premeu Gestor per gestionar les ordres personalitzades"

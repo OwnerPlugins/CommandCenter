@@ -90,8 +90,8 @@ msgstr "Ralat pelaksanaan"
 msgid "Exit"
 msgstr "Keluar"
 
-msgid "Failed to start command.\n"
-msgstr "Gagal memulakan arahan.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Gagal memulakan arahan.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Log Penuh"
@@ -120,8 +120,8 @@ msgstr "Tiada kesan ralat khusus ditemui dalam log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Hanya arahan yang dipratentukan boleh dilumpuhkan/didayakan"
 
-msgid "Output cleared.\n"
-msgstr "Output dikosongkan.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Output dikosongkan.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Tekan Pengurus untuk mengurus arahan tersuai"

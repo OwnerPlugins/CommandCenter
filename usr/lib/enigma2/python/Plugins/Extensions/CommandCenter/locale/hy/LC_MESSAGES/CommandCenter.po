@@ -90,8 +90,8 @@ msgstr "Կատարման սխալ"
 msgid "Exit"
 msgstr "Ելք"
 
-msgid "Failed to start command.\n"
-msgstr "Չհաջողվեց սկսել հրամանը:\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Չհաջողվեց սկսել հրամանը:\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Ամբողջական մատյան"
@@ -120,8 +120,8 @@ msgstr "Մատյանում հատուկ սխալի հետք չի գտնվել"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Միայն նախապես սահմանված հրամանները կարող են անջատվել/միացնել"
 
-msgid "Output cleared.\n"
-msgstr "Ելքը մաքրված է։\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Ելքը մաքրված է։\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Սեղմեք Manager՝ հատուկ հրամանները կառավարելու համար"

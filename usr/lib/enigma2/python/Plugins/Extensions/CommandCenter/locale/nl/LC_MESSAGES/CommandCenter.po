@@ -91,8 +91,8 @@ msgstr "Uitvoeringsfout"
 msgid "Exit"
 msgstr "Uitgang"
 
-msgid "Failed to start command.\n"
-msgstr "Kan opdracht niet starten.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Kan opdracht niet starten.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Volledig logboek"
@@ -121,8 +121,8 @@ msgstr "Er is geen specifiek fouttracé gevonden in het logboek"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Alleen vooraf gedefinieerde opdrachten kunnen worden in-/uitgeschakeld"
 
-msgid "Output cleared.\n"
-msgstr "Uitvoer gewist.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Uitvoer gewist.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Druk op Manager om aangepaste opdrachten te beheren"

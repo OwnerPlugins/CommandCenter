@@ -91,8 +91,8 @@ msgstr "Грешка при изпълнение"
 msgid "Exit"
 msgstr "Изход"
 
-msgid "Failed to start command.\n"
-msgstr "Неуспешно стартиране на командата.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Неуспешно стартиране на командата.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Пълен дневник"
@@ -121,8 +121,8 @@ msgstr "В регистрационния файл не е открита кон
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Само предварително зададени команди могат да бъдат деактивирани/активирани"
 
-msgid "Output cleared.\n"
-msgstr "Изходът е изчистен.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Изходът е изчистен.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Натиснете Мениджър, за да управлявате персонализирани команди"

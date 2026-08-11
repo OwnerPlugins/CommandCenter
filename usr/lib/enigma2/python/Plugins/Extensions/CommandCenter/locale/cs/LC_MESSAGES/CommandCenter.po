@@ -91,8 +91,8 @@ msgstr "Chyba provedení"
 msgid "Exit"
 msgstr "Výstup"
 
-msgid "Failed to start command.\n"
-msgstr "Spuštění příkazu se nezdařilo.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Spuštění příkazu se nezdařilo.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Celý protokol"
@@ -121,8 +121,8 @@ msgstr "V protokolu nebyla nalezena žádná konkrétní chyba"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Zakázat/povolit lze pouze předdefinované příkazy"
 
-msgid "Output cleared.\n"
-msgstr "Výstup byl vymazán.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Výstup byl vymazán.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Chcete-li spravovat vlastní příkazy, stiskněte Správce"

@@ -91,8 +91,8 @@ msgstr "Erreur d'exécution"
 msgid "Exit"
 msgstr "Sortie"
 
-msgid "Failed to start command.\n"
-msgstr "Échec du démarrage de la commande.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Échec du démarrage de la commande.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Journal complet"
@@ -121,8 +121,8 @@ msgstr "Aucune trace d'erreur spécifique trouvée dans le journal"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Seules les commandes prédéfinies peuvent être désactivées/activées"
 
-msgid "Output cleared.\n"
-msgstr "Sortie effacée.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Sortie effacée.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Appuyez sur Manager pour gérer les commandes personnalisées"

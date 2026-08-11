@@ -90,8 +90,8 @@ msgstr "Аткаруу катасы"
 msgid "Exit"
 msgstr "Чыгыңыз"
 
-msgid "Failed to start command.\n"
-msgstr "Буйрук башталбай калды.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Буйрук башталбай калды.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Толук журнал"
@@ -120,8 +120,8 @@ msgstr "Журналда кандайдыр бир ката изи табылг�
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Алдын ала аныкталган буйруктарды гана өчүрүп/ишке келтирсе болот"
 
-msgid "Output cleared.\n"
-msgstr "Чыгуу тазаланды.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Чыгуу тазаланды.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Ыңгайлаштырылган буйруктарды башкаруу үчүн Менеджерди басыңыз"

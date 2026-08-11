@@ -90,8 +90,8 @@ msgstr "Error d'execucion"
 msgid "Exit"
 msgstr "Sortida"
 
-msgid "Failed to start command.\n"
-msgstr "Fracàs al començament de la comanda.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Fracàs al començament de la comanda.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Jornal complet"
@@ -120,8 +120,8 @@ msgstr "Cap de traça d'error especifica pas trobada dins lo jornal"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Sonque las comandas predefinidas pòdon èsser desactivadas/activadas"
 
-msgid "Output cleared.\n"
-msgstr "Sortida escafada.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Sortida escafada.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Quichatz sus Gestionari per gerir las comandas personalizadas"

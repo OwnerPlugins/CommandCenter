@@ -89,8 +89,8 @@ msgstr "Σφάλμα εκτέλεσης"
 msgid "Exit"
 msgstr "Έξοδος"
 
-msgid "Failed to start command.\n"
-msgstr "Αποτυχία εκκίνησης της εντολής.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Αποτυχία εκκίνησης της εντολής.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Πλήρες αρχείο καταγραφής"
@@ -119,8 +119,8 @@ msgstr "Δεν βρέθηκε συγκεκριμένο ίχνος σφάλματ
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Μόνο οι προκαθορισμένες εντολές μπορούν να ενεργοποιηθούν/απενεργοποιηθούν"
 
-msgid "Output cleared.\n"
-msgstr "Η έξοδος καθαρίστηκε.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Η έξοδος καθαρίστηκε.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Πατήστε Διαχείριση για διαχείριση προσαρμοσμένων εντολών"

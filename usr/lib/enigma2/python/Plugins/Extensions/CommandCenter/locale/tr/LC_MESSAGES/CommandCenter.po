@@ -89,8 +89,8 @@ msgstr "Yürütme hatası"
 msgid "Exit"
 msgstr "Çıkış"
 
-msgid "Failed to start command.\n"
-msgstr "Komut başlatılamadı.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Komut başlatılamadı.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Tam Günlük"
@@ -119,8 +119,8 @@ msgstr "Günlükte belirli bir hata izi bulunamadı"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Yalnızca önceden tanımlanmış komutlar devre dışı bırakılabilir/etkinleştirilebilir"
 
-msgid "Output cleared.\n"
-msgstr "Çıkış temizlendi.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Çıkış temizlendi.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Özel komutları yönetmek için Yönetici'ye basın"

@@ -91,8 +91,8 @@ msgstr "Utførelsesfeil"
 msgid "Exit"
 msgstr "Gå"
 
-msgid "Failed to start command.\n"
-msgstr "Kunne ikke starte kommandoen.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "Kunne ikke starte kommandoen.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Full logg"
@@ -121,8 +121,8 @@ msgstr "Ingen spesifikk feilspor funnet i loggen"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Bare forhåndsdefinerte kommandoer kan deaktiveres/aktiveres"
 
-msgid "Output cleared.\n"
-msgstr "Utdata slettet.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "Utdata slettet.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Trykk på Manager for å administrere egendefinerte kommandoer"

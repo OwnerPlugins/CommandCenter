@@ -90,8 +90,8 @@ msgstr "កំហុសក្នុងការអនុវត្ត"
 msgid "Exit"
 msgstr "ចេញ"
 
-msgid "Failed to start command.\n"
-msgstr "បរាជ័យក្នុងការចាប់ផ្តើមពាក្យបញ្ជា។\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "បរាជ័យក្នុងការចាប់ផ្តើមពាក្យបញ្ជា។\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "កំណត់ហេតុពេញ"
@@ -120,8 +120,8 @@ msgstr "រកមិនឃើញដានកំហុសជាក់លាក់
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "មានតែពាក្យបញ្ជាដែលបានកំណត់ជាមុនប៉ុណ្ណោះដែលអាចបិទ/បើកបាន។"
 
-msgid "Output cleared.\n"
-msgstr "លទ្ធផលត្រូវបានសម្អាត។\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "លទ្ធផលត្រូវបានសម្អាត។\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "ចុចអ្នកគ្រប់គ្រងដើម្បីគ្រប់គ្រងពាក្យបញ្ជាផ្ទាល់ខ្លួន"

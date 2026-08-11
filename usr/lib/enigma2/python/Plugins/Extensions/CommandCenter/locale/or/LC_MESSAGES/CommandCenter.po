@@ -90,8 +90,8 @@ msgstr "ନିଷ୍ପାଦନ ତ୍ରୁଟି |"
 msgid "Exit"
 msgstr "ପ୍ରସ୍ଥାନ"
 
-msgid "Failed to start command.\n"
-msgstr "ନିର୍ଦ୍ଦେଶ ଆରମ୍ଭ କରିବାରେ ବିଫଳ। \ N"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "ନିର୍ଦ୍ଦେଶ ଆରମ୍ଭ କରିବାରେ ବିଫଳ। \\\\\\\\ N"
 
 msgid "Full Log"
 msgstr "ପୂର୍ଣ୍ଣ ଲଗ୍ |"
@@ -120,8 +120,8 @@ msgstr "ଲଗରେ କ specific ଣସି ନିର୍ଦ୍ଦିଷ୍ଟ �
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "କେବଳ ପୂର୍ବ ନିର୍ଦ୍ଧାରିତ ନିର୍ଦ୍ଦେଶଗୁଡ଼ିକ ଅକ୍ଷମ / ସକ୍ଷମ ହୋଇପାରିବ |"
 
-msgid "Output cleared.\n"
-msgstr "ଆଉଟପୁଟ୍ ସଫା ହେଲା | \ n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "ଆଉଟପୁଟ୍ ସଫା ହେଲା | \\\\\\\\ n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "କଷ୍ଟମ୍ କମାଣ୍ଡ୍ ପରିଚାଳନା କରିବାକୁ ମ୍ୟାନେଜର୍ ଦବାନ୍ତୁ |"

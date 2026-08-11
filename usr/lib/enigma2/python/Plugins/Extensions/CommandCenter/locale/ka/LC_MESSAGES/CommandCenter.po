@@ -90,8 +90,8 @@ msgstr "შესრულების შეცდომა"
 msgid "Exit"
 msgstr "გასვლა"
 
-msgid "Failed to start command.\n"
-msgstr "ბრძანების დაწყება ვერ მოხერხდა.\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "ბრძანების დაწყება ვერ მოხერხდა.\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "სრული ჟურნალი"
@@ -120,8 +120,8 @@ msgstr "ჟურნალში კონკრეტული შეცდო�
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "შესაძლებელია მხოლოდ წინასწარ განსაზღვრული ბრძანებების გამორთვა/ჩართვა"
 
-msgid "Output cleared.\n"
-msgstr "გამომავალი წაშლილია.\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "გამომავალი წაშლილია.\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "დააჭირეთ მენეჯერს მორგებული ბრძანებების სამართავად"

@@ -88,8 +88,8 @@ msgstr "پھانسی کی خرابی۔"
 msgid "Exit"
 msgstr "باہر نکلیں۔"
 
-msgid "Failed to start command.\n"
-msgstr "کمانڈ شروع کرنے میں ناکام۔\n"
+msgid "Failed to start command.\\\\\\\\n"
+msgstr "کمانڈ شروع کرنے میں ناکام۔\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "مکمل لاگ"
@@ -118,8 +118,8 @@ msgstr "لاگ میں کوئی خاص خرابی کا سراغ نہیں ملا"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "صرف پہلے سے طے شدہ کمانڈز کو غیر فعال/فعال کیا جا سکتا ہے۔"
 
-msgid "Output cleared.\n"
-msgstr "آؤٹ پٹ صاف ہو گیا۔\n"
+msgid "Output cleared.\\\\\\\\n"
+msgstr "آؤٹ پٹ صاف ہو گیا۔\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "کسٹم کمانڈز کا نظم کرنے کے لیے مینیجر کو دبائیں۔"
