@@ -88,8 +88,9 @@ msgstr "Error sa pagpapatupad"
 msgid "Exit"
 msgstr "Lumabas"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Nabigong simulan ang utos.\\\\\\\\n"
+msgstr "Nabigong simulan ang utos.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Buong Log"
@@ -118,8 +119,9 @@ msgstr "Walang nakitang partikular na bakas ng error sa log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Ang mga paunang natukoy na command lamang ang maaaring i-disable/i-enable"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Na-clear ang output.\\\\\\\\n"
+msgstr "Na-clear ang output.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Pindutin ang Manager para pamahalaan ang mga custom na command"

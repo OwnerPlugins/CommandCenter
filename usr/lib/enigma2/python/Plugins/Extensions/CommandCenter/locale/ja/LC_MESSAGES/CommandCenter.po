@@ -91,8 +91,9 @@ msgstr "実行エラー"
 msgid "Exit"
 msgstr "出口"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "コマンドの開始に失敗しました。\\\\\\\\n"
+msgstr "コマンドの開始に失敗しました。\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "完全なログ"
@@ -121,8 +122,9 @@ msgstr "ログに特定のエラー トレースが見つかりません"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "事前定義されたコマンドのみを無効化/有効化できます。"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "出力がクリアされました。\\\\\\\\n"
+msgstr "出力がクリアされました。\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "マネージャーを押してカスタム コマンドを管理します"

@@ -91,8 +91,9 @@ msgstr "Erro de execução"
 msgid "Exit"
 msgstr "Saída"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Falha ao iniciar o comando.\\\\\\\\n"
+msgstr "Falha ao iniciar o comando.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Registro completo"
@@ -121,8 +122,9 @@ msgstr "Nenhum rastreamento de erro específico encontrado no log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Somente comandos predefinidos podem ser desabilitados/habilitados"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Saída limpa.\\\\\\\\n"
+msgstr "Saída limpa.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Pressione Manager para gerenciar comandos personalizados"

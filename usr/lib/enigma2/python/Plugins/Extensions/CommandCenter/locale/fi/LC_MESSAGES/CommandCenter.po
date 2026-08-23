@@ -89,8 +89,9 @@ msgstr "Suoritusvirhe"
 msgid "Exit"
 msgstr "Poistu"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Komennon käynnistys epäonnistui.\\\\\\\\n"
+msgstr "Komennon käynnistys epäonnistui.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Täysi loki"
@@ -119,8 +120,9 @@ msgstr "Loista ei löytynyt erityistä virhejälkeä"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Vain ennalta määritetyt komennot voidaan ottaa käyttöön tai poistaa käytöstä"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Tuloste tyhjennetty.\\\\\\\\n"
+msgstr "Tuloste tyhjennetty.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Paina Hallinta hallitaksesi mukautettuja komentoja"

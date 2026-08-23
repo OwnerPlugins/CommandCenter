@@ -91,8 +91,9 @@ msgstr "Végrehajtási hiba"
 msgid "Exit"
 msgstr "Kijárat"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Nem sikerült elindítani a parancsot.\\\\\\\\n"
+msgstr "Nem sikerült elindítani a parancsot.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Teljes napló"
@@ -121,8 +122,9 @@ msgstr "Nem található konkrét hibanyom a naplóban"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Csak előre meghatározott parancsok tilthatók/engedélyezhetők"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Kimenet törölve.\\\\\\\\n"
+msgstr "Kimenet törölve.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Nyomja meg a Kezelő gombot az egyéni parancsok kezeléséhez"

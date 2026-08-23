@@ -90,8 +90,9 @@ msgstr "Greška u izvršenju"
 msgid "Exit"
 msgstr "Izađi"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Pokretanje komande nije uspjelo.\\\\\\\\n"
+msgstr "Pokretanje komande nije uspjelo.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr ""
@@ -120,8 +121,9 @@ msgstr "U dnevniku nije pronađen nikakav specifičan trag greške"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Samo unaprijed definirane komande mogu biti onemogućene/omogućene"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Izlaz je obrisan.\\\\\\\\n"
+msgstr "Izlaz je obrisan.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Pritisnite Manager za upravljanje prilagođenim komandama"

@@ -90,8 +90,9 @@ msgstr "Гүйцэтгэлийн алдаа"
 msgid "Exit"
 msgstr "Гарах"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Командыг эхлүүлж чадсангүй.\\\\\\\\n"
+msgstr "Командыг эхлүүлж чадсангүй.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Бүрэн бүртгэл"
@@ -120,8 +121,9 @@ msgstr "Бүртгэлд тодорхой алдаа олдсонгүй"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Зөвхөн урьдчилан тодорхойлсон тушаалуудыг идэвхгүй/идэвхжүүлж болно"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Гаралтыг арилгасан.\\\\\\\\n"
+msgstr "Гаралтыг арилгасан.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Захиалгат тушаалыг удирдахын тулд Менежерийг дарна уу"

@@ -90,8 +90,9 @@ msgstr "ਐਗਜ਼ੀਕਿਊਸ਼ਨ ਗਲਤੀ"
 msgid "Exit"
 msgstr "ਨਿਕਾਸ"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "ਕਮਾਂਡ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।\\\\\\\\n"
+msgstr "ਕਮਾਂਡ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "ਪੂਰਾ ਲਾਗ"
@@ -120,8 +121,9 @@ msgstr "ਲਾਗ ਵਿੱਚ ਕੋਈ ਖਾਸ ਗਲਤੀ ਟਰੇਸ ਨ
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "ਸਿਰਫ਼ ਪਹਿਲਾਂ ਤੋਂ ਪਰਿਭਾਸ਼ਿਤ ਕਮਾਂਡਾਂ ਨੂੰ ਅਯੋਗ/ਯੋਗ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "ਆਉਟਪੁੱਟ ਸਾਫ਼ ਕੀਤੀ ਗਈ।\\\\\\\\n"
+msgstr "ਆਉਟਪੁੱਟ ਸਾਫ਼ ਕੀਤੀ ਗਈ।\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "ਕਸਟਮ ਕਮਾਂਡਾਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਲਈ ਮੈਨੇਜਰ ਨੂੰ ਦਬਾਓ"

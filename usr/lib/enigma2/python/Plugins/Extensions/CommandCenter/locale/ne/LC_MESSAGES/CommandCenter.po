@@ -90,8 +90,9 @@ msgstr "कार्यान्वयन त्रुटि"
 msgid "Exit"
 msgstr "बाहिर निस्कनुहोस्"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "आदेश सुरु गर्न असफल।\\\\\\\\n"
+msgstr "आदेश सुरु गर्न असफल।\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "पूर्ण लग"
@@ -120,8 +121,9 @@ msgstr "लगमा कुनै विशेष त्रुटि ट्र�
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "पूर्वनिर्धारित आदेशहरू मात्र असक्षम/सक्षम गर्न सकिन्छ"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "आउटपुट खाली गरियो।\\\\\\\\n"
+msgstr "आउटपुट खाली गरियो।\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "अनुकूलन आदेशहरू व्यवस्थापन गर्न प्रबन्धक थिच्नुहोस्"

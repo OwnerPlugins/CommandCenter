@@ -90,8 +90,9 @@ msgstr "Erro de execución"
 msgid "Exit"
 msgstr "Saír"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Produciuse un erro ao iniciar o comando.\\\\\\\\n"
+msgstr "Produciuse un erro ao iniciar o comando.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Rexistro completo"
@@ -120,8 +121,9 @@ msgstr "Non se atopou ningún rastro de erro específico no rexistro"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Só se poden desactivar/activar os comandos predefinidos"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Borrouse a saída.\\\\\\\\n"
+msgstr "Borrouse a saída.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Preme Xestor para xestionar comandos personalizados"

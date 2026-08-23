@@ -88,8 +88,8 @@ msgstr "Башкару хата"
 msgid "Exit"
 msgstr "Чык"
 
-msgid "Failed to start command.\\\\\\\\n"
-msgstr "Команда башлый алмады. \\\\\\\\ N."
+msgid "Failed to start command.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Команда башлый алмады. \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ N."
 
 msgid "Full Log"
 msgstr "Тулы журнал"
@@ -118,8 +118,8 @@ msgstr "Бүрәнәдә махсус хата эзе табылмады"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Алдан билгеләнгән боерыклар гына сүндерелергә / кушылырга мөмкин"
 
-msgid "Output cleared.\\\\\\\\n"
-msgstr "Чыгарылды. \\\\\\\\ N."
+msgid "Output cleared.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Чыгарылды. \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ N."
 
 msgid "Press Manager to manage custom commands"
 msgstr "Заказлы боерыклар белән идарә итү өчен менеджер басыгыз"

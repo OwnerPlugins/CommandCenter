@@ -90,8 +90,9 @@ msgstr "Framkvæmdarvilla"
 msgid "Exit"
 msgstr "Hætta"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Mistókst að ræsa skipun.\\\\\\\\n"
+msgstr "Mistókst að ræsa skipun.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Full log"
@@ -120,8 +121,9 @@ msgstr "Engin sértæk villuspor fannst í log"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Aðeins er hægt að slökkva/virkja fyrirfram skilgreindar skipanir"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Úttak hreinsað.\\\\\\\\n"
+msgstr "Úttak hreinsað.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Ýttu á Manager til að stjórna sérsniðnum skipunum"

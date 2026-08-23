@@ -91,8 +91,9 @@ msgstr "Greška u izvršenju"
 msgid "Exit"
 msgstr "Izlaz"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Pokretanje naredbe nije uspjelo.\\\\\\\\n"
+msgstr "Pokretanje naredbe nije uspjelo.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Cijeli dnevnik"
@@ -121,8 +122,9 @@ msgstr "U zapisniku nije pronađen određeni trag pogreške"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Samo unaprijed definirane naredbe mogu se onemogućiti/omogućiti"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Izlaz je izbrisan.\\\\\\\\n"
+msgstr "Izlaz je izbrisan.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Pritisnite Upravitelj za upravljanje prilagođenim naredbama"

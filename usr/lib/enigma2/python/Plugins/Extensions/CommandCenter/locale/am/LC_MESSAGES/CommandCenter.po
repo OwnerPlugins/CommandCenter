@@ -90,8 +90,9 @@ msgstr "የማስፈጸም ስህተት"
 msgid "Exit"
 msgstr "ውጣ"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "ትእዛዝ መጀመር አልተሳካም።\\\\\\\\n"
+msgstr "ትእዛዝ መጀመር አልተሳካም።\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "ሙሉ ምዝግብ ማስታወሻ"
@@ -120,8 +121,9 @@ msgstr "በምዝግብ ማስታወሻ ውስጥ ምንም የተለየ የስ�
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "አስቀድሞ የተገለጹ ትዕዛዞች ብቻ ሊሰናከሉ/ማንቃት ይችላሉ።"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "ውፅዓት ጸድቷል።\\\\\\\\n"
+msgstr "ውፅዓት ጸድቷል።\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "ብጁ ትዕዛዞችን ለማስተዳደር አስተዳዳሪን ይጫኑ"

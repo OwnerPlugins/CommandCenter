@@ -90,8 +90,9 @@ msgstr "Çewtiya darvekirinê"
 msgid "Exit"
 msgstr "Derî"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Ferman dest pê nekir.\\\\\\\\n"
+msgstr "Ferman dest pê nekir.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Têketinê tije"
@@ -120,8 +121,9 @@ msgstr "Di têketinê de şopa xeletiyek taybetî nehat dîtin"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Tenê fermanên pêşwextkirî dikarin bên neçalakkirin/çalakkirin"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Derketin hat paqijkirin.\\\\\\\\n"
+msgstr "Derketin hat paqijkirin.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Gerînendeyê Çapemeniyê ji bo birêvebirina emrên xwerû"

@@ -90,8 +90,9 @@ msgstr "Uitvoeringsfout"
 msgid "Exit"
 msgstr "Verlaat"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Kon nie opdrag begin nie.\\\\\\\\n"
+msgstr "Kon nie opdrag begin nie.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Volledige log"
@@ -120,8 +121,9 @@ msgstr "Geen spesifieke foutspoor in log gevind nie"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Slegs vooraf gedefinieerde opdragte kan gedeaktiveer/geaktiveer word"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Uitvoer is skoongemaak.\\\\\\\\n"
+msgstr "Uitvoer is skoongemaak.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Druk Bestuurder om persoonlike opdragte te bestuur"

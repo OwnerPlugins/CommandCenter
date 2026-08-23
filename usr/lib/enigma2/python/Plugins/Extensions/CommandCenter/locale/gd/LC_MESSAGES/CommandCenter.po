@@ -90,8 +90,9 @@ msgstr "Mearachd cur-an-gnìomh"
 msgid "Exit"
 msgstr "Ar-a-mach"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Dh'fhàillig tòiseachadh an àithne.\\\\\\\\n"
+msgstr "Dh'fhàillig tòiseachadh an àithne.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Log slàn"
@@ -120,8 +121,9 @@ msgstr "Cha deach lorg mearachd sònraichte a lorg sa loga"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Chan fhaod ach òrdughan ro-mhìnichte a bhith à comas/comas"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Toradh air a ghlanadh.\\\\\\\\n"
+msgstr "Toradh air a ghlanadh.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Brùth Manaidsear gus òrdughan gnàthaichte a riaghladh"

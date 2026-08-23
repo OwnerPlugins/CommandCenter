@@ -90,8 +90,9 @@ msgstr "Грешка при извршувањето"
 msgid "Exit"
 msgstr "Излезете"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Не успеа да започне командата.\\\\\\\\n"
+msgstr "Не успеа да започне командата.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Целосен дневник"
@@ -120,8 +121,9 @@ msgstr "Не е пронајдена специфична трага за гре
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Може да се оневозможат/овозможат само однапред дефинираните команди"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Излезот е исчистен.\\\\\\\\n"
+msgstr "Излезот е исчистен.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Притиснете Менаџер за да управувате со сопствени команди"

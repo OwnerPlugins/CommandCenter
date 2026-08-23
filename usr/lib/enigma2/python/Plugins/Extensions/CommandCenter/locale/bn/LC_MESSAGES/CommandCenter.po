@@ -90,8 +90,9 @@ msgstr "মৃত্যুদন্ড ত্রুটি"
 msgid "Exit"
 msgstr "প্রস্থান করুন"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "কমান্ড শুরু করতে ব্যর্থ হয়েছে৷\\\\\\\\n"
+msgstr "কমান্ড শুরু করতে ব্যর্থ হয়েছে৷\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "সম্পূর্ণ লগ"
@@ -120,8 +121,9 @@ msgstr "লগে কোনো নির্দিষ্ট ত্রুটির
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "শুধুমাত্র পূর্বনির্ধারিত কমান্ড নিষ্ক্রিয়/সক্রিয় করা যেতে পারে"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "আউটপুট সাফ করা হয়েছে৷\\\\\\\\n"
+msgstr "আউটপুট সাফ করা হয়েছে৷\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "কাস্টম কমান্ড পরিচালনা করতে ম্যানেজার টিপুন"

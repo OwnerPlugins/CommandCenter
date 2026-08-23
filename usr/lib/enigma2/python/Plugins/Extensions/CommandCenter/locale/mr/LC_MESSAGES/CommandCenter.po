@@ -90,8 +90,9 @@ msgstr "अंमलबजावणी त्रुटी"
 msgid "Exit"
 msgstr "बाहेर पडा"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "आदेश सुरू करण्यात अयशस्वी.\\\\\\\\n"
+msgstr "आदेश सुरू करण्यात अयशस्वी.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "पूर्ण लॉग"
@@ -120,8 +121,9 @@ msgstr "लॉगमध्ये कोणतेही विशिष्ट त
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "केवळ पूर्वनिर्धारित आदेश अक्षम/सक्षम केले जाऊ शकतात"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "आउटपुट साफ केले.\\\\\\\\n"
+msgstr "आउटपुट साफ केले.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "कस्टम आदेश व्यवस्थापित करण्यासाठी व्यवस्थापक दाबा"

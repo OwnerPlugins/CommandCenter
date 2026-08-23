@@ -92,8 +92,9 @@ msgstr "Execution error"
 msgid "Exit"
 msgstr ""
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Failed to start command.\\\\\\\\n"
+msgstr "Failed to start command.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr ""
@@ -122,8 +123,9 @@ msgstr ""
 msgid "Only predefined commands can be disabled/enabled"
 msgstr ""
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Output cleared.\\\\\\\\n"
+msgstr "Output cleared.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr ""

@@ -88,8 +88,8 @@ msgstr "Amalga oshirish xatosi"
 msgid "Exit"
 msgstr "Chiqish"
 
-msgid "Failed to start command.\\\\\\\\n"
-msgstr "Buyruq ishga tushmadi.\\\\\\\\n"
+msgid "Failed to start command.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Buyruq ishga tushmadi.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "To'liq jurnal"
@@ -118,8 +118,8 @@ msgstr "Jurnalda aniq xato izi topilmadi"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Faqat oldindan belgilangan buyruqlarni o'chirish/yoqish mumkin"
 
-msgid "Output cleared.\\\\\\\\n"
-msgstr "Chiqish tozalandi.\\\\\\\\n"
+msgid "Output cleared.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
+msgstr "Chiqish tozalandi.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Maxsus buyruqlarni boshqarish uchun menejerni bosing"

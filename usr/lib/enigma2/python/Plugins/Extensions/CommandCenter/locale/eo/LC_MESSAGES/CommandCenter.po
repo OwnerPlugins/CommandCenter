@@ -91,8 +91,9 @@ msgstr "Ekzekuta eraro"
 msgid "Exit"
 msgstr "Eliro"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "Malsukcesis lanĉi komandon.\\\\\\\\n"
+msgstr "Malsukcesis lanĉi komandon.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "Plena Registro"
@@ -121,8 +122,9 @@ msgstr "Neniu specifa erarspuro trovita en protokolo"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "Nur antaŭdifinitaj komandoj povas esti malŝaltitaj/aktivigitaj"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "Eligo forigita.\\\\\\\\n"
+msgstr "Eligo forigita.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "Premu Administranton por administri kutimajn komandojn"

@@ -90,8 +90,9 @@ msgstr "خطأ في التنفيذ"
 msgid "Exit"
 msgstr "مخرج"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "فشل في بدء الأمر.\\\\\\\\n"
+msgstr "فشل في بدء الأمر.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "سجل كامل"
@@ -120,8 +121,9 @@ msgstr "لم يتم العثور على أثر خطأ محدد في السجل"
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "يمكن تعطيل/تمكين الأوامر المحددة مسبقًا فقط"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "تم مسح الإخراج.\\\\\\\\n"
+msgstr "تم مسح الإخراج.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "اضغط على Manager لإدارة الأوامر المخصصة"

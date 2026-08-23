@@ -90,8 +90,9 @@ msgstr "એક્ઝેક્યુશન ભૂલ"
 msgid "Exit"
 msgstr "બહાર નીકળો"
 
+#, fuzzy
 msgid "Failed to start command.\\\\\\\\n"
-msgstr "આદેશ શરૂ કરવામાં નિષ્ફળ.\\\\\\\\n"
+msgstr "આદેશ શરૂ કરવામાં નિષ્ફળ.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Full Log"
 msgstr "સંપૂર્ણ લોગ"
@@ -120,8 +121,9 @@ msgstr "લોગમાં કોઈ ચોક્કસ ભૂલ ટ્રે�
 msgid "Only predefined commands can be disabled/enabled"
 msgstr "ફક્ત પૂર્વવ્યાખ્યાયિત આદેશોને અક્ષમ/સક્ષમ કરી શકાય છે"
 
+#, fuzzy
 msgid "Output cleared.\\\\\\\\n"
-msgstr "આઉટપુટ સાફ.\\\\\\\\n"
+msgstr "આઉટપુટ સાફ.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n"
 
 msgid "Press Manager to manage custom commands"
 msgstr "કસ્ટમ આદેશોનું સંચાલન કરવા માટે મેનેજર દબાવો"
