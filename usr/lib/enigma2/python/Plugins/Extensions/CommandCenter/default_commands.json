@@ -1,7 +1,7 @@
 {
     "⚙️ Process Management": [
         [
-            "ps aux",
+            "ps",
             "Process list"
         ],
         [
@@ -51,7 +51,7 @@
             "Ping Google DNS"
         ],
         [
-            "wget -q -T 1 -t 1 --spider http://www.google.com",
+            "wget -T 3 -t 1 --spider http://www.google.com 2>&1 && echo 'OK' || echo 'FAIL'",
             "HTTP connectivity test"
         ],
         [
@@ -59,7 +59,7 @@
             "ARP table"
         ],
         [
-            "hostname -I",
+            "hostname -i",
             "Local IP addresses"
         ]
     ],
@@ -91,7 +91,7 @@
             "System uptime"
         ],
         [
-            "free -m",
+            "echo 'Free Memory.: $(cat /proc/meminfo | grep MemFree | awk '{print $2/1024}') MB'",
             "Free memory (MB)"
         ],
         [
@@ -179,14 +179,14 @@
             "First 20 available packages"
         ],
         [
-            "opkg install <name>",
-            "Install package (replace <name>)"
-        ],
-        [
-            "opkg remove <name>",
-            "Remove package"
-        ],
-        [
+                                  
+                                              
+          
+         
+                                 
+                            
+          
+         
             "apt-get update",
             "Update (apt)"
         ],
