@@ -42,6 +42,9 @@ msgstr ""
 msgid "Command finished (code %d)"
 msgstr ""
 
+msgid "Command set. Press YELLOW to run, BLUE to save."
+msgstr ""
+
 msgid "Confirm Debug Command"
 msgstr ""
 
@@ -57,6 +60,9 @@ msgstr ""
 msgid "Deleted: %s"
 msgstr ""
 
+msgid "Description for this command"
+msgstr ""
+
 msgid "Edit"
 msgstr ""
 
@@ -66,10 +72,16 @@ msgstr ""
 msgid "Edit command (original: %s)"
 msgstr ""
 
+msgid "Edit command before running"
+msgstr ""
+
 msgid "Edit description"
 msgstr ""
 
 msgid "Enter command"
+msgstr ""
+
+msgid "Enter command to execute"
 msgstr ""
 
 msgid "Enter description"
@@ -82,6 +94,12 @@ msgid "Error deleting: %s"
 msgstr ""
 
 msgid "Error reading log: %s"
+msgstr ""
+
+msgid "Executing (edited)..."
+msgstr ""
+
+msgid "Executing..."
 msgstr ""
 
 msgid "Execution error"
@@ -108,6 +126,9 @@ msgstr ""
 msgid "Manager"
 msgstr ""
 
+msgid "No command entered"
+msgstr ""
+
 msgid "No command selected"
 msgstr ""
 
@@ -121,6 +142,9 @@ msgid "Only predefined commands can be disabled/enabled"
 msgstr ""
 
 msgid "Output cleared.\\\\\\\\n"
+msgstr ""
+
+msgid "Press GREEN to write a command"
 msgstr ""
 
 msgid "Press Manager to manage custom commands"
@@ -138,7 +162,13 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
+msgid "Save as Custom"
+msgstr ""
+
 msgid "Save error: %s"
+msgstr ""
+
+msgid "Saved as custom command"
 msgstr ""
 
 msgid "Saved to %s"
@@ -154,4 +184,10 @@ msgid "Toggle Disable"
 msgstr ""
 
 msgid "Total: %d commands (Predefined: %d, Custom: %d, Disabled: %d)"
+msgstr ""
+
+msgid "Write"
+msgstr ""
+
+msgid "Write a command first"
 msgstr ""
