@@ -2,6 +2,7 @@
     <widget name="categories" position="7,27" size="1014,568" font="Regular;22" itemHeight="27" cornerRadius="61" backgroundColor="#000b2049" foregroundColor="#00a0a0a0" backgroundColorSelected="#008080" foregroundColorSelected="#ffffff" enableWrapAround="1" scrollbarMode="showOnDemand" scrollbarSliderForegroundColor="#00005826" scrollbarSliderBorderColor="#00171a1c" scrollbarWidth="7" scrollbarSliderBorderWidth="1" transparent="1" zPosition="10" />
     <eLabel name="" position="518,587" size="96,34" backgroundColor="#33000000" halign="center" valign="center" transparent="1" cornerRadius="18" font="Regular;12" zPosition="1" text="MENU" />
     <eLabel name="" position="416,587" size="96,34" backgroundColor="#33000000" halign="center" valign="center" transparent="1" cornerRadius="18" font="Regular;12" zPosition="1" text="INFO" />
+    <widget name="key_yellow" position="211,587" size="96,34" backgroundColor="#a08000" font="Regular;15" valign="center" halign="center" cornerRadius="18" />
     <widget name="key_blue" position="313,587" size="96,34" backgroundColor="#18188b" font="Regular;15" valign="center" halign="center" cornerRadius="18" />
     <eLabel position="4,610" size="1014,1" backgroundColor="#555555" zPosition="1" />
     <widget name="statusbar" position="7,618" size="1014,20" font="Regular;15" backgroundColor="#33000000" />

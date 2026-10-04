@@ -230,18 +230,10 @@
         ]
     ],
     "📸 Screenshot": [
-        [
-            "grab -q -s jpg > /tmp/screenshot.jpg",
-            "Screenshot JPG"
-        ],
-        [
-            "grab -p -s png > /tmp/screenshot.png",
-            "Screenshot PNG"
-        ],
-        [
-            "dreamboxctl screenshot -f /tmp/screen.png",
-            "Screenshot using dreamboxctl"
-        ]
+        ["grab -q -o /tmp/screenshot.jpg", "Screenshot JPG (grab)"],
+        ["grab -q -p -o /tmp/screenshot.png", "Screenshot PNG (grab)"],
+        ["grab -d -j -o /tmp/grab_debug.jpg", "Screenshot con debug info"],
+        ["dreamboxctl screenshot -f /tmp/screen.png", "Screenshot dreamboxctl (solo DreamBox)"]
     ],
     "🔗 Symlink & Architecture": [
         [

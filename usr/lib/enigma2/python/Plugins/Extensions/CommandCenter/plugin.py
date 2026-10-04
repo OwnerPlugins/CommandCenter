@@ -219,25 +219,27 @@ class CategoryScreen(Screen):
         self["categories"] = MenuList([])
         self["key_blue"] = Label(_("Manager"))
         self["statusbar"] = Label(_("Press Manager to manage custom commands"))
-        self["actions"] = ActionMap(["OkCancelActions",
-                                     "ColorActions",
-                                     "DirectionActions",
-                                     "InfoActions",
-                                     "MenuActions"],
-                                    {"ok": self.select_category,
-                                     "cancel": self.close,
-                                     "red": self.close,
-                                     "blue": self.open_manager,
-                                     "up": self.categories_up,
-                                     "down": self.categories_down,
-                                     "info": self.show_info,
-                                     "menu": self.open_debug_screen,
-                                     },
-                                    -1)
+        self["actions"] = ActionMap(
+            ["OkCancelActions", "ColorActions", "DirectionActions",
+             "InfoActions", "MenuActions"],
+            {
+                "ok": self.select_category,
+                "cancel": self.close,
+                "red": self.close,
+                "blue": self.open_manager,
+                "yellow": self.open_quick_command,
+                "up": self.categories_up,
+                "down": self.categories_down,
+                "info": self.show_info,
+                "menu": self.open_debug_screen,
+            }, -1)
         self.populate_categories()
 
     def open_debug_screen(self):
         self.session.open(DebugScreen)
+
+    def open_quick_command(self):
+        self.session.open(QuickCommandScreen)
 
     def populate_categories(self):
         cmds = get_commands()
@@ -295,23 +297,23 @@ class CommandScreen(Screen):
         self["key_blue"] = Label(_("Save"))
         self["key_info"] = Label(_("Info"))
         self["statusbar"] = Label(_("Ready"))
-        self["actions"] = ActionMap(["OkCancelActions", "ColorActions", "DirectionActions", "InfoActions"], {
-            "ok": self.execute_command,
-            "cancel": self.close,
-            "red": self.close,
-            "green": self.execute_command,
-            "yellow": self.clear_output,
-            "blue": self.save_output,
-            "info": self.show_command_info,
-            'up': self['command_list'].up,
-            'down': self['command_list'].down,
-            'left': self['output_area'].pageUp,
-            'right': self['output_area'].pageDown,
-            "upUp": self.pageUp,
-            "leftUp": self.pageUp,
-            "downUp": self.pageDown,
-            "rightUp": self.pageDown,
-        }, -1)
+        self["actions"] = ActionMap(
+            ["OkCancelActions", "ColorActions", "DirectionActions",
+             "InfoActions", "MenuActions"],
+            {
+                "ok": self.execute_command,
+                "cancel": self.close,
+                "red": self.close,
+                "green": self.execute_command,
+                "yellow": self.clear_output,
+                "blue": self.save_output,
+                "info": self.show_command_info,
+                "menu": self.edit_and_run,
+                'up': self['command_list'].up,
+                'down': self['command_list'].down,
+                'left': self['output_area'].pageUp,
+                'right': self['output_area'].pageDown,
+            }, -1)
         self["command_list"].onSelectionChanged.append(
             self.on_selection_changed)
 
@@ -361,6 +363,32 @@ class CommandScreen(Screen):
         self["statusbar"].setText(_("Command finished (code %d)" % retval))
         self.container = None
 
+    def edit_and_run(self):
+        """Apre un InputBox pre-compilato con il comando selezionato."""
+        selected = self["command_list"].getCurrent()
+        if not selected:
+            return
+        desc, cmd = selected
+        self.session.openWithCallback(
+            self.run_edited,
+            InputBox,
+            title=_("Edit command before running"),
+            text=cmd)
+
+    def run_edited(self, new_cmd):
+        if not new_cmd:
+            return
+        self.output_text = ""
+        self["output_area"].setText("Executing: %s\n\n" % new_cmd)
+        self["statusbar"].setText(_("Executing (edited)..."))
+        self.container = eConsoleAppContainer()
+        self.container.appClosed.append(self.cmd_finished)
+        self.container.dataAvail.append(self.cmd_data_avail)
+        if self.container.execute(new_cmd):
+            self["output_area"].appendText(_("Failed to start command.\n"))
+            self["statusbar"].setText(_("Execution error"))
+            self.container = None
+
     def clear_output(self):
         self.output_text = ""
         self["output_area"].setText(_("Output cleared.\n"))
@@ -393,6 +421,114 @@ class CommandScreen(Screen):
         else:
             info = "No command selected."
         self.session.open(MessageBox, info, MessageBox.TYPE_INFO)
+
+
+class QuickCommandScreen(Screen):
+    """Schermata per scrivere, eseguire e salvare comandi liberi."""
+
+    def __init__(self, session):
+        Screen.__init__(self, session)
+        self.session = session
+        skin = join(skin_path, 'QuickCommandScreen.xml')
+        with codecs.open(skin, "r", encoding="utf-8") as f:
+            self.skin = f.read()
+
+        self.container = None
+        self.output_text = ""
+        self.current_cmd = ""
+
+        self.setTitle("Command Center - Quick Command")
+        self["command_display"] = Label(_("No command entered"))
+        self["output_area"] = ScrollLabel("")
+        self["key_red"] = Label(_("Close"))
+        self["key_green"] = Label(_("Write"))
+        self["key_yellow"] = Label(_("Run"))
+        self["key_blue"] = Label(_("Save as Custom"))
+        self["statusbar"] = Label(_("Press GREEN to write a command"))
+
+        self["actions"] = ActionMap(
+            ["OkCancelActions", "ColorActions", "DirectionActions"],
+            {
+                "cancel": self.close,
+                "red": self.close,
+                "green": self.ask_command,
+                "ok": self.ask_command,
+                "yellow": self.run_command,
+                "blue": self.save_as_custom,
+                "up": self["output_area"].pageUp,
+                "down": self["output_area"].pageDown,
+                "left": self["output_area"].pageUp,
+                "right": self["output_area"].pageDown,
+            }, -1)
+
+        self.onLayoutFinish.append(self.ask_command)
+
+    def ask_command(self):
+        self.session.openWithCallback(
+            self.set_command,
+            InputBox,
+            title=_("Enter command to execute"),
+            text=self.current_cmd)
+
+    def set_command(self, cmd):
+        if cmd:
+            self.current_cmd = cmd
+            self["command_display"].setText(cmd)
+            self["statusbar"].setText(
+                _("Command set. Press YELLOW to run, BLUE to save."))
+
+    def run_command(self):
+        if not self.current_cmd:
+            self.ask_command()
+            return
+        self.output_text = ""
+        self["output_area"].setText("Executing: %s\n\n" % self.current_cmd)
+        self["statusbar"].setText(_("Executing..."))
+        self.container = eConsoleAppContainer()
+        self.container.appClosed.append(self.cmd_finished)
+        self.container.dataAvail.append(self.cmd_data_avail)
+        if self.container.execute(self.current_cmd):
+            self["output_area"].appendText(_("Failed to start command.\n"))
+            self["statusbar"].setText(_("Execution error"))
+            self.container = None
+
+    def cmd_data_avail(self, data):
+        try:
+            text = data.decode('utf-8', errors='replace')
+        except (UnicodeDecodeError, TypeError):
+            text = str(data)
+        self.output_text += text
+        self["output_area"].appendText(text)
+        if config.plugins.CommandCenter.autoScroll.value:
+            self["output_area"].setPos(999999)
+
+    def cmd_finished(self, retval):
+        self["output_area"].appendText(_(
+            "\n--- Execution finished (exit code %d) ---\n" % retval))
+        self["statusbar"].setText(_("Command finished (code %d)" % retval))
+        self.container = None
+
+    def save_as_custom(self):
+        if not self.current_cmd:
+            self["statusbar"].setText(_("Write a command first"))
+            return
+        self.session.openWithCallback(
+            self.do_save_custom,
+            InputBox,
+            title=_("Description for this command"),
+            text="")
+
+    def do_save_custom(self, desc):
+        if not desc:
+            return
+        custom = load_custom_commands()
+        custom.append({"command": self.current_cmd, "description": desc})
+        save_custom_commands(custom)
+        self["statusbar"].setText(_("Saved as custom command"))
+        self.session.open(
+            MessageBox,
+            _("Command saved as custom:\n%s") % self.current_cmd,
+            MessageBox.TYPE_INFO, timeout=3)
 
 
 class ManagerScreen(Screen):

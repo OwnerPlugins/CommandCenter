@@ -1,6 +1,6 @@
 <h1 align="center">⚙️ Command Center
 
-[![Version](https://img.shields.io/badge/Version-1.3-blue.svg)](https://github.com/OwnerPlugins/CommandCenter)
+[![Version](https://img.shields.io/badge/Version-1.4-blue.svg)](https://github.com/OwnerPlugins/CommandCenter)
 [![Enigma2](https://img.shields.io/badge/Enigma2-Plugin-ff6600.svg)](https://www.enigma2.net)
 [![Python](https://img.shields.io/badge/Python3-only-orange.svg)](https://www.python.org/)
 [![Release](https://img.shields.io/github/v/release/OwnerPlugins/CommandCenter)](https://github.com/OwnerPlugins/CommandCenter/releases)
@@ -73,11 +73,15 @@ The plugin includes **hundreds of pre‑defined commands** covering:
       <img src="screen/screen5.png?sanitize=true&raw=true" title="preview5" width="400"/><br/>
       <b>Preview 5</b>
     </td>
+    <td align="center">
+      <img src="screen/screen6.png?sanitize=true&raw=true" title="preview6" width="400"/><br/>
+      <b>Preview 6</b>
+    </td>
   </tr>
 </table>
 
 
-## ✨ Features (v1.3)
+## ✨ Features (v1.4)
 
 ### Core Features
 - 📂 **Categorized commands** – quickly find what you need.
@@ -89,7 +93,7 @@ The plugin includes **hundreds of pre‑defined commands** covering:
 - 🎨 **Color‑coded buttons** – intuitive navigation.
 - 📋 **Command descriptions** – understand what each command does.
 
-### Advanced Features (New in v1.3)
+### Advanced Features
 - 🐞 **Debug Mode Screen** – dedicated environment for dangerous / debugging commands that may restart or crash Enigma2.
   - Predefined debug commands (full debug restart, stop Enigma2, journal logs, screenshot, etc.).
   - Commands run in background, output saved to persistent logs (`/home/root/logs/debug_*.log`).
@@ -103,8 +107,16 @@ The plugin includes **hundreds of pre‑defined commands** covering:
 - 🛡️ **Automatic backups** – every time you save custom commands or settings, a timestamped backup (`.bak`) is created. Your data is safe.
 - 🔘 **Manager screen** – easily add custom commands, edit existing ones, or disable predefined commands (toggle with INFO button).
 - ℹ️ **INFO button works everywhere** – shows version, command details, or toggles disable state.
-- 📱 **Optimized for all screen sizes** – includes dedicated skins for HD (1280×720), Full HD (1920×1080) and WQHD (2560×1440). Automatically selected based on your screen resolution.
+- 📱 **Optimized for all screen sizes** – includes dedicated skins for HD (1024×648), Full HD (1920×1080) and WQHD (2560×1440). Automatically selected based on your screen resolution.
 - 🌍 **Fully translatable** – uses Enigma2’s locale system (Italian and German included).
+
+### New in v1.4
+- ✏️ **Edit command before running (MENU)** – in the Command Screen, select any command and press **MENU** to open a pre‑filled edit box. Modify the command on the fly (add parameters, change paths, tweak options) and run it without saving. A visible **MENU** label has been added next to the color buttons so the user always knows the option exists.
+- 🆕 **Quick Command Screen (YELLOW in Category list)** – a dedicated screen to write a command from scratch, execute it immediately and — if it works — save it as a **Custom** command with one button press.
+  - GREEN / OK: open the input box and type/edit the command.
+  - YELLOW: run the command and see live output.
+  - BLUE: save the current command as a Custom entry (asks for a description).
+- 🟡 **Sixth on‑screen button (YELLOW)** added to the Category Screen, alongside the existing MENU/INFO/BLUE, so the new feature is reachable by color key.
 
 ---
 
@@ -130,6 +142,12 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 > - `/etc/enigma2/commandcenter_config.json` – disabled states and command modifications.
 > - `/home/root/logs/` – directory for debug logs (created automatically).
 
+> ⚠️ **Important:** if you edit `/etc/enigma2/commandcenter_commands.json` manually, always validate it as JSON before restarting Enigma2:
+> ```bash
+> python -c "import json; json.load(open('/etc/enigma2/commandcenter_commands.json'))"
+> ```
+> A single extra bracket will make the plugin fall back to a minimal built-in list and you will only see one category (`📁 System Info`) until the file is fixed.
+
 ---
 
 ## 🚀 Usage
@@ -138,20 +156,33 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 
 - **UP / DOWN** – navigate through categories.
 - **OK** – open the selected category.
+- **YELLOW** – open the **Quick Command** screen (write / run / save a free command).
 - **BLUE** – open the **Manager** screen (see below).
 - **INFO** – show plugin version and info.
-- **MENU** – open the **Debug Mode** screen (new in v1.2).
+- **MENU** – open the **Debug Mode** screen.
+- **RED** – close the plugin.
 
 ### Command Screen
 
 - **UP / DOWN** – select a command from the list.
 - **GREEN / OK** – execute the selected command.
-- **LEFT / RIGHT** – scroll the output area **one page** up/down (using pageUp/pageDown).
+- **MENU** – **edit the command before running** (opens a pre‑filled InputBox with the selected command; the edited version is executed in the same output window without saving).
+- **LEFT / RIGHT** – scroll the output area **one page** up/down (pageUp/pageDown).
 - **CH+ / CH– (PageUp/PageDown)** – scroll the output area **one page** up/down.
 - **YELLOW** – clear the output area.
 - **BLUE** – save the current output to `/tmp/command_output_YYYYMMDD_HHMMSS.txt`.
 - **INFO** – show the full command and its description.
 - **RED** – go back to category list.
+
+> The on‑screen bar now shows a **MENU** label next to the color buttons, so the user always knows the option is available.
+
+### Quick Command Screen (NEW in v1.4)
+
+- **GREEN / OK** – write or edit the command (opens InputBox).
+- **YELLOW** – run the current command (live output shown below).
+- **BLUE** – save the current command as a **Custom** entry (asks for a description).
+- **RED** – close the screen.
+- **UP / DOWN / LEFT / RIGHT** – scroll the output.
 
 ### Manager Screen
 
@@ -163,7 +194,7 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 - **INFO** – toggle the `[DISABLED]` state for **predefined commands only** (disabled commands won’t appear in the main list).
 - **RED** – exit the manager.
 
-### Debug Mode Screen (NEW in v1.3)
+### Debug Mode Screen
 
 - **UP / DOWN** – select a debug command.
 - **GREEN / OK** – run the selected debug command (confirmation required).
@@ -175,7 +206,7 @@ chmod 755 /usr/lib/enigma2/python/Plugins/Extensions/CommandCenter/plugin.py
 **What is Debug Mode for?**  
 Some commands (like `init 4 ; killall -9 enigma2 ; ENIGMA_DEBUG_LVL=4 enigma2`) will restart or crash Enigma2. Normal execution would immediately close the plugin and you would lose the output. Debug Mode runs such commands in a detached background script, saving all output to a persistent log file in `/home/root/logs/`. After Enigma2 restarts, you can come back to Debug Mode, press YELLOW to see the list of logs, select one and press INFO to view it in the dedicated Log Viewer.
 
-### Log Viewer Screen (NEW in v1.3)
+### Log Viewer Screen
 
 - **UP / DOWN** – scroll the log text **line by line**.
 - **LEFT / RIGHT** or **CH+/CH–** – scroll **page by page**.
@@ -203,10 +234,26 @@ The format is:
 
 If the file is missing or corrupted, the plugin recreates it from the default (shipped inside the plugin folder).
 
+> ⚠️ **Tip:** before restarting Enigma2, validate the JSON:
+> ```bash
+> python -c "import json; json.load(open('/etc/enigma2/commandcenter_commands.json'))"
+> ```
+
 ### Custom commands
 
-Use the **Manager** screen (BLUE button) → **Add Custom** (GREEN).  
+There are two ways to create custom commands:
+
+1. **Manager** screen (BLUE from the Category list) → **Add Custom** (GREEN).
+2. **Quick Command** screen (YELLOW from the Category list) → write the command → press **BLUE** (Save as Custom).
+
 Custom commands are saved in `/etc/enigma2/commandcenter_custom.json` and appear under a special `"Custom"` category.
+
+### Editing a predefined command
+
+You have two ways:
+
+- **Temporary edit** – in the Command Screen, select the command and press **MENU**. Change it and run it. The change is **not** saved to the JSON.
+- **Permanent edit** – open the **Manager** (BLUE from Category list), select the command and press **YELLOW**. Modify command and description; the change is saved in `/etc/enigma2/commandcenter_config.json` and persists across restarts.
 
 ### Disabling predefined commands
 
@@ -224,11 +271,20 @@ To restore, simply copy the backup file back to the original name.
 
 The plugin automatically detects your screen resolution and loads the appropriate skin from:
 
-- `skins/hd/`     – for 1280×720 (or narrower)
+- `skins/hd/`     – for 1024×648 (or narrower)
 - `skins/fhd/`    – for 1920×1080
 - `skins/wqhd/`   – for 2560×1440
 
-You can customize the skin files (`CategoryScreen.xml`, `CommandScreen.xml`, `ManagerScreen.xml`, `DebugScreen.xml`, and `LogViewer` inline skin) to match your personal taste.
+Skin files:
+
+- `CategoryScreen.xml`
+- `CommandScreen.xml` (includes the new **MENU** label)
+- `ManagerScreen.xml`
+- `DebugScreen.xml`
+- `LogViewer.xml`
+- `QuickCommandScreen.xml` *(new in v1.4)*
+
+You can customize any of them to match your personal taste.
 
 ---
 
@@ -270,4 +326,3 @@ Compatible with all Enigma2‑based receivers (OpenPLi, OpenATV, OpenVision, Pur
 ## 💬 Support
 
 For issues, feature requests, or contributions, please open an issue on [GitHub](https://github.com/OwnerPlugins/CommandCenter/issues).
-```
